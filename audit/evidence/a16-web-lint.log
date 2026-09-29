@@ -1,0 +1,11 @@
+$ eslint .
+
+/home/z/my-project/AreenaxNativeAndroid/tools/verify_sweep_7e.mjs
+  99:63  warning  Expected an assignment or function call and instead saw an expression  @typescript-eslint/no-unused-expressions
+
+/home/z/my-project/src/app/layout.tsx
+  45:9  warning  Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+  49:9  warning  Custom fonts not added in `pages/_document.js` will only load for a single page. This is discouraged. See: https://nextjs.org/docs/messages/no-page-custom-font  @next/next/no-page-custom-font
+
+✖ 3 problems (0 errors, 3 warnings)
+

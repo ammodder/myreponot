@@ -1,0 +1,132 @@
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac NO-SOURCE
+> Task :app:preDebugAndroidTestBuild SKIPPED
+> Task :app:checkDebugAndroidTestAarMetadata
+> Task :app:generateDebugAndroidTestResValues FROM-CACHE
+> Task :app:mapDebugAndroidTestSourceSetPaths
+> Task :app:generateDebugAndroidTestResources
+> Task :app:mergeDebugAndroidTestResources
+> Task :app:processDebugAndroidTestManifest
+> Task :app:processDebugAndroidTestResources
+> Task :app:javaPreCompileDebugAndroidTest FROM-CACHE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:compressDebugAssets UP-TO-DATE
+> Task :app:desugarDebugFileDependencies UP-TO-DATE
+> Task :app:dexBuilderDebug UP-TO-DATE
+> Task :app:bundleDebugClassesToCompileJar
+> Task :app:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :app:compileDebugAndroidTestKotlin NO-SOURCE
+> Task :app:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :app:processDebugJavaRes UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:mergeExtDexDebug UP-TO-DATE
+> Task :app:mergeLibDexDebug UP-TO-DATE
+> Task :app:mergeProjectDexDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:writeDebugAppMetadata UP-TO-DATE
+> Task :app:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :app:packageDebug UP-TO-DATE
+> Task :app:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :app:mergeDebugAndroidTestShaders
+> Task :app:compileDebugAndroidTestShaders NO-SOURCE
+> Task :app:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :app:mergeDebugAndroidTestAssets
+> Task :app:compressDebugAndroidTestAssets FROM-CACHE
+> Task :app:desugarDebugAndroidTestFileDependencies FROM-CACHE
+> Task :app:dexBuilderDebugAndroidTest
+> Task :app:mergeDebugAndroidTestGlobalSynthetics FROM-CACHE
+> Task :app:processDebugAndroidTestJavaRes NO-SOURCE
+> Task :app:mergeDebugAndroidTestJavaResource
+> Task :app:checkDebugAndroidTestDuplicateClasses
+> Task :app:mergeDebugAndroidTestJniLibFolders
+> Task :app:mergeExtDexDebugAndroidTest
+> Task :app:mergeLibDexDebugAndroidTest FROM-CACHE
+> Task :app:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebugAndroidTest
+> Task :app:validateSigningDebugAndroidTest
+> Task :app:writeDebugAndroidTestSigningConfigVersions
+> Task :app:packageDebugAndroidTest
+> Task :app:createDebugAndroidTestApkListingFileRedirect
+
+> Task :app:pixel5api33Setup
+Checking the license for package Android Emulator in /home/z/android-sdk/licenses
+License for package Android Emulator accepted.
+Preparing "Install Android Emulator v.37.1.11".
+"Install Android Emulator v.37.1.11" ready.
+Installing Android Emulator in /home/z/android-sdk/emulator
+"Install Android Emulator v.37.1.11" complete.
+"Install Android Emulator v.37.1.11" finished.
+Checking the license for package Intel x86_64 Atom System Image in /home/z/android-sdk/licenses
+License for package Intel x86_64 Atom System Image accepted.
+Preparing "Install Intel x86_64 Atom System Image API 33 (revision 2)".
+"Install Intel x86_64 Atom System Image API 33 (revision 2)" ready.
+Installing Intel x86_64 Atom System Image in /home/z/android-sdk/system-images/android-33/default/x86_64
+"Install Intel x86_64 Atom System Image API 33 (revision 2)" complete.
+"Install Intel x86_64 Atom System Image API 33 (revision 2)" finished.
+Failed 'chattr' for /home/z/.android/avd/gradle-managed/dev33_default_x86_64_Pixel_5.avd: java.io.IOException: Cannot run program "chattr": Exec failed, error: 2 (No such file or directory) 
+Failed to create Emulator snapshot image (1/5). Error: com.android.build.gradle.internal.AvdSnapshotHandler$EmulatorSnapshotCannotCreatedException: Gradle was not able to complete device setup for: dev33_default_x86_64_Pixel_5
+The emulator failed to open the managed device to generate the snapshot.
+This is because the emulator closed unexpectedly (1),
+try updating the emulator and ensure a device can be run from Android Studio.
+Failed to create Emulator snapshot image (2/5). Error: com.android.build.gradle.internal.AvdSnapshotHandler$EmulatorSnapshotCannotCreatedException: Gradle was not able to complete device setup for: dev33_default_x86_64_Pixel_5
+The emulator failed to open the managed device to generate the snapshot.
+This is because the emulator closed unexpectedly (1),
+try updating the emulator and ensure a device can be run from Android Studio.
+Failed to create Emulator snapshot image (3/5). Error: com.android.build.gradle.internal.AvdSnapshotHandler$EmulatorSnapshotCannotCreatedException: Gradle was not able to complete device setup for: dev33_default_x86_64_Pixel_5
+The emulator failed to open the managed device to generate the snapshot.
+This is because the emulator closed unexpectedly (1),
+try updating the emulator and ensure a device can be run from Android Studio.
+Failed to create Emulator snapshot image (4/5). Error: com.android.build.gradle.internal.AvdSnapshotHandler$EmulatorSnapshotCannotCreatedException: Gradle was not able to complete device setup for: dev33_default_x86_64_Pixel_5
+The emulator failed to open the managed device to generate the snapshot.
+This is because the emulator closed unexpectedly (1),
+try updating the emulator and ensure a device can be run from Android Studio.
+Failed to create Emulator snapshot image (5/5). Error: com.android.build.gradle.internal.AvdSnapshotHandler$EmulatorSnapshotCannotCreatedException: Gradle was not able to complete device setup for: dev33_default_x86_64_Pixel_5
+The emulator failed to open the managed device to generate the snapshot.
+This is because the emulator closed unexpectedly (1),
+try updating the emulator and ensure a device can be run from Android Studio.
+
+> Task :app:pixel5api33Setup FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:pixel5api33Setup'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.ManagedDeviceInstrumentationTestSetupTask$ManagedDeviceSetupRunnable
+   > com.android.build.gradle.internal.AvdSnapshotHandler$EmulatorSnapshotCannotCreatedException: Gradle was not able to complete device setup for: dev33_default_x86_64_Pixel_5
+     The emulator failed to open the managed device to generate the snapshot.
+     This is because the emulator closed unexpectedly (1),
+     try updating the emulator and ensure a device can be run from Android Studio.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 41s
+61 actionable tasks: 20 executed, 6 from cache, 35 up-to-date

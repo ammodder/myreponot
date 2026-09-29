@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Behavior changes: Apps targeting Android 17 or higher",
+    "snippet": "5 days ago — Platform API changes in Android 16 to ignore orientation, aspect ratio, and resizability restrictions on large screens for apps targeting API ...",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "Sep 15, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.appinventor.mit.edu",
+    "name": "Google requiring API 36 / Android 16 update for new",
+    "snippet": "Jul 21, 2026 — Google requiring API 36 / Android 16 update for new developer Apps ... Issue details Your app must target Android 16 ( API level 36 ) or higher. Read more",
+    "host_name": "community.appinventor.mit.edu",
+    "rank": 1,
+    "date": "Jul 21, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "[0.81] Android 16 changes impacting React Native #921",
+    "snippet": "Aug 11, 2025 — Predictive back is being enforced. Apps targeting Android 16 enable predictive back by default. Predictive back animation is supported when ... Read more",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "Aug 11, 2025",
+    "favicon": ""
+  }
+]

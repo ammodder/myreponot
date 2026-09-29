@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Behavior changes: Apps targeting Android 16 or higher",
+    "snippet": "Edge to edge opt-out going away. Android 15 enforced edge-to-edge for apps targeting Android 15 (API level 35), but your app could opt-out by setting R.attr ... Read more",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "Handling Android 15's edge-to-edge enforcement on React",
+    "snippet": "Android 15 will now enforce edge -to- edge when you opt-in to targetSdk 35 . When the app's targetSdk is set to 35 , the OS will enforce edge -to- edge when running ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://en.delphipraxis.net",
+    "name": "Android 15 and edge-to-edge enforcement",
+    "snippet": "Jul 29, 2024 — When targeting Android 15 (API level 35 ) the system now enforces edge -to- edge UI. As described in the documentation apps not designed to be ... Read more",
+    "host_name": "en.delphipraxis.net",
+    "rank": 2,
+    "date": "Jul 29, 2024",
+    "favicon": ""
+  }
+]

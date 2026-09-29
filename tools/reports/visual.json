@@ -1,0 +1,789 @@
+{
+  "pass": [
+    {
+      "file": "ic_account_balance.xml",
+      "diffPct": 0,
+      "px": 2533
+    },
+    {
+      "file": "ic_account_balance_fill.xml",
+      "diffPct": 0,
+      "px": 2772
+    },
+    {
+      "file": "ic_account_balance_wallet.xml",
+      "diffPct": 0,
+      "px": 2842
+    },
+    {
+      "file": "ic_account_balance_wallet_fill.xml",
+      "diffPct": 0,
+      "px": 4158
+    },
+    {
+      "file": "ic_account_circle.xml",
+      "diffPct": 0,
+      "px": 2827
+    },
+    {
+      "file": "ic_add.xml",
+      "diffPct": 0,
+      "px": 832
+    },
+    {
+      "file": "ic_add_card.xml",
+      "diffPct": 0,
+      "px": 3036
+    },
+    {
+      "file": "ic_add_circle.xml",
+      "diffPct": 0,
+      "px": 2474
+    },
+    {
+      "file": "ic_add_photo_alternate.xml",
+      "diffPct": 0,
+      "px": 2444
+    },
+    {
+      "file": "ic_admin_panel_settings.xml",
+      "diffPct": 0,
+      "px": 2317
+    },
+    {
+      "file": "ic_arrow_back.xml",
+      "diffPct": 0,
+      "px": 1112
+    },
+    {
+      "file": "ic_arrow_downward.xml",
+      "diffPct": 0,
+      "px": 1112
+    },
+    {
+      "file": "ic_arrow_drop_down.xml",
+      "diffPct": 0,
+      "px": 420
+    },
+    {
+      "file": "ic_arrow_forward.xml",
+      "diffPct": 0,
+      "px": 1112
+    },
+    {
+      "file": "ic_arrow_upward.xml",
+      "diffPct": 0,
+      "px": 1112
+    },
+    {
+      "file": "ic_assignment.xml",
+      "diffPct": 0,
+      "px": 2978
+    },
+    {
+      "file": "ic_backspace.xml",
+      "diffPct": 0,
+      "px": 2112
+    },
+    {
+      "file": "ic_balance.xml",
+      "diffPct": 0,
+      "px": 3020
+    },
+    {
+      "file": "ic_bar_chart.xml",
+      "diffPct": 0,
+      "px": 2176
+    },
+    {
+      "file": "ic_bolt.xml",
+      "diffPct": 0,
+      "px": 1674
+    },
+    {
+      "file": "ic_bolt_fill.xml",
+      "diffPct": 0,
+      "px": 2060
+    },
+    {
+      "file": "ic_broken_image.xml",
+      "diffPct": 0,
+      "px": 2632
+    },
+    {
+      "file": "ic_calculate.xml",
+      "diffPct": 0,
+      "px": 2828
+    },
+    {
+      "file": "ic_calendar_month.xml",
+      "diffPct": 0,
+      "px": 2888
+    },
+    {
+      "file": "ic_call.xml",
+      "diffPct": 0,
+      "px": 1560
+    },
+    {
+      "file": "ic_campaign.xml",
+      "diffPct": 0,
+      "px": 1662
+    },
+    {
+      "file": "ic_cancel.xml",
+      "diffPct": 0,
+      "px": 2598
+    },
+    {
+      "file": "ic_card_giftcard.xml",
+      "diffPct": 0,
+      "px": 3558
+    },
+    {
+      "file": "ic_chat_bubble.xml",
+      "diffPct": 0,
+      "px": 2138
+    },
+    {
+      "file": "ic_check.xml",
+      "diffPct": 0,
+      "px": 720
+    },
+    {
+      "file": "ic_check_circle.xml",
+      "diffPct": 0,
+      "px": 2377
+    },
+    {
+      "file": "ic_check_circle_fill.xml",
+      "diffPct": 0,
+      "px": 4668
+    },
+    {
+      "file": "ic_check_fill.xml",
+      "diffPct": 0,
+      "px": 720
+    },
+    {
+      "file": "ic_checklist.xml",
+      "diffPct": 0,
+      "px": 1332
+    },
+    {
+      "file": "ic_chevron_left.xml",
+      "diffPct": 0,
+      "px": 516
+    },
+    {
+      "file": "ic_chevron_right.xml",
+      "diffPct": 0,
+      "px": 468
+    },
+    {
+      "file": "ic_close.xml",
+      "diffPct": 0,
+      "px": 1052
+    },
+    {
+      "file": "ic_cloud_upload.xml",
+      "diffPct": 0,
+      "px": 2303
+    },
+    {
+      "file": "ic_content_copy.xml",
+      "diffPct": 0,
+      "px": 2404
+    },
+    {
+      "file": "ic_credit_card.xml",
+      "diffPct": 0,
+      "px": 3024
+    },
+    {
+      "file": "ic_credit_card_fill.xml",
+      "diffPct": 0,
+      "px": 4048
+    },
+    {
+      "file": "ic_crown.xml",
+      "diffPct": 0,
+      "px": 2286
+    },
+    {
+      "file": "ic_crown_fill.xml",
+      "diffPct": 0,
+      "px": 3084
+    },
+    {
+      "file": "ic_dark_mode.xml",
+      "diffPct": 0,
+      "px": 1811
+    },
+    {
+      "file": "ic_delete.xml",
+      "diffPct": 0,
+      "px": 2440
+    },
+    {
+      "file": "ic_description.xml",
+      "diffPct": 0,
+      "px": 2648
+    },
+    {
+      "file": "ic_diversity_3.xml",
+      "diffPct": 0,
+      "px": 3582
+    },
+    {
+      "file": "ic_done.xml",
+      "diffPct": 0,
+      "px": 720
+    },
+    {
+      "file": "ic_done_all.xml",
+      "diffPct": 0,
+      "px": 1226
+    },
+    {
+      "file": "ic_done_all_fill.xml",
+      "diffPct": 0,
+      "px": 1226
+    },
+    {
+      "file": "ic_done_fill.xml",
+      "diffPct": 0,
+      "px": 720
+    },
+    {
+      "file": "ic_download.xml",
+      "diffPct": 0,
+      "px": 1376
+    },
+    {
+      "file": "ic_edit.xml",
+      "diffPct": 0,
+      "px": 1719
+    },
+    {
+      "file": "ic_edit_note.xml",
+      "diffPct": 0,
+      "px": 1559
+    },
+    {
+      "file": "ic_emoji_events.xml",
+      "diffPct": 0,
+      "px": 2203
+    },
+    {
+      "file": "ic_emoji_events_fill.xml",
+      "diffPct": 0,
+      "px": 2995
+    },
+    {
+      "file": "ic_error.xml",
+      "diffPct": 0,
+      "px": 2142
+    },
+    {
+      "file": "ic_expand_less.xml",
+      "diffPct": 0,
+      "px": 514
+    },
+    {
+      "file": "ic_expand_more.xml",
+      "diffPct": 0,
+      "px": 485
+    },
+    {
+      "file": "ic_forum.xml",
+      "diffPct": 0,
+      "px": 2865
+    },
+    {
+      "file": "ic_gavel.xml",
+      "diffPct": 0,
+      "px": 1790
+    },
+    {
+      "file": "ic_grid_view.xml",
+      "diffPct": 0,
+      "px": 3072
+    },
+    {
+      "file": "ic_group.xml",
+      "diffPct": 0,
+      "px": 2623
+    },
+    {
+      "file": "ic_group_add.xml",
+      "diffPct": 0,
+      "px": 2474
+    },
+    {
+      "file": "ic_group_fill.xml",
+      "diffPct": 0,
+      "px": 3274
+    },
+    {
+      "file": "ic_groups.xml",
+      "diffPct": 0,
+      "px": 2161
+    },
+    {
+      "file": "ic_groups_fill.xml",
+      "diffPct": 0,
+      "px": 2313
+    },
+    {
+      "file": "ic_help.xml",
+      "diffPct": 0,
+      "px": 2388
+    },
+    {
+      "file": "ic_home.xml",
+      "diffPct": 0,
+      "px": 2092
+    },
+    {
+      "file": "ic_home_fill.xml",
+      "diffPct": 0,
+      "px": 3408
+    },
+    {
+      "file": "ic_hourglass_top.xml",
+      "diffPct": 0,
+      "px": 3086
+    },
+    {
+      "file": "ic_how_to_reg.xml",
+      "diffPct": 0,
+      "px": 1716
+    },
+    {
+      "file": "ic_image.xml",
+      "diffPct": 0,
+      "px": 2496
+    },
+    {
+      "file": "ic_info.xml",
+      "diffPct": 0,
+      "px": 2142
+    },
+    {
+      "file": "ic_inline_about_chevron_right.xml",
+      "diffPct": 0,
+      "px": 710
+    },
+    {
+      "file": "ic_inline_leaderboard_crown.xml",
+      "diffPct": 0,
+      "px": 2642
+    },
+    {
+      "file": "ic_inline_teamcreation_send.xml",
+      "diffPct": 0,
+      "px": 2445
+    },
+    {
+      "file": "ic_inline_teamcreation_shield_check.xml",
+      "diffPct": 0,
+      "px": 4448
+    },
+    {
+      "file": "ic_inline_whatsappfab_whatsapp_logo.xml",
+      "diffPct": 0,
+      "px": 3271
+    },
+    {
+      "file": "ic_key.xml",
+      "diffPct": 0,
+      "px": 1971
+    },
+    {
+      "file": "ic_key_fill.xml",
+      "diffPct": 0,
+      "px": 2142
+    },
+    {
+      "file": "ic_keyboard.xml",
+      "diffPct": 0,
+      "px": 2768
+    },
+    {
+      "file": "ic_keyboard_hide.xml",
+      "diffPct": 0,
+      "px": 3040
+    },
+    {
+      "file": "ic_leaderboard.xml",
+      "diffPct": 0,
+      "px": 2624
+    },
+    {
+      "file": "ic_lock.xml",
+      "diffPct": 0,
+      "px": 2380
+    },
+    {
+      "file": "ic_lock_fill.xml",
+      "diffPct": 0,
+      "px": 3904
+    },
+    {
+      "file": "ic_lock_open.xml",
+      "diffPct": 0,
+      "px": 2316
+    },
+    {
+      "file": "ic_logout.xml",
+      "diffPct": 0,
+      "px": 1694
+    },
+    {
+      "file": "ic_lucide_arrow_left.xml",
+      "diffPct": 0,
+      "px": 1084
+    },
+    {
+      "file": "ic_lucide_arrow_right.xml",
+      "diffPct": 0,
+      "px": 1084
+    },
+    {
+      "file": "ic_lucide_check.xml",
+      "diffPct": 0,
+      "px": 754
+    },
+    {
+      "file": "ic_lucide_chevron_down.xml",
+      "diffPct": 0,
+      "px": 578
+    },
+    {
+      "file": "ic_lucide_chevron_left.xml",
+      "diffPct": 0,
+      "px": 578
+    },
+    {
+      "file": "ic_lucide_chevron_right.xml",
+      "diffPct": 0,
+      "px": 578
+    },
+    {
+      "file": "ic_lucide_chevron_up.xml",
+      "diffPct": 0,
+      "px": 578
+    },
+    {
+      "file": "ic_lucide_circle.xml",
+      "diffPct": 0,
+      "px": 2120
+    },
+    {
+      "file": "ic_lucide_grip_vertical.xml",
+      "diffPct": 0,
+      "px": 1248
+    },
+    {
+      "file": "ic_lucide_minus.xml",
+      "diffPct": 0,
+      "px": 500
+    },
+    {
+      "file": "ic_lucide_more_horizontal.xml",
+      "diffPct": 0,
+      "px": 624
+    },
+    {
+      "file": "ic_lucide_panel_left.xml",
+      "diffPct": 0,
+      "px": 2728
+    },
+    {
+      "file": "ic_lucide_search.xml",
+      "diffPct": 0,
+      "px": 1874
+    },
+    {
+      "file": "ic_lucide_x.xml",
+      "diffPct": 0,
+      "px": 1100
+    },
+    {
+      "file": "ic_mail.xml",
+      "diffPct": 0,
+      "px": 2544
+    },
+    {
+      "file": "ic_map.xml",
+      "diffPct": 0,
+      "px": 2762
+    },
+    {
+      "file": "ic_military_tech.xml",
+      "diffPct": 0,
+      "px": 1795
+    },
+    {
+      "file": "ic_my_location.xml",
+      "diffPct": 0,
+      "px": 2579
+    },
+    {
+      "file": "ic_no_photography.xml",
+      "diffPct": 0,
+      "px": 3105
+    },
+    {
+      "file": "ic_notifications.xml",
+      "diffPct": 0,
+      "px": 1676
+    },
+    {
+      "file": "ic_outbox.xml",
+      "diffPct": 0,
+      "px": 2982
+    },
+    {
+      "file": "ic_payment_arrow_down.xml",
+      "diffPct": 0,
+      "px": 2732
+    },
+    {
+      "file": "ic_payments.xml",
+      "diffPct": 0,
+      "px": 3240
+    },
+    {
+      "file": "ic_person.xml",
+      "diffPct": 0,
+      "px": 1755
+    },
+    {
+      "file": "ic_person_add.xml",
+      "diffPct": 0,
+      "px": 2203
+    },
+    {
+      "file": "ic_person_add_fill.xml",
+      "diffPct": 0,
+      "px": 2854
+    },
+    {
+      "file": "ic_person_fill.xml",
+      "diffPct": 0,
+      "px": 2406
+    },
+    {
+      "file": "ic_person_search.xml",
+      "diffPct": 0,
+      "px": 2047
+    },
+    {
+      "file": "ic_publish.xml",
+      "diffPct": 0,
+      "px": 1376
+    },
+    {
+      "file": "ic_qr_code_2.xml",
+      "diffPct": 0,
+      "px": 2876
+    },
+    {
+      "file": "ic_radio_button_unchecked.xml",
+      "diffPct": 0,
+      "px": 1898
+    },
+    {
+      "file": "ic_receipt_long.xml",
+      "diffPct": 0,
+      "px": 3003
+    },
+    {
+      "file": "ic_refresh.xml",
+      "diffPct": 0,
+      "px": 1664
+    },
+    {
+      "file": "ic_remove_circle_outline.xml",
+      "diffPct": 0,
+      "px": 2218
+    },
+    {
+      "file": "ic_save.xml",
+      "diffPct": 0,
+      "px": 3002
+    },
+    {
+      "file": "ic_schedule.xml",
+      "diffPct": 0,
+      "px": 2249
+    },
+    {
+      "file": "ic_screenshot_monitor.xml",
+      "diffPct": 0,
+      "px": 2568
+    },
+    {
+      "file": "ic_search.xml",
+      "diffPct": 0,
+      "px": 1434
+    },
+    {
+      "file": "ic_send.xml",
+      "diffPct": 0,
+      "px": 1700
+    },
+    {
+      "file": "ic_sentiment_satisfied.xml",
+      "diffPct": 0,
+      "px": 2408
+    },
+    {
+      "file": "ic_share.xml",
+      "diffPct": 0,
+      "px": 1732
+    },
+    {
+      "file": "ic_shield.xml",
+      "diffPct": 0,
+      "px": 1720
+    },
+    {
+      "file": "ic_sports_esports.xml",
+      "diffPct": 0,
+      "px": 2194
+    },
+    {
+      "file": "ic_stadium.xml",
+      "diffPct": 0,
+      "px": 3052
+    },
+    {
+      "file": "ic_star.xml",
+      "diffPct": 0,
+      "px": 1843
+    },
+    {
+      "file": "ic_support_agent.xml",
+      "diffPct": 0,
+      "px": 2362
+    },
+    {
+      "file": "ic_swap_horiz.xml",
+      "diffPct": 0,
+      "px": 1328
+    },
+    {
+      "file": "ic_sync_alt.xml",
+      "diffPct": 0,
+      "px": 1840
+    },
+    {
+      "file": "ic_tag.xml",
+      "diffPct": 0,
+      "px": 1848
+    },
+    {
+      "file": "ic_task_alt.xml",
+      "diffPct": 0,
+      "px": 2393
+    },
+    {
+      "file": "ic_timer.xml",
+      "diffPct": 0,
+      "px": 2121
+    },
+    {
+      "file": "ic_timer_off.xml",
+      "diffPct": 0,
+      "px": 2600
+    },
+    {
+      "file": "ic_toggle_off.xml",
+      "diffPct": 0,
+      "px": 2164
+    },
+    {
+      "file": "ic_toggle_on.xml",
+      "diffPct": 0,
+      "px": 2164
+    },
+    {
+      "file": "ic_touch_app.xml",
+      "diffPct": 0,
+      "px": 2134
+    },
+    {
+      "file": "ic_trophy.xml",
+      "diffPct": 0,
+      "px": 2203
+    },
+    {
+      "file": "ic_tune.xml",
+      "diffPct": 0,
+      "px": 1920
+    },
+    {
+      "file": "ic_upload.xml",
+      "diffPct": 0,
+      "px": 1376
+    },
+    {
+      "file": "ic_verified.xml",
+      "diffPct": 0,
+      "px": 2584
+    },
+    {
+      "file": "ic_verified_fill.xml",
+      "diffPct": 0,
+      "px": 4643
+    },
+    {
+      "file": "ic_visibility.xml",
+      "diffPct": 0,
+      "px": 2396
+    },
+    {
+      "file": "ic_visibility_fill.xml",
+      "diffPct": 0,
+      "px": 3260
+    },
+    {
+      "file": "ic_visibility_off.xml",
+      "diffPct": 0,
+      "px": 2737
+    },
+    {
+      "file": "ic_visibility_off_fill.xml",
+      "diffPct": 0,
+      "px": 3289
+    },
+    {
+      "file": "ic_wallet.xml",
+      "diffPct": 0,
+      "px": 3823
+    },
+    {
+      "file": "ic_wifi_off.xml",
+      "diffPct": 0,
+      "px": 2650
+    }
+  ],
+  "fail": [],
+  "skipped": [
+    {
+      "file": "ic_qr_code.xml",
+      "reason": "ENOENT: no such file or directory, open '/home/z/my-project/AreenaxNativeAndroid/tools/cache/ms/qr_code.svg'"
+    },
+    {
+      "file": "ic_sports_handball.xml",
+      "reason": "ENOENT: no such file or directory, open '/home/z/my-project/AreenaxNativeAndroid/tools/cache/ms/sports_handball.svg'"
+    },
+    {
+      "file": "ic_unfold_more.xml",
+      "reason": "ENOENT: no such file or directory, open '/home/z/my-project/AreenaxNativeAndroid/tools/cache/ms/unfold_more.svg'"
+    }
+  ]
+}

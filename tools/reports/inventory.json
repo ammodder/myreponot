@@ -1,0 +1,3701 @@
+{
+  "generatedAt": "2026-09-18T13:09:50.713Z",
+  "scannedFiles": [
+    "src/components/AppShell.tsx",
+    "src/components/screens/main/MyTournamentScreen.tsx",
+    "src/components/screens/main/HomeScreen.tsx",
+    "src/components/screens/main/ResultsScreen.tsx",
+    "src/components/screens/main/TournamentsScreen.tsx",
+    "src/components/screens/main/TournamentDetailsScreen.tsx",
+    "src/components/screens/profile/ResultProofsAdminSection.tsx",
+    "src/components/screens/profile/GamesAdminSection.tsx",
+    "src/components/screens/profile/MyStatsScreen.tsx",
+    "src/components/screens/profile/AdminTournamentsScreen.tsx",
+    "src/components/screens/profile/LeaderboardScreen.tsx",
+    "src/components/screens/profile/AdminPanelScreen.tsx",
+    "src/components/screens/profile/ProfileScreen.tsx",
+    "src/components/screens/profile/BindAccountScreen.tsx",
+    "src/components/screens/profile/AchievementsScreen.tsx",
+    "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+    "src/components/screens/profile/EditProfileScreen.tsx",
+    "src/components/screens/wallet/TransferSuccessScreen.tsx",
+    "src/components/screens/wallet/DepositSuccessScreen.tsx",
+    "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+    "src/components/screens/wallet/WalletScreen.tsx",
+    "src/components/screens/wallet/TransferScreen.tsx",
+    "src/components/screens/wallet/SelectBankScreen.tsx",
+    "src/components/screens/wallet/DepositConfirmScreen.tsx",
+    "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+    "src/components/screens/wallet/WithdrawScreen.tsx",
+    "src/components/screens/wallet/DepositScreen.tsx",
+    "src/components/screens/social/TeamCreationDoneScreen.tsx",
+    "src/components/screens/social/TeamCreationScreen.tsx",
+    "src/components/screens/social/NotificationsScreen.tsx",
+    "src/components/screens/social/ChatScreen.tsx",
+    "src/components/screens/social/ReferEarnScreen.tsx",
+    "src/components/screens/social/TasksScreen.tsx",
+    "src/components/screens/social/MyTeamScreen.tsx",
+    "src/components/screens/social/FriendsScreen.tsx",
+    "src/components/screens/auth/SignupStep2Screen.tsx",
+    "src/components/screens/auth/SignupScreen.tsx",
+    "src/components/screens/auth/SignupStep1Screen.tsx",
+    "src/components/screens/auth/SignupStep3Screen.tsx",
+    "src/components/screens/auth/LoginScreen.tsx",
+    "src/components/screens/auth/AuthChrome.tsx",
+    "src/components/screens/info/PrivacyScreen.tsx",
+    "src/components/screens/info/AboutScreen.tsx",
+    "src/components/screens/info/OfflineScreen.tsx",
+    "src/components/screens/info/TermsScreen.tsx",
+    "src/components/screens/host/HostSuccessScreen.tsx",
+    "src/components/screens/host/HostCreationScreen.tsx",
+    "src/components/screens/host/HostCardsScreen.tsx",
+    "src/components/screens/host/HostDetailsScreen.tsx",
+    "src/components/screens/host/HostTournamentScreen.tsx",
+    "src/components/shared/TeamJoinSheet.tsx",
+    "src/components/shared/EmptyState.tsx",
+    "src/components/shared/SuccessAnim.tsx",
+    "src/components/shared/AmountKeyboardSheet.tsx",
+    "src/components/shared/TournamentCard.tsx",
+    "src/components/shared/DateTimePickerModal.tsx",
+    "src/components/shared/JoinTeamSheet.tsx",
+    "src/components/shared/ResultProofSheet.tsx",
+    "src/components/shared/InsufficientBalanceDialog.tsx",
+    "src/components/shared/BankSelectSheet.tsx",
+    "src/components/shared/StatusChip.tsx",
+    "src/components/shared/RoomInfoSheet.tsx",
+    "src/components/shared/SlotPickerSheet.tsx",
+    "src/components/shared/SupportFab.tsx",
+    "src/components/shared/AccountRequiredDialog.tsx",
+    "src/components/shared/WhatsAppFab.tsx",
+    "src/components/shared/RoomSheet.tsx",
+    "src/components/shared/BottomNav.tsx",
+    "src/components/shared/QrSheet.tsx",
+    "src/components/shared/AmountKeyboard.tsx",
+    "src/components/shared/AmountPad.tsx",
+    "src/components/shared/AppBar.tsx"
+  ],
+  "material": {
+    "emoji_events": {
+      "files": [
+        "src/components/screens/main/MyTournamentScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/MyTournamentScreen.tsx",
+          "line": 169,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 299,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 492,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 532,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/MyStatsScreen.tsx",
+          "line": 58,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 229,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 208,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 927,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 197,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 289,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 21,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 186,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 357,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 397,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 144,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BottomNav.tsx",
+          "line": 9,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "error": {
+      "files": [
+        "src/components/screens/main/MyTournamentScreen.tsx",
+        "src/components/screens/main/TournamentsScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/MyTournamentScreen.tsx",
+          "line": 163,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/main/TournamentsScreen.tsx",
+          "line": 128,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 234,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1341,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 438,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 641,
+          "how": "literal"
+        }
+      ]
+    },
+    "bar_chart": {
+      "files": [
+        "src/components/screens/main/ResultsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/ResultsScreen.tsx",
+          "line": 98,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 195,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "share": {
+      "files": [
+        "src/components/screens/main/ResultsScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/ResultsScreen.tsx",
+          "line": 183,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 143,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 450,
+          "how": "literal"
+        }
+      ]
+    },
+    "trophy": {
+      "files": [
+        "src/components/screens/main/ResultsScreen.tsx",
+        "src/components/screens/main/TournamentsScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx",
+        "src/components/shared/EmptyState.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/ResultsScreen.tsx",
+          "line": 91,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/main/ResultsScreen.tsx",
+          "line": 126,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/main/TournamentsScreen.tsx",
+          "line": 134,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostTournamentScreen.tsx",
+          "line": 194,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/EmptyState.tsx",
+          "line": 11,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "stadium": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 274,
+          "how": "literal"
+        }
+      ]
+    },
+    "schedule": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostCardsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 278,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 647,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 390,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 561,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostCardsScreen.tsx",
+          "line": 43,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 173,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostTournamentScreen.tsx",
+          "line": 59,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 53,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/StatusChip.tsx",
+          "line": 13,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 148,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 632,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 694,
+          "how": "literal"
+        }
+      ]
+    },
+    "payments": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 315,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/MyStatsScreen.tsx",
+          "line": 72,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/TransferSuccessScreen.tsx",
+          "line": 17,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositSuccessScreen.tsx",
+          "line": 19,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+          "line": 19,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 18,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 25,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 57,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 164,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+          "line": 58,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 197,
+          "how": "literal"
+        }
+      ]
+    },
+    "my_location": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 326,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 543,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/MyStatsScreen.tsx",
+          "line": 65,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 206,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 408,
+          "how": "literal"
+        }
+      ]
+    },
+    "lock_open": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 397,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 398,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "lock": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/AchievementsScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 397,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 402,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 390,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 398,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 187,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1329,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 51,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 152,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 55,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 156,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 290,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 301,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomSheet.tsx",
+          "line": 202,
+          "how": "literal"
+        }
+      ]
+    },
+    "content_copy": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/ReferEarnScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 419,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 436,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 455,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 617,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 634,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/ReferEarnScreen.tsx",
+          "line": 89,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/ReferEarnScreen.tsx",
+          "line": 90,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 319,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 449,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 468,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 488,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 549,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 320,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 450,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 469,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 489,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 550,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 168,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 183,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomSheet.tsx",
+          "line": 177,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomSheet.tsx",
+          "line": 196,
+          "how": "literal"
+        }
+      ]
+    },
+    "military_tech": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 557,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 379,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/MyStatsScreen.tsx",
+          "line": 139,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 271,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 423,
+          "how": "literal"
+        }
+      ]
+    },
+    "timer_off": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 640,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 189,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomSheet.tsx",
+          "line": 154,
+          "how": "literal"
+        }
+      ]
+    },
+    "leaderboard": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/LeaderboardScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 657,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/LeaderboardScreen.tsx",
+          "line": 166,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 939,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 198,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "check_circle": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/screens/social/TasksScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/host/HostSuccessScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/ResultProofSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/social/TasksScreen.tsx",
+        "src/components/screens/host/HostSuccessScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 671,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 734,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 846,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 51,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 233,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/NotificationsScreen.tsx",
+          "line": 296,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/TasksScreen.tsx",
+          "line": 108,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 344,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 405,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 141,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostSuccessScreen.tsx",
+          "line": 46,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 393,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 554,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 114,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 156,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 401,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 595,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/ResultProofSheet.tsx",
+          "line": 141,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 689,
+          "how": "literal"
+        }
+      ]
+    },
+    "hourglass_top": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/shared/TournamentCard.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 680,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 726,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 777,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 320,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 201,
+          "how": "literal"
+        }
+      ]
+    },
+    "upload": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TournamentCard.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 704,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 249,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 420,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 172,
+          "how": "literal"
+        }
+      ]
+    },
+    "groups": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/TeamCreationDoneScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 768,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/TeamCreationDoneScreen.tsx",
+          "line": 58,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/social/MyTeamScreen.tsx",
+          "line": 377,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/MyTeamScreen.tsx",
+          "line": 198,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/TeamJoinSheet.tsx",
+          "line": 153,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 193,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 325,
+          "how": "literal"
+        }
+      ]
+    },
+    "person": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 357,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 148,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountScreen.tsx",
+          "line": 191,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/TransferSuccessScreen.tsx",
+          "line": 18,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 167,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 237,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BottomNav.tsx",
+          "line": 13,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "map": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 362,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 246,
+          "how": "literal"
+        }
+      ]
+    },
+    "group": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 367,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 547,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 553,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 255,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BottomNav.tsx",
+          "line": 10,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "visibility": {
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/main/TournamentDetailsScreen.tsx",
+          "line": 385,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/EditProfileScreen.tsx",
+          "line": 55,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/EditProfileScreen.tsx",
+          "line": 55,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 122,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 123,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/auth/LoginScreen.tsx",
+          "line": 236,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 281,
+          "how": "literal"
+        }
+      ]
+    },
+    "refresh": {
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/shared/RoomInfoSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ResultProofsAdminSection.tsx",
+          "line": 121,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 233,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 704,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1126,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 118,
+          "how": "literal"
+        }
+      ]
+    },
+    "broken_image": {
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ResultProofsAdminSection.tsx",
+          "line": 161,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/ResultProofsAdminSection.tsx",
+          "line": 224,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 392,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1015,
+          "how": "literal"
+        }
+      ]
+    },
+    "chevron_right": {
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostCardsScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/DateTimePickerModal.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ResultProofsAdminSection.tsx",
+          "line": 178,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/MyStatsScreen.tsx",
+          "line": 156,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 73,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 61,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCardsScreen.tsx",
+          "line": 92,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostTournamentScreen.tsx",
+          "line": 108,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 106,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/DateTimePickerModal.tsx",
+          "line": 127,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 339,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 360,
+          "how": "literal"
+        }
+      ]
+    },
+    "close": {
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/GamesAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/DateTimePickerModal.tsx",
+        "src/components/shared/ResultProofSheet.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/SlotPickerSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ResultProofsAdminSection.tsx",
+          "line": 213,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 275,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 318,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 358,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 340,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 377,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1000,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AchievementsScreen.tsx",
+          "line": 139,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 506,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 410,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 532,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 580,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TeamJoinSheet.tsx",
+          "line": 168,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/DateTimePickerModal.tsx",
+          "line": 109,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/ResultProofSheet.tsx",
+          "line": 133,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/StatusChip.tsx",
+          "line": 23,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 126,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/SlotPickerSheet.tsx",
+          "line": 109,
+          "how": "literal"
+        }
+      ]
+    },
+    "expand_less": {
+      "files": [
+        "src/components/screens/profile/GamesAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 185,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 185,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 746,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 747,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "edit": {
+      "files": [
+        "src/components/screens/profile/GamesAdminSection.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 185,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 185,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "delete": {
+      "files": [
+        "src/components/screens/profile/GamesAdminSection.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/GamesAdminSection.tsx",
+          "line": 188,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/NotificationsScreen.tsx",
+          "line": 200,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "sports_esports": {
+      "files": [
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/MyStatsScreen.tsx",
+          "line": 51,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 196,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 22,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 665,
+          "how": "literal"
+        }
+      ]
+    },
+    "info": {
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/social/TeamCreationDoneScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 198,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountScreen.tsx",
+          "line": 235,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 292,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 200,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/TeamCreationDoneScreen.tsx",
+          "line": 99,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/MyTeamScreen.tsx",
+          "line": 326,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 307,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 447,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 456,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 616,
+          "how": "literal"
+        }
+      ]
+    },
+    "expand_more": {
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 249,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 746,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 747,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountScreen.tsx",
+          "line": 175,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 188,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 320,
+          "how": "literal"
+        }
+      ]
+    },
+    "save": {
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 321,
+          "how": "literal"
+        }
+      ]
+    },
+    "campaign": {
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 325,
+          "how": "literal"
+        }
+      ]
+    },
+    "publish": {
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminTournamentsScreen.tsx",
+          "line": 396,
+          "how": "literal"
+        }
+      ]
+    },
+    "bolt": {
+      "files": [
+        "src/components/screens/profile/LeaderboardScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/LeaderboardScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/LeaderboardScreen.tsx",
+          "line": 44,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/LeaderboardScreen.tsx",
+          "line": 190,
+          "how": "literal"
+        }
+      ]
+    },
+    "arrow_downward": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 266,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 267,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "arrow_upward": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 266,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 267,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 121,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "receipt_long": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 310,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 223,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 244,
+          "how": "literal"
+        }
+      ]
+    },
+    "check": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/social/ReferEarnScreen.tsx",
+        "src/components/screens/auth/SignupStep3Screen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/SuccessAnim.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/BankSelectSheet.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/SlotPickerSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/shared/SuccessAnim.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 332,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+          "line": 42,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 150,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 181,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/ReferEarnScreen.tsx",
+          "line": 89,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/ReferEarnScreen.tsx",
+          "line": 90,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep3Screen.tsx",
+          "line": 245,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 319,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 449,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 468,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 488,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 549,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 320,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 450,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 469,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 489,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 550,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/shared/SuccessAnim.tsx",
+          "line": 44,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 526,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BankSelectSheet.tsx",
+          "line": 212,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BankSelectSheet.tsx",
+          "line": 249,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/StatusChip.tsx",
+          "line": 32,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/SlotPickerSheet.tsx",
+          "line": 145,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 622,
+          "how": "literal"
+        }
+      ]
+    },
+    "toggle_on": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 786,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1419,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1449,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 787,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1420,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1450,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "toggle_off": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 786,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1419,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1449,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 787,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1420,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1450,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "key": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 833,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/EditProfileScreen.tsx",
+          "line": 254,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostDetailsScreen.tsx",
+          "line": 442,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/TournamentCard.tsx",
+          "line": 129,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomInfoSheet.tsx",
+          "line": 104,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/RoomSheet.tsx",
+          "line": 131,
+          "how": "literal"
+        }
+      ]
+    },
+    "image": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 871,
+          "how": "literal"
+        }
+      ]
+    },
+    "balance": {
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/AdminPanelScreen.tsx",
+          "line": 1142,
+          "how": "literal"
+        }
+      ]
+    },
+    "qr_code_2": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/auth/SignupScreen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 241,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/MyTeamScreen.tsx",
+          "line": 295,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 476,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/auth/SignupScreen.tsx",
+          "line": 48,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/LoginScreen.tsx",
+          "line": 50,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 395,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 404,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 426,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 485,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 499,
+          "how": "literal"
+        }
+      ]
+    },
+    "logout": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 289,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/EditProfileScreen.tsx",
+          "line": 265,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/MyTeamScreen.tsx",
+          "line": 342,
+          "how": "literal"
+        }
+      ]
+    },
+    "group_add": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 149,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 699,
+          "how": "literal"
+        }
+      ]
+    },
+    "diversity_3": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 150,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/TeamJoinSheet.tsx",
+          "line": 187,
+          "how": "literal"
+        }
+      ]
+    },
+    "checklist": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 151,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "dark_mode": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 153,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "help": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 177,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "gavel": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/info/AboutScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 178,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/info/AboutScreen.tsx",
+          "line": 163,
+          "how": "literal"
+        }
+      ]
+    },
+    "shield": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/info/AboutScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 179,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/info/AboutScreen.tsx",
+          "line": 148,
+          "how": "literal"
+        }
+      ]
+    },
+    "admin_panel_settings": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 189,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "account_balance": {
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/wallet/DepositScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/ProfileScreen.tsx",
+          "line": 200,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountScreen.tsx",
+          "line": 128,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountScreen.tsx",
+          "line": 159,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+          "line": 64,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+          "line": 20,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 62,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 133,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 170,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 120,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 198,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+          "line": 85,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+          "line": 60,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 254,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositScreen.tsx",
+          "line": 157,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BankSelectSheet.tsx",
+          "line": 202,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BankSelectSheet.tsx",
+          "line": 185,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "credit_card": {
+      "files": [
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/BindAccountScreen.tsx",
+          "line": 216,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositSuccessScreen.tsx",
+          "line": 20,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 166,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 171,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/BankSelectSheet.tsx",
+          "line": 236,
+          "how": "literal"
+        }
+      ]
+    },
+    "arrow_forward": {
+      "files": [
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+          "line": 109,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/NotificationsScreen.tsx",
+          "line": 288,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 463,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 556,
+          "how": "literal"
+        }
+      ]
+    },
+    "visibility_off": {
+      "files": [
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/profile/EditProfileScreen.tsx",
+          "line": 55,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/profile/EditProfileScreen.tsx",
+          "line": 55,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 122,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 123,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/screens/auth/LoginScreen.tsx",
+          "line": 236,
+          "how": "literal"
+        }
+      ]
+    },
+    "tag": {
+      "files": [
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/TransferSuccessScreen.tsx",
+          "line": 19,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositSuccessScreen.tsx",
+          "line": 21,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+          "line": 21,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 274,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 165,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "account_balance_wallet": {
+      "files": [
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/InsufficientBalanceDialog.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/DepositSuccessScreen.tsx",
+          "line": 22,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+          "line": 22,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 178,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 632,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/InsufficientBalanceDialog.tsx",
+          "line": 62,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/BottomNav.tsx",
+          "line": 12,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "tune": {
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 186,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 26,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "sync_alt": {
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/wallet/DepositScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 19,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 131,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/DepositScreen.tsx",
+          "line": 173,
+          "how": "literal"
+        }
+      ]
+    },
+    "outbox": {
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 20,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "card_giftcard": {
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 23,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "task_alt": {
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 24,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "add": {
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WalletScreen.tsx",
+          "line": 112,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/social/MyTeamScreen.tsx",
+          "line": 223,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/host/HostTournamentScreen.tsx",
+          "line": 236,
+          "how": "literal"
+        }
+      ]
+    },
+    "person_search": {
+      "files": [
+        "src/components/screens/wallet/TransferScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/TransferScreen.tsx",
+          "line": 128,
+          "how": "literal"
+        }
+      ]
+    },
+    "swap_horiz": {
+      "files": [
+        "src/components/screens/wallet/SelectBankScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 70,
+          "how": "literal"
+        }
+      ]
+    },
+    "search": {
+      "files": [
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/SelectBankScreen.tsx",
+          "line": 105,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 489,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 556,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/BankSelectSheet.tsx",
+          "line": 152,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 570,
+          "how": "literal"
+        }
+      ]
+    },
+    "remove_circle_outline": {
+      "files": [
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/DepositConfirmScreen.tsx",
+          "line": 177,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+          "line": 61,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "wallet": {
+      "files": [
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+          "line": 59,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "payment_arrow_down": {
+      "files": [
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+          "line": 62,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "add_card": {
+      "files": [
+        "src/components/screens/wallet/WithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 229,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 230,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "touch_app": {
+      "files": [
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/shared/AmountKeyboard.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 229,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/wallet/WithdrawScreen.tsx",
+          "line": 230,
+          "how": "inferred-window"
+        },
+        {
+          "file": "src/components/shared/AmountKeyboard.tsx",
+          "line": 122,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/AmountKeyboard.tsx",
+          "line": 122,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "crown": {
+      "files": [
+        "src/components/screens/social/TeamCreationScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/TeamCreationScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/TeamCreationScreen.tsx",
+          "line": 92,
+          "how": "literal"
+        }
+      ]
+    },
+    "radio_button_unchecked": {
+      "files": [
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/NotificationsScreen.tsx",
+          "line": 296,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 141,
+          "how": "literal"
+        }
+      ]
+    },
+    "notifications": {
+      "files": [
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/shared/AppBar.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/NotificationsScreen.tsx",
+          "line": 218,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/AppBar.tsx",
+          "line": 50,
+          "how": "literal"
+        }
+      ]
+    },
+    "wifi_off": {
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/ChatScreen.tsx",
+          "line": 114,
+          "how": "literal"
+        }
+      ]
+    },
+    "forum": {
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/ChatScreen.tsx",
+          "line": 119,
+          "how": "literal"
+        }
+      ]
+    },
+    "done_all": {
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/ChatScreen.tsx",
+          "line": 147,
+          "how": "literal"
+        }
+      ]
+    },
+    "done": {
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/ChatScreen.tsx",
+          "line": 147,
+          "how": "literal"
+        }
+      ]
+    },
+    "sentiment_satisfied": {
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/ChatScreen.tsx",
+          "line": 181,
+          "how": "literal"
+        }
+      ]
+    },
+    "send": {
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/ChatScreen.tsx",
+          "line": 188,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 640,
+          "how": "literal"
+        }
+      ]
+    },
+    "assignment": {
+      "files": [
+        "src/components/screens/social/TasksScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/TasksScreen.tsx",
+          "line": 77,
+          "how": "literal"
+        }
+      ]
+    },
+    "chat_bubble": {
+      "files": [
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 446,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 626,
+          "how": "literal"
+        }
+      ]
+    },
+    "person_add": {
+      "files": [
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 474,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/screens/social/FriendsScreen.tsx",
+          "line": 609,
+          "how": "icon-key"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 350,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 643,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 644,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "arrow_back": {
+      "files": [
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/SignupStep1Screen.tsx",
+        "src/components/screens/auth/SignupStep3Screen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/AppBar.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/auth/SignupStep2Screen.tsx",
+          "line": 67,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep1Screen.tsx",
+          "line": 86,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/SignupStep3Screen.tsx",
+          "line": 130,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 283,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/AppBar.tsx",
+          "line": 156,
+          "how": "literal"
+        }
+      ]
+    },
+    "download": {
+      "files": [
+        "src/components/screens/auth/SignupScreen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/auth/SignupScreen.tsx",
+          "line": 67,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/LoginScreen.tsx",
+          "line": 69,
+          "how": "literal"
+        }
+      ]
+    },
+    "arrow_drop_down": {
+      "files": [
+        "src/components/screens/auth/SignupStep1Screen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/auth/SignupStep1Screen.tsx",
+          "line": 130,
+          "how": "literal"
+        }
+      ]
+    },
+    "mail": {
+      "files": [
+        "src/components/screens/auth/AuthChrome.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/auth/AuthChrome.tsx",
+          "line": 87,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/AuthChrome.tsx",
+          "line": 88,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "call": {
+      "files": [
+        "src/components/screens/auth/AuthChrome.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/auth/AuthChrome.tsx",
+          "line": 87,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/screens/auth/AuthChrome.tsx",
+          "line": 88,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "calendar_month": {
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 302,
+          "how": "literal"
+        }
+      ]
+    },
+    "description": {
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 366,
+          "how": "literal"
+        }
+      ]
+    },
+    "add_photo_alternate": {
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/ResultProofSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 417,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/ResultProofSheet.tsx",
+          "line": 181,
+          "how": "literal"
+        }
+      ]
+    },
+    "calculate": {
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/host/HostCreationScreen.tsx",
+          "line": 430,
+          "how": "literal"
+        }
+      ]
+    },
+    "add_circle": {
+      "files": [
+        "src/components/screens/host/HostTournamentScreen.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/screens/host/HostTournamentScreen.tsx",
+          "line": 194,
+          "how": "literal"
+        }
+      ]
+    },
+    "edit_note": {
+      "files": [
+        "src/components/shared/TeamJoinSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/TeamJoinSheet.tsx",
+          "line": 200,
+          "how": "literal"
+        }
+      ]
+    },
+    "star": {
+      "files": [
+        "src/components/shared/TeamJoinSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/TeamJoinSheet.tsx",
+          "line": 267,
+          "how": "literal"
+        }
+      ]
+    },
+    "how_to_reg": {
+      "files": [
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/SlotPickerSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/TeamJoinSheet.tsx",
+          "line": 330,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/SlotPickerSheet.tsx",
+          "line": 186,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 643,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 644,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "chevron_left": {
+      "files": [
+        "src/components/shared/DateTimePickerModal.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/DateTimePickerModal.tsx",
+          "line": 120,
+          "how": "literal"
+        }
+      ]
+    },
+    "cancel": {
+      "files": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 409,
+          "how": "literal"
+        }
+      ]
+    },
+    "verified": {
+      "files": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/shared/JoinTeamSheet.tsx",
+          "line": 427,
+          "how": "literal"
+        }
+      ]
+    },
+    "screenshot_monitor": {
+      "files": [
+        "src/components/shared/ResultProofSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/ResultProofSheet.tsx",
+          "line": 120,
+          "how": "literal"
+        }
+      ]
+    },
+    "cloud_upload": {
+      "files": [
+        "src/components/shared/ResultProofSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/ResultProofSheet.tsx",
+          "line": 203,
+          "how": "literal"
+        }
+      ]
+    },
+    "grid_view": {
+      "files": [
+        "src/components/shared/SlotPickerSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/SlotPickerSheet.tsx",
+          "line": 85,
+          "how": "literal"
+        }
+      ]
+    },
+    "support_agent": {
+      "files": [
+        "src/components/shared/SupportFab.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/SupportFab.tsx",
+          "line": 30,
+          "how": "literal"
+        }
+      ]
+    },
+    "account_circle": {
+      "files": [
+        "src/components/shared/AccountRequiredDialog.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/AccountRequiredDialog.tsx",
+          "line": 53,
+          "how": "literal"
+        }
+      ]
+    },
+    "timer": {
+      "files": [
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/RoomSheet.tsx",
+          "line": 143,
+          "how": "literal"
+        }
+      ]
+    },
+    "home": {
+      "files": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "evidence": [
+        {
+          "file": "src/components/shared/BottomNav.tsx",
+          "line": 11,
+          "how": "icon-key"
+        }
+      ]
+    },
+    "no_photography": {
+      "files": [
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/QrSheet.tsx",
+          "line": 475,
+          "how": "literal"
+        }
+      ]
+    },
+    "keyboard_hide": {
+      "files": [
+        "src/components/shared/AmountKeyboard.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/AmountKeyboard.tsx",
+          "line": 75,
+          "how": "literal"
+        }
+      ]
+    },
+    "keyboard": {
+      "files": [
+        "src/components/shared/AmountKeyboard.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/AmountKeyboard.tsx",
+          "line": 122,
+          "how": "literal"
+        },
+        {
+          "file": "src/components/shared/AmountKeyboard.tsx",
+          "line": 122,
+          "how": "inferred-window"
+        }
+      ]
+    },
+    "backspace": {
+      "files": [
+        "src/components/shared/AmountPad.tsx"
+      ],
+      "fillFiles": [],
+      "evidence": [
+        {
+          "file": "src/components/shared/AmountPad.tsx",
+          "line": 28,
+          "how": "literal"
+        }
+      ]
+    }
+  },
+  "lucide": {
+    "XIcon": [
+      {
+        "file": "src/components/ui/sheet.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/dialog.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "CheckIcon": [
+      {
+        "file": "src/components/ui/checkbox.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/context-menu.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/menubar.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/select.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/dropdown-menu.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ChevronLeftIcon": [
+      {
+        "file": "src/components/ui/pagination.tsx",
+        "line": 2,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/calendar.tsx",
+        "line": 4,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ChevronRightIcon": [
+      {
+        "file": "src/components/ui/pagination.tsx",
+        "line": 2,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/calendar.tsx",
+        "line": 4,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/context-menu.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/menubar.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/dropdown-menu.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "MoreHorizontalIcon": [
+      {
+        "file": "src/components/ui/pagination.tsx",
+        "line": 2,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ArrowLeft": [
+      {
+        "file": "src/components/ui/carousel.tsx",
+        "line": 7,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ArrowRight": [
+      {
+        "file": "src/components/ui/carousel.tsx",
+        "line": 7,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ChevronDownIcon": [
+      {
+        "file": "src/components/ui/navigation-menu.tsx",
+        "line": 4,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/calendar.tsx",
+        "line": 4,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/select.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/accordion.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "GripVerticalIcon": [
+      {
+        "file": "src/components/ui/resizable.tsx",
+        "line": 4,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "CircleIcon": [
+      {
+        "file": "src/components/ui/radio-group.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/context-menu.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/menubar.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      },
+      {
+        "file": "src/components/ui/dropdown-menu.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ChevronUpIcon": [
+      {
+        "file": "src/components/ui/select.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "PanelLeftIcon": [
+      {
+        "file": "src/components/ui/sidebar.tsx",
+        "line": 6,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "SearchIcon": [
+      {
+        "file": "src/components/ui/command.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "MinusIcon": [
+      {
+        "file": "src/components/ui/input-otp.tsx",
+        "line": 5,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "ChevronRight": [
+      {
+        "file": "src/components/ui/breadcrumb.tsx",
+        "line": 3,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "MoreHorizontal": [
+      {
+        "file": "src/components/ui/breadcrumb.tsx",
+        "line": 3,
+        "scope": "ui-scaffold"
+      }
+    ],
+    "X": [
+      {
+        "file": "src/components/ui/toast.tsx",
+        "line": 6,
+        "scope": "ui-scaffold"
+      }
+    ]
+  },
+  "inline": [
+    {
+      "file": "src/components/screens/profile/LeaderboardScreen.tsx",
+      "line": 16,
+      "svg": "<svg\n      className=\"drop-shadow-sm\"\n      fill=\"currentColor\"\n      height=\"32\"\n      stroke=\"none\"\n      viewBox=\"0 0 24 24\"\n      width=\"32\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n    >\n      <path d=\"M5 16L3 5l5.5 5L12 4l3.5 6L21 5l-2 11H5zm14 3c0 .6-.4 1-1 1H6c-.6 0-1-.4-1-1v-1h14v1z\" />\n    </svg>",
+      "descHint": ""
+    },
+    {
+      "file": "src/components/screens/profile/AchievementsScreen.tsx",
+      "line": 274,
+      "svg": "<svg className=\"w-full h-full transform -rotate-90\" viewBox=\"0 0 36 36\" xmlns=\"http://www.w3.org/2000/svg\">\n                <circle className=\"stroke-surface-container-high\" cx=\"18\" cy=\"18\" fill=\"none\" r=\"16\" strokeWidth=\"4\" />\n                <circle\n                  className=\"stroke-primary\"\n                  cx=\"18\"\n                  cy=\"18\"\n                  fill=\"none\"\n                  r=\"16\"\n                  strokeDasharray=\"100\"\n                  strokeDashoffset={100 - percent}\n                  strokeLinecap=\"round\"\n                  strokeWidth=\"4\"\n                />\n              </svg>",
+      "descHint": "Circular Progress SVG"
+    },
+    {
+      "file": "src/components/screens/social/TeamCreationScreen.tsx",
+      "line": 66,
+      "svg": "<svg className=\"w-4 h-4 text-primary\" fill=\"currentColor\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z\" />\n            </svg>",
+      "descHint": ""
+    },
+    {
+      "file": "src/components/screens/social/TeamCreationScreen.tsx",
+      "line": 163,
+      "svg": "<svg className=\"w-4 h-4 -rotate-45 relative -top-0.5\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2.2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n                <path d=\"M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5\" strokeLinecap=\"round\" strokeLinejoin=\"round\" />\n              </svg>",
+      "descHint": ""
+    },
+    {
+      "file": "src/components/screens/info/AboutScreen.tsx",
+      "line": 152,
+      "svg": "<svg className=\"w-5 h-5 text-gray-400 dark:text-on-surface-variant\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M8.25 4.5l7.5 7.5-7.5 7.5\" strokeLinecap=\"round\" strokeLinejoin=\"round\"></path>\n            </svg>",
+      "descHint": ""
+    },
+    {
+      "file": "src/components/screens/info/AboutScreen.tsx",
+      "line": 169,
+      "svg": "<svg className=\"w-5 h-5 text-gray-400 dark:text-on-surface-variant\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n              <path d=\"M8.25 4.5l7.5 7.5-7.5 7.5\" strokeLinecap=\"round\" strokeLinejoin=\"round\"></path>\n            </svg>",
+      "descHint": ""
+    },
+    {
+      "file": "src/components/shared/WhatsAppFab.tsx",
+      "line": 25,
+      "svg": "<svg fill=\"white\" height=\"28\" viewBox=\"0 0 16 16\" width=\"28\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z\" />\n      </svg>",
+      "descHint": ""
+    }
+  ],
+  "uiNote": "ui/** is shadcn scaffold; per Task 64-a audit none of its components are imported by screens/shared — lucide icons found there are converted for completeness but do not reach the user panel.",
+  "lucideUi": {}
+}

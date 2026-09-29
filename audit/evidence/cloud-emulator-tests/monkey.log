@@ -1,0 +1,9 @@
+=== adb devices (before GMD attempt) ===
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+List of devices attached
+
+=== monkey feasibility: requires a booted device via adb; package = com.areenax.nativeapp ===
+KVM MISSING (/dev/kvm does not exist) — x86_64 emulator cannot start
+c-6ab134c7-14810412-4c78996271b3-rootfs  9.9G  3.7G  5.7G  40% /
+Mem:            4041        3765         172           0         262         275

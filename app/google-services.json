@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "992807200314",
+    "project_id": "areenax-dev",
+    "storage_bucket": "areenax-dev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992807200314:android:fc1aa504853a3dc945b703",
+        "android_client_info": {
+          "package_name": "com.areenax.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQFMBg5HHvNKqNG3gwQ_08fOF5-iAD3Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992807200314:android:fc1aa504853a3dc945b703",
+        "android_client_info": {
+          "package_name": "com.areenax.nativeapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQFMBg5HHvNKqNG3gwQ_08fOF5-iAD3Is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

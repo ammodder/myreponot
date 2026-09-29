@@ -1,0 +1,25 @@
+=== verify_sweep_7e (2026-09-19T09:33:12Z) ===
+D1 brace balance: 110 kt files, 0 unbalanced
+D2 resource refs: 0 missing
+D3 routes: 46 ScreenKeys, 0 not routed
+D4 screen fns with (env: NavEnv): 46 across 48 files
+
+=== verify_build_7b (2026-09-19T09:33:13Z) ===
+[PASS] dict packagedictionary.txt: >=4000 unique valid identifiers — 4096 entries
+[PASS] 0 sensitive-string hits in shipped CODE (kotlin/xml) — 0 hits: 
+       (0 comment/doc mentions across docs-only lines — expected, 7-a allow-list aside)
+[PASS] strings.xml carries only app_name (no secrets)
+
+RESULT: ALL CHECKS PASSED
+
+=== verify_integrity_7c (2026-09-19T09:33:13Z) ===
+[D] Secret scan (new/edited files)
+  PASS  no secret-shaped strings in new/edited files
+
+37 PASS / 0 FAIL
+
+=== verify_vault_7a (2026-09-19T09:33:13Z) ===
+PASS  KeystoreCipher: alias/format/GCM + minSdk-24 quirks guarded
+PASS  CryptoStore: putSecure/getSecure/removeSecure/migratePlainOnce present
+============================================================
+ALL CHECKS PASSED

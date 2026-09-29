@@ -1,0 +1,101 @@
+Understanding Google Play’s Payments policy
+Google Play's billing system is required for developers offering in-app purchases of digital goods and services distributed on Google Play.
+It enables you to easily transact with millions of users around the world and gives users safe ways to pay and the ability to manage their payments from a central location. Play’s billing system plays a critical role in helping us maintain user trust and keep Google Play safe.
+About Google Play's billing system
+Google Play's billing system is a service that enables you to sell digital products and content in your Android app. You can use Google Play's billing system to sell a one-time product or subscriptions on a recurring basis. Visit the Android Developers site to learn how to integrate Google Play's billing system into your app.
+Unless otherwise permitted by the Payments policy , purchases that require use of Google Play's billing system include:
+Digital items (such as virtual currencies, extra lives, additional playtime, add-on items, characters, or avatars)
+Subscription services (such as fitness, game, dating, education, music, video, or other content subscription services)
+App functionality or content (such as an ad-free version of an app or new features not available in the free version)
+Cloud software and services (such as data storage services, business productivity software, or financial management software)
+Purchases that are not supported by Google Play's billing system include:
+Purchases or rentals of physical goods (such as groceries, clothing, home appliances, or electronics)
+Purchases of physical services (such as transportation services, airfare, gym memberships, or food delivery)
+Payment of a credit card or utility bill
+Google Play's billing system must not be used for peer-to-peer payments content that facilitates online gambling, or any product category deemed unacceptable under Google’s Payments Center Content Policies .
+Frequently asked questions
+Can I distribute my app on other Android app stores or my website?
+Yes, you can distribute your app however you like. As an open ecosystem, most Android devices come preinstalled with more than one store – and users can install others. Android gives developers the freedom and flexibility to distribute their apps on other Android app stores, directly from a website, or through device preloads, all without using Google Play's billing system.
+Do Google's apps have to follow this policy too?
+Yes. Google Play’s developer policies — including the requirement that apps use Google Play’s billing system for in-app purchases of digital goods — apply to all apps on Google Play, including Google’s own apps.
+Can I communicate with my users about alternative ways to pay?
+Yes. Outside of your app, you are free to communicate with your users about alternative purchase options. You can use email marketing and other channels outside of the app to provide subscription offers and even special pricing.
+Within an app, developers may not lead users to a payment method other than Google Play’s billing system unless Section 3, 8, or 9 of Payments policy applies. This includes directly linking to a webpage that could lead to an alternate payment method or using language that encourages a user to purchase the digital item outside of the app.
+Developers can refer users to administrative information – like an account management page, privacy policy, or to a help center – as long as the webpage does not eventually lead to an alternate payment method prohibited by the Payments policy.
+For services and products that are consumption only (apps that do not enable users to purchase access to digital goods or services from within the app), developers may choose to provide additional information about purchasing options without direct links, including using language like:
+"You can purchase this book directly on our website"
+"Go to our website to upgrade your subscription to Premium"
+"This movie isn’t available to rent in the app. However, any movie you rent through our website.com will be immediately available to view in the app"
+"Need extra lives? Head to our website to purchase more"
+Can I communicate with my users about promotions on other platforms?
+Yes, you can email them or otherwise communicate outside your app about your offerings, even if they are different on Google Play.
+Can I have different app features, prices, and experiences depending on the platform?
+Yes. We do not require parity across platforms. You can create different versions of your app to support different platforms, features, and pricing models.
+Can I offer a consumption-only (reader) app on Google Play?
+Yes. Google Play allows any app to be consumption-only, even if it is part of a paid service. For example, a user could log in when the app opens and access content paid for somewhere else.
+Remember, consumption-only means that any product(s) or service(s), whether digital or physical, cannot be purchased from within the app.
+Does your billing policy change depending on my app category?
+No. All app categories are subject to Google Play's Payments policy.
+Can I offer my customers refunds directly?
+Yes. You can continue to issue refunds to your customers and offer customer support directly.
+Will Google Play allow cloud gaming apps?
+Yes. Cloud game streaming apps that comply with Google Play’s policies are welcome on Google Play.
+Should apps that provide goods or services like insurance, stock trades, investment consulting, or tax preparation and filing assistance use Google Play's billing system?
+No. Purchases for goods or services like insurance, stock trades, investment consulting, or tax preparation and filing should not use Google Play’s billing system.
+My app provides clinical services. Should I use Google Play's billing system for those transactions?
+Transactions involving regulated clinical services should not use Google Play’s billing system. Regulated clinical services include services provided by or on behalf of a licensed healthcare provider that is intended to diagnose or manage (prevent, treat, mitigate, or cure) medical conditions. These services may include consulting with a doctor, receiving a medical prescription, or treatment planning by a licensed healthcare professional.
+In addition, digital COVID passport certification apps are not required to use Google Play’s billing system if the service is provided by, and any associated fees are directly assessed by a government agency.
+Does the requirement to use Google Play's billing system apply to purchases of goods or services that can't be used within the app?
+Purchases of digital goods or services that can only be consumed outside of a Play-distributed app and cannot be accessed in a Play-distributed app do not require Google Play’s billing system. Examples include ringtones usable on the device but not in the app; web-only content never consumed in the app; and apps that manage cloud service platforms but don’t provide access to that cloud storage in-app.
+Do I need to use Google Play's billing system to sell gift cards in my app?
+No. Google Play’s billing system is not required for the sale of in-app gift cards, regardless of whether the gift card is an eGift or physically mailed to the user.
+Can I issue loyalty or reward points in my app without using Google Play's billing system?
+Yes. Earned or awarded points can be issued in-app without using Google Play’s billing system. Users can also exchange those earned or rewarded points in-app for digital goods and services without Google Play’s billing system. However, keep in mind that if these points (or other types of virtual currency) are sold in-app, Google Play’s billing system must be used.
+I'm a telecommunication or cable service provider. How does this policy affect my apps?
+If you’re a telecommunication carrier, broadband, multichannel satellite, cable, or managed IPTV (referred to as a "Physical Service") service provider, you may be eligible to combine certain digital goods or services, which are also available through your non-mobile sales channels, with your customer’s physical service bill. The customer’s physical service bill must be used as the form of payment and those digital goods or services can only be sold in your apps where users can manage their physical service or where in-app purchases are only available to your physical service subscribers. Examples include:
+Offering standard digital or physical service subscription bundles that are broadly available in non-mobile sales channels and billed to the user's physical service bill.
+Offering transactional video on demand, music, digital comics, or digital books behind a paying digital service subscription that is billed to the user's physical service bill.
+Offering video on demand to users subscribed to a physical multichannel satellite, cable, or managed IPTV service.
+To be eligible as a telecommunication carrier service provider, please fill out this form .
+What is the impact of regulatory developments in India and South Korean legislation on Google Play's Payments policy? Will I still be charged a fee if I no longer use Google Play’s billing system?
+As a result of regulatory developments in India and the South Korean legislation, we will offer all developers the ability to offer an alternative billing system alongside Google Play's billing system for users in India and South Korea making in-app purchases within Play-distributed apps on mobile phones and tablets.
+Developers will still be subject to a service fee for transactions using an alternative in-app billing system, but the service fee will be reduced by 4%. For example, when the service fee is 15% for transactions through Google Play's billing system, it will be 11% for transactions made through an alternative billing system.
+If you are a developer with users in South Korea, you can learn more about implementing an additional billing system in this Help Center article .
+If you are a developer with users in India, you can learn more about implementing an additional billing system in this Help Center article .
+I am currently offering Google Play’s billing system. Can I offer Google Play’s billing system alongside an alternative billing system?
+The user choice billing pilot is designed to test offering an alternative billing option next to Google Play's billing system and to help us explore offering this choice to users in certain countries. Learn more about pilot eligibility, requirements, and how to sign up in this Help Center article .
+How has the Digital Markets Act (DMA) impacted Google Play's Payments policy for users in the European Economic Area (EEA)?
+To comply with the Digital Markets Act (DMA), we introduced new programs to support billing alternatives for European Economic Area (EEA) users. Developers selling digital content or services can now offer their users in the EEA an alternative to Google Play's billing system within their apps, subject to program requirements.
+Additionally, developers may lead users in the EEA outside of the app, including to promote offers for in-app digital features and services, subject to program requirements .
+What is the impact of the U.S. District Court’s recent decision on Play’s Payments Policy?
+While the U.S. District Court’s order remains in effect, developers may offer users in the U.S. additional alternative billing options or lead users in the U.S. to external content outside of the app if they are enrolled in the appropriate program(s) for users in the U.S. .
+Do direct tips or contributions from user to creator require Play’s billing system?
+In cases where 100% of the tip or contribution from a user goes to the creator and the payment does not grant access to any digital content or services (including stickers, badges, special emojis etc.), then we regard this as a peer-to-peer payment and use of Google Play’s billing system is not required. If any of these things is not true, then Google Play’s billing system must be used in accordance with the policy requirements.
+I'm a developer of an app that offers 1:1 online paid services. Do I have to use Google Play’s billing system?
+If your app provides a 1:1 online paid service, you are not required to use Google Play’s billing system if:
+the paid service is between two individuals
+the paid service is not available for replay afterwards (that is, the session is not recorded and cannot be accessed or used again) in any Play-distributed app
+Examples of 1:1 online paid services that do not require the use of Google Play’s billing system include:
+education or hobby classes (such as music or art lessons)
+health coaching (such as personal trainer sessions or counseling services)
+specialist advisory services (such as financial guidance, excluding customer support, or similar)
+My app provides purchases of both digital and physical goods or services. How do I determine if Google Play's billing system is required for my app?
+Google Play's billing system must be used for the SKUs in your app that include more digital goods or services than physical goods or services, and for the SKUs in your app that are marketed to users as digital goods or services. View examples of digital and physical goods and services in our Payments policy .
+Eligible developers in certain regions, including India , South Korea , and European Economic Area , also have the option to offer an alternative billing system , subject to additional requirements.
+Does the Payments policy’s requirement to use Google Play’s billing system apply in countries where Google Play’s billing system has not been launched yet?
+As long as Google Play’s billing system isn’t available in a particular country, the Payments policy’s requirement to use Google Play’s billing system does not apply in that country.
+Google Play’s billing system is not available in these countries . We’re always looking to expand support of Google Play’s billing system at which time the Payments policy’s requirement to use Google Play’s billing system will apply. We’ll let you know when those changes occur.
+I’ve submitted my app update to comply with Play’s Payments Policy; however, my app was rejected due to needing login credentials for app review. Why does Google need login credentials and how can I resubmit my app for review correctly?
+If your entire app or parts of your app are restricted based on login credentials, sign in details, memberships, location, or other forms of authentication, you must provide all required details to enable access to your app, as explained in the Play Console Requirements policy. If we're unable to review your app because of restricted access, you may be blocked from releasing updates, or your app may be removed from Google Play.
+You can provide this information to us by following the instructions described in this Help Center article under the "App Access" section and then resubmit your app for review.
+My app offers in-app purchases of tokenized digital assets, like NFTs. How do I determine if Google Play’s billing system is required for such transactions?
+Tokenized digital assets like NFTs can be used to represent digital or physical content. If the tokenized digital assets are used for in-app purchases of digital content then Google Play’s Payments policy applies and you must use Google Play’s billing system for such transactions.
+Refer to our Blockchain-based content policy for more details on tokenized digital assets.
+Related content
+Read our Payments policy
+Learn how to implement Google Play's billing system
+Read about why we updated our Payments policy
+Was this helpful?
+How can we improve it?
+Yes No
+Submit

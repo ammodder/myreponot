@@ -1,0 +1,3209 @@
+{
+  "tool": "icon_audit.py scan-web",
+  "generated_at": "2026-09-20T19:08:27+00:00",
+  "web_root": "/home/z/my-project",
+  "scope_dirs": [
+    "src/components/screens",
+    "src/components/shared",
+    "src/components/AppShell.tsx"
+  ],
+  "counts": {
+    "files_scanned": 72,
+    "glyphs_distinct": 115,
+    "glyphs_literal_only": 47,
+    "glyphs_with_fill_usage": 20,
+    "lucide_imports": 0,
+    "html_pages_glyphs": 78,
+    "remote_image_urls": 4
+  },
+  "glyphs": {
+    "account_balance": {
+      "uses": 16,
+      "files": {
+        "src/components/screens/profile/BindAccountScreen.tsx": [
+          128,
+          159
+        ],
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx": [
+          64
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          200
+        ],
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx": [
+          85,
+          60
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          198
+        ],
+        "src/components/screens/wallet/DepositScreen.tsx": [
+          157
+        ],
+        "src/components/screens/wallet/SelectBankScreen.tsx": [
+          62,
+          133,
+          170,
+          120
+        ],
+        "src/components/screens/wallet/WithdrawScreen.tsx": [
+          254
+        ],
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx": [
+          20
+        ],
+        "src/components/shared/BankSelectSheet.tsx": [
+          202,
+          185
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/wallet/SelectBankScreen.tsx:133",
+        "src/components/shared/BankSelectSheet.tsx:202"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "account_balance_wallet": {
+      "uses": 6,
+      "files": {
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          178
+        ],
+        "src/components/screens/wallet/DepositSuccessScreen.tsx": [
+          22
+        ],
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx": [
+          22
+        ],
+        "src/components/shared/BottomNav.tsx": [
+          12
+        ],
+        "src/components/shared/InsufficientBalanceDialog.tsx": [
+          62
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          632
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/BottomNav.tsx:12"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "account_circle": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/AccountRequiredDialog.tsx": [
+          53
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "add": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/host/HostTournamentScreen.tsx": [
+          236
+        ],
+        "src/components/screens/social/MyTeamScreen.tsx": [
+          223
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          112
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "add_card": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/wallet/WithdrawScreen.tsx": [
+          229,
+          230
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "add_circle": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/host/HostTournamentScreen.tsx": [
+          194
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span-expression"
+      ]
+    },
+    "add_photo_alternate": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          417
+        ],
+        "src/components/shared/ResultProofSheet.tsx": [
+          181
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "admin_panel_settings": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          189
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "arrow_back": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/auth/SignupStep1Screen.tsx": [
+          86
+        ],
+        "src/components/screens/auth/SignupStep2Screen.tsx": [
+          67
+        ],
+        "src/components/screens/auth/SignupStep3Screen.tsx": [
+          130
+        ],
+        "src/components/shared/AppBar.tsx": [
+          156
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          283
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "arrow_downward": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          266,
+          267
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "arrow_drop_down": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/auth/SignupStep1Screen.tsx": [
+          130
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "arrow_forward": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx": [
+          109
+        ],
+        "src/components/screens/social/NotificationsScreen.tsx": [
+          288
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          463,
+          556
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "arrow_upward": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          266,
+          267
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          121
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "assignment": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/TasksScreen.tsx": [
+          77
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "backspace": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/AmountPad.tsx": [
+          28
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "balance": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          1142
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "bar_chart": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/main/ResultsScreen.tsx": [
+          98
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          195
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "bolt": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/profile/LeaderboardScreen.tsx": [
+          44,
+          190
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/profile/LeaderboardScreen.tsx:44",
+        "src/components/screens/profile/LeaderboardScreen.tsx:190"
+      ],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "broken_image": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          392,
+          1015
+        ],
+        "src/components/screens/profile/ResultProofsAdminSection.tsx": [
+          161,
+          224
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "calculate": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          430
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "calendar_month": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          302
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "call": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/auth/AuthChrome.tsx": [
+          87,
+          88
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "campaign": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          325
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "cancel": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/JoinTeamSheet.tsx": [
+          409
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "card_giftcard": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          23
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "chat_bubble": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/social/FriendsScreen.tsx": [
+          446
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          626
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "check": {
+      "uses": 24,
+      "files": {
+        "src/components/screens/auth/SignupStep3Screen.tsx": [
+          245
+        ],
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          319,
+          449,
+          468,
+          488,
+          549,
+          550,
+          320,
+          450,
+          469,
+          489
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          332
+        ],
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx": [
+          42
+        ],
+        "src/components/screens/social/ReferEarnScreen.tsx": [
+          89,
+          90
+        ],
+        "src/components/screens/wallet/SelectBankScreen.tsx": [
+          150,
+          181
+        ],
+        "src/components/shared/BankSelectSheet.tsx": [
+          212,
+          249
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          526
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          622
+        ],
+        "src/components/shared/SlotPickerSheet.tsx": [
+          145
+        ],
+        "src/components/shared/StatusChip.tsx": [
+          32
+        ],
+        "src/components/shared/SuccessAnim.tsx": [
+          44
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx:42",
+        "src/components/shared/SuccessAnim.tsx:44"
+      ],
+      "sources": [
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "check_circle": {
+      "uses": 19,
+      "files": {
+        "src/components/screens/auth/SignupStep2Screen.tsx": [
+          141
+        ],
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          393,
+          554
+        ],
+        "src/components/screens/host/HostSuccessScreen.tsx": [
+          46
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          671,
+          734
+        ],
+        "src/components/screens/profile/AchievementsScreen.tsx": [
+          51
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          846
+        ],
+        "src/components/screens/social/FriendsScreen.tsx": [
+          344,
+          405
+        ],
+        "src/components/screens/social/NotificationsScreen.tsx": [
+          296
+        ],
+        "src/components/screens/social/TasksScreen.tsx": [
+          108
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          233
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          401,
+          595
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          689
+        ],
+        "src/components/shared/ResultProofSheet.tsx": [
+          141
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          114,
+          156
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/host/HostSuccessScreen.tsx:46",
+        "src/components/screens/main/TournamentDetailsScreen.tsx:671",
+        "src/components/screens/main/TournamentDetailsScreen.tsx:734",
+        "src/components/screens/profile/AchievementsScreen.tsx:51",
+        "src/components/screens/social/TasksScreen.tsx:108",
+        "src/components/shared/JoinTeamSheet.tsx:401",
+        "src/components/shared/JoinTeamSheet.tsx:595",
+        "src/components/shared/TournamentCard.tsx:114",
+        "src/components/shared/TournamentCard.tsx:156"
+      ],
+      "sources": [
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "checklist": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          151
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "chevron_left": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/DateTimePickerModal.tsx": [
+          120
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "chevron_right": {
+      "uses": 10,
+      "files": {
+        "src/components/screens/host/HostCardsScreen.tsx": [
+          92
+        ],
+        "src/components/screens/host/HostTournamentScreen.tsx": [
+          108
+        ],
+        "src/components/screens/profile/AchievementsScreen.tsx": [
+          61
+        ],
+        "src/components/screens/profile/MyStatsScreen.tsx": [
+          156
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          73
+        ],
+        "src/components/screens/profile/ResultProofsAdminSection.tsx": [
+          178
+        ],
+        "src/components/shared/DateTimePickerModal.tsx": [
+          127
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          339,
+          360
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          106
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "close": {
+      "uses": 18,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          410,
+          532,
+          580
+        ],
+        "src/components/screens/profile/AchievementsScreen.tsx": [
+          139
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          340,
+          377,
+          1000
+        ],
+        "src/components/screens/profile/GamesAdminSection.tsx": [
+          275,
+          318,
+          358
+        ],
+        "src/components/screens/profile/ResultProofsAdminSection.tsx": [
+          213
+        ],
+        "src/components/screens/social/FriendsScreen.tsx": [
+          506
+        ],
+        "src/components/shared/DateTimePickerModal.tsx": [
+          109
+        ],
+        "src/components/shared/ResultProofSheet.tsx": [
+          133
+        ],
+        "src/components/shared/RoomInfoSheet.tsx": [
+          126
+        ],
+        "src/components/shared/SlotPickerSheet.tsx": [
+          109
+        ],
+        "src/components/shared/StatusChip.tsx": [
+          23
+        ],
+        "src/components/shared/TeamJoinSheet.tsx": [
+          168
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "cloud_upload": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/ResultProofSheet.tsx": [
+          203
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "content_copy": {
+      "uses": 21,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          319,
+          449,
+          468,
+          488,
+          549,
+          550,
+          320,
+          450,
+          469,
+          489
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          419,
+          436,
+          455,
+          617,
+          634
+        ],
+        "src/components/screens/social/ReferEarnScreen.tsx": [
+          89,
+          90
+        ],
+        "src/components/shared/RoomInfoSheet.tsx": [
+          168,
+          183
+        ],
+        "src/components/shared/RoomSheet.tsx": [
+          177,
+          196
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "credit_card": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/profile/BindAccountScreen.tsx": [
+          216
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          166,
+          171
+        ],
+        "src/components/screens/wallet/DepositSuccessScreen.tsx": [
+          20
+        ],
+        "src/components/shared/BankSelectSheet.tsx": [
+          236
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/BankSelectSheet.tsx:236"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "crown": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/TeamCreationScreen.tsx": [
+          92
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/social/TeamCreationScreen.tsx:92"
+      ],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "dark_mode": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          153
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "delete": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/profile/GamesAdminSection.tsx": [
+          188
+        ],
+        "src/components/screens/social/NotificationsScreen.tsx": [
+          200
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "description": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          366
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "diversity_3": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          150
+        ],
+        "src/components/shared/TeamJoinSheet.tsx": [
+          187
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "done": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/ChatScreen.tsx": [
+          147
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/social/ChatScreen.tsx:147"
+      ],
+      "sources": [
+        "literal-span-expression"
+      ]
+    },
+    "done_all": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/ChatScreen.tsx": [
+          147
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/social/ChatScreen.tsx:147"
+      ],
+      "sources": [
+        "literal-span-expression"
+      ]
+    },
+    "download": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/auth/LoginScreen.tsx": [
+          69
+        ],
+        "src/components/screens/auth/SignupScreen.tsx": [
+          67
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "edit": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/profile/GamesAdminSection.tsx": [
+          185,
+          185
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "edit_note": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/TeamJoinSheet.tsx": [
+          200
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "emoji_events": {
+      "uses": 16,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          186,
+          357,
+          397
+        ],
+        "src/components/screens/main/MyTournamentScreen.tsx": [
+          169
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          299,
+          492,
+          532
+        ],
+        "src/components/screens/profile/AchievementsScreen.tsx": [
+          289
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          927
+        ],
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          229,
+          208
+        ],
+        "src/components/screens/profile/MyStatsScreen.tsx": [
+          58
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          197
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          21
+        ],
+        "src/components/shared/BottomNav.tsx": [
+          9
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          144
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/host/HostDetailsScreen.tsx:186",
+        "src/components/screens/host/HostDetailsScreen.tsx:357",
+        "src/components/screens/main/TournamentDetailsScreen.tsx:299",
+        "src/components/screens/main/TournamentDetailsScreen.tsx:492",
+        "src/components/screens/profile/AchievementsScreen.tsx:289",
+        "src/components/shared/BottomNav.tsx:9"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "error": {
+      "uses": 6,
+      "files": {
+        "src/components/screens/main/MyTournamentScreen.tsx": [
+          163
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          234
+        ],
+        "src/components/screens/main/TournamentsScreen.tsx": [
+          128
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          1341
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          438,
+          641
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "expand_less": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          746,
+          747
+        ],
+        "src/components/screens/profile/GamesAdminSection.tsx": [
+          185,
+          185
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "expand_more": {
+      "uses": 6,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          320
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          746,
+          747
+        ],
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          249
+        ],
+        "src/components/screens/profile/BindAccountScreen.tsx": [
+          175
+        ],
+        "src/components/screens/wallet/WithdrawScreen.tsx": [
+          188
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "forum": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/ChatScreen.tsx": [
+          119
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "gavel": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/info/AboutScreen.tsx": [
+          163
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          178
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "grid_view": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/SlotPickerSheet.tsx": [
+          85
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "group": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          255
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          367
+        ],
+        "src/components/screens/social/FriendsScreen.tsx": [
+          547,
+          553
+        ],
+        "src/components/shared/BottomNav.tsx": [
+          10
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/BottomNav.tsx:10"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "group_add": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          149
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          699
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "groups": {
+      "uses": 7,
+      "files": {
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          768
+        ],
+        "src/components/screens/social/MyTeamScreen.tsx": [
+          377,
+          198
+        ],
+        "src/components/screens/social/TeamCreationDoneScreen.tsx": [
+          58
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          325
+        ],
+        "src/components/shared/TeamJoinSheet.tsx": [
+          153
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          193
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/JoinTeamSheet.tsx:325"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "help": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          177
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "home": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/BottomNav.tsx": [
+          11
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/BottomNav.tsx:11"
+      ],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "hourglass_top": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          680,
+          726,
+          777
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          320
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          201
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "how_to_reg": {
+      "uses": 4,
+      "files": {
+        "src/components/shared/QrSheet.tsx": [
+          643,
+          644
+        ],
+        "src/components/shared/SlotPickerSheet.tsx": [
+          186
+        ],
+        "src/components/shared/TeamJoinSheet.tsx": [
+          330
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "image": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          871
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "info": {
+      "uses": 10,
+      "files": {
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          198
+        ],
+        "src/components/screens/profile/BindAccountScreen.tsx": [
+          235
+        ],
+        "src/components/screens/social/MyTeamScreen.tsx": [
+          326
+        ],
+        "src/components/screens/social/TeamCreationDoneScreen.tsx": [
+          99
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          292
+        ],
+        "src/components/screens/wallet/WithdrawScreen.tsx": [
+          200
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          307,
+          447
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          456,
+          616
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "key": {
+      "uses": 6,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          442
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          833
+        ],
+        "src/components/screens/profile/EditProfileScreen.tsx": [
+          254
+        ],
+        "src/components/shared/RoomInfoSheet.tsx": [
+          104
+        ],
+        "src/components/shared/RoomSheet.tsx": [
+          131
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          129
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/RoomSheet.tsx:131"
+      ],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "keyboard": {
+      "uses": 2,
+      "files": {
+        "src/components/shared/AmountKeyboard.tsx": [
+          122,
+          122
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "keyboard_hide": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/AmountKeyboard.tsx": [
+          75
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "leaderboard": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          657
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          939
+        ],
+        "src/components/screens/profile/LeaderboardScreen.tsx": [
+          166
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          198
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "lock": {
+      "uses": 13,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          290,
+          301
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          397,
+          402,
+          390,
+          398
+        ],
+        "src/components/screens/profile/AchievementsScreen.tsx": [
+          51,
+          152,
+          55,
+          156
+        ],
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          1329
+        ],
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          187
+        ],
+        "src/components/shared/RoomSheet.tsx": [
+          202
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/profile/AchievementsScreen.tsx:51",
+        "src/components/screens/profile/AchievementsScreen.tsx:152"
+      ],
+      "sources": [
+        "data-slot",
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "lock_open": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          397,
+          398
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "logout": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/profile/EditProfileScreen.tsx": [
+          265
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          289
+        ],
+        "src/components/screens/social/MyTeamScreen.tsx": [
+          342
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "mail": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/auth/AuthChrome.tsx": [
+          87,
+          88
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "map": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          246
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          362
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "military_tech": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          271,
+          423
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          557,
+          379
+        ],
+        "src/components/screens/profile/MyStatsScreen.tsx": [
+          139
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "my_location": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          206,
+          408
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          326,
+          543
+        ],
+        "src/components/screens/profile/MyStatsScreen.tsx": [
+          65
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "no_photography": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/QrSheet.tsx": [
+          475
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "notifications": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/social/NotificationsScreen.tsx": [
+          218
+        ],
+        "src/components/shared/AppBar.tsx": [
+          50
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "outbox": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          20
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "payment_arrow_down": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx": [
+          62
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "payments": {
+      "uses": 11,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          197
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          315
+        ],
+        "src/components/screens/profile/MyStatsScreen.tsx": [
+          72
+        ],
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx": [
+          58
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          164
+        ],
+        "src/components/screens/wallet/DepositSuccessScreen.tsx": [
+          19
+        ],
+        "src/components/screens/wallet/TransferSuccessScreen.tsx": [
+          17
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          18,
+          25,
+          57
+        ],
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx": [
+          19
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "person": {
+      "uses": 7,
+      "files": {
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          237
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          357
+        ],
+        "src/components/screens/profile/BindAccountScreen.tsx": [
+          191
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          148
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          167
+        ],
+        "src/components/screens/wallet/TransferSuccessScreen.tsx": [
+          18
+        ],
+        "src/components/shared/BottomNav.tsx": [
+          13
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/BottomNav.tsx:13"
+      ],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "person_add": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/social/FriendsScreen.tsx": [
+          474,
+          609
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          350
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          643,
+          644
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/JoinTeamSheet.tsx:350"
+      ],
+      "sources": [
+        "data-slot",
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "person_search": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/TransferScreen.tsx": [
+          128
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "publish": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          396
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "qr_code_2": {
+      "uses": 10,
+      "files": {
+        "src/components/screens/auth/LoginScreen.tsx": [
+          50
+        ],
+        "src/components/screens/auth/SignupScreen.tsx": [
+          48
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          241
+        ],
+        "src/components/screens/social/FriendsScreen.tsx": [
+          476
+        ],
+        "src/components/screens/social/MyTeamScreen.tsx": [
+          295
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          395,
+          404,
+          426,
+          485,
+          499
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "radio_button_unchecked": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/auth/SignupStep2Screen.tsx": [
+          141
+        ],
+        "src/components/screens/social/NotificationsScreen.tsx": [
+          296
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span-expression"
+      ]
+    },
+    "receipt_long": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          310
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          244
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          223
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "refresh": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          233,
+          704,
+          1126
+        ],
+        "src/components/screens/profile/ResultProofsAdminSection.tsx": [
+          121
+        ],
+        "src/components/shared/RoomInfoSheet.tsx": [
+          118
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "remove_circle_outline": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx": [
+          61
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          177
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "save": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/profile/AdminTournamentsScreen.tsx": [
+          321
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "schedule": {
+      "uses": 12,
+      "files": {
+        "src/components/screens/host/HostCardsScreen.tsx": [
+          43
+        ],
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          173
+        ],
+        "src/components/screens/host/HostTournamentScreen.tsx": [
+          59
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          278,
+          647
+        ],
+        "src/components/screens/social/FriendsScreen.tsx": [
+          390,
+          561
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          632,
+          694
+        ],
+        "src/components/shared/RoomInfoSheet.tsx": [
+          148
+        ],
+        "src/components/shared/StatusChip.tsx": [
+          13
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          53
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "screenshot_monitor": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/ResultProofSheet.tsx": [
+          120
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "search": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/social/FriendsScreen.tsx": [
+          489,
+          556
+        ],
+        "src/components/screens/wallet/SelectBankScreen.tsx": [
+          105
+        ],
+        "src/components/shared/BankSelectSheet.tsx": [
+          152
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          570
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "send": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/social/ChatScreen.tsx": [
+          188
+        ],
+        "src/components/screens/social/FriendsScreen.tsx": [
+          640
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "sentiment_satisfied": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/ChatScreen.tsx": [
+          181
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "share": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/main/ResultsScreen.tsx": [
+          183
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          143
+        ],
+        "src/components/shared/QrSheet.tsx": [
+          450
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "shield": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/info/AboutScreen.tsx": [
+          148
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          179
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "sports_esports": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/profile/MyStatsScreen.tsx": [
+          51
+        ],
+        "src/components/screens/profile/ProfileScreen.tsx": [
+          196
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          22
+        ],
+        "src/components/shared/JoinTeamSheet.tsx": [
+          665
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "stadium": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          274
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "star": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/TeamJoinSheet.tsx": [
+          267
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "support_agent": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/SupportFab.tsx": [
+          30
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "swap_horiz": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/SelectBankScreen.tsx": [
+          70
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "sync_alt": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/wallet/DepositScreen.tsx": [
+          173
+        ],
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          19,
+          131
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "tag": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          274,
+          165
+        ],
+        "src/components/screens/wallet/DepositSuccessScreen.tsx": [
+          21
+        ],
+        "src/components/screens/wallet/TransferSuccessScreen.tsx": [
+          19
+        ],
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx": [
+          21
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "task_alt": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          24
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "timer": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/RoomSheet.tsx": [
+          143
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "timer_off": {
+      "uses": 3,
+      "files": {
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          640
+        ],
+        "src/components/shared/RoomInfoSheet.tsx": [
+          189
+        ],
+        "src/components/shared/RoomSheet.tsx": [
+          154
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "toggle_off": {
+      "uses": 6,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          786,
+          1419,
+          1449,
+          1420,
+          787,
+          1450
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "toggle_on": {
+      "uses": 6,
+      "files": {
+        "src/components/screens/profile/AdminPanelScreen.tsx": [
+          786,
+          1419,
+          1449,
+          1420,
+          787,
+          1450
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "touch_app": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/wallet/WithdrawScreen.tsx": [
+          229,
+          230
+        ],
+        "src/components/shared/AmountKeyboard.tsx": [
+          122,
+          122
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "trophy": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/host/HostTournamentScreen.tsx": [
+          194
+        ],
+        "src/components/screens/main/ResultsScreen.tsx": [
+          91,
+          126
+        ],
+        "src/components/screens/main/TournamentsScreen.tsx": [
+          134
+        ],
+        "src/components/shared/EmptyState.tsx": [
+          11
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "tune": {
+      "uses": 2,
+      "files": {
+        "src/components/screens/wallet/WalletScreen.tsx": [
+          186,
+          26
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot",
+        "literal-span"
+      ]
+    },
+    "upload": {
+      "uses": 4,
+      "files": {
+        "src/components/screens/host/HostCreationScreen.tsx": [
+          420
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          704
+        ],
+        "src/components/screens/wallet/DepositConfirmScreen.tsx": [
+          249
+        ],
+        "src/components/shared/TournamentCard.tsx": [
+          172
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "verified": {
+      "uses": 1,
+      "files": {
+        "src/components/shared/JoinTeamSheet.tsx": [
+          427
+        ]
+      },
+      "fill_files": [
+        "src/components/shared/JoinTeamSheet.tsx:427"
+      ],
+      "sources": [
+        "literal-span"
+      ]
+    },
+    "visibility": {
+      "uses": 7,
+      "files": {
+        "src/components/screens/auth/LoginScreen.tsx": [
+          236
+        ],
+        "src/components/screens/auth/SignupStep2Screen.tsx": [
+          122,
+          123
+        ],
+        "src/components/screens/host/HostDetailsScreen.tsx": [
+          281
+        ],
+        "src/components/screens/main/TournamentDetailsScreen.tsx": [
+          385
+        ],
+        "src/components/screens/profile/EditProfileScreen.tsx": [
+          55,
+          55
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/auth/LoginScreen.tsx:236"
+      ],
+      "sources": [
+        "data-slot",
+        "inferred-window",
+        "literal-span",
+        "literal-span-expression"
+      ]
+    },
+    "visibility_off": {
+      "uses": 5,
+      "files": {
+        "src/components/screens/auth/LoginScreen.tsx": [
+          236
+        ],
+        "src/components/screens/auth/SignupStep2Screen.tsx": [
+          122,
+          123
+        ],
+        "src/components/screens/profile/EditProfileScreen.tsx": [
+          55,
+          55
+        ]
+      },
+      "fill_files": [
+        "src/components/screens/auth/LoginScreen.tsx:236"
+      ],
+      "sources": [
+        "inferred-window",
+        "literal-span-expression"
+      ]
+    },
+    "wallet": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx": [
+          59
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "data-slot"
+      ]
+    },
+    "wifi_off": {
+      "uses": 1,
+      "files": {
+        "src/components/screens/social/ChatScreen.tsx": [
+          114
+        ]
+      },
+      "fill_files": [],
+      "sources": [
+        "literal-span"
+      ]
+    }
+  },
+  "lucide": {},
+  "html_design_pages": {
+    "shield": {
+      "files": {
+        "upload/pages_extracted/pages/about.html": [
+          95
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          177
+        ]
+      }
+    },
+    "gavel": {
+      "files": {
+        "upload/pages_extracted/pages/about.html": [
+          105
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          170
+        ]
+      }
+    },
+    "arrow_back": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          170
+        ],
+        "upload/pages_extracted/pages/bindaccount.html": [
+          120
+        ],
+        "upload/pages_extracted/pages/bindaccountsuccess.html": [
+          114
+        ],
+        "upload/pages_extracted/pages/chat.html": [
+          65
+        ],
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          125
+        ],
+        "upload/pages_extracted/pages/deposit.html": [
+          124
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          115
+        ],
+        "upload/pages_extracted/pages/editprofile.html": [
+          162
+        ],
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          119
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          139
+        ],
+        "upload/pages_extracted/pages/hosttournamentsuccess.html": [
+          115
+        ],
+        "upload/pages_extracted/pages/leaderboard.html": [
+          120
+        ],
+        "upload/pages_extracted/pages/mystats.html": [
+          117
+        ],
+        "upload/pages_extracted/pages/myteam.html": [
+          108
+        ],
+        "upload/pages_extracted/pages/notification.html": [
+          110
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          107
+        ],
+        "upload/pages_extracted/pages/refer&earn.html": [
+          112
+        ],
+        "upload/pages_extracted/pages/results.html": [
+          116
+        ],
+        "upload/pages_extracted/pages/selectbank.html": [
+          113
+        ],
+        "upload/pages_extracted/pages/signupstep1.html": [
+          120
+        ],
+        "upload/pages_extracted/pages/signupstep2.html": [
+          121
+        ],
+        "upload/pages_extracted/pages/signupstep3.html": [
+          120
+        ],
+        "upload/pages_extracted/pages/teamcreationdone.html": [
+          145
+        ],
+        "upload/pages_extracted/pages/terms.html": [
+          122
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          121
+        ],
+        "upload/pages_extracted/pages/withdraw.html": [
+          103
+        ]
+      }
+    },
+    "notifications": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          174
+        ],
+        "upload/pages_extracted/pages/bindaccount.html": [
+          122
+        ],
+        "upload/pages_extracted/pages/bindaccountsuccess.html": [
+          119
+        ],
+        "upload/pages_extracted/pages/chat.html": [
+          86
+        ],
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          130
+        ],
+        "upload/pages_extracted/pages/deposit.html": [
+          129
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          120
+        ],
+        "upload/pages_extracted/pages/editprofile.html": [
+          167
+        ],
+        "upload/pages_extracted/pages/freinds.html": [
+          93
+        ],
+        "upload/pages_extracted/pages/hosttournament.html": [
+          90
+        ],
+        "upload/pages_extracted/pages/leaderboard.html": [
+          124
+        ],
+        "upload/pages_extracted/pages/mystats.html": [
+          121
+        ],
+        "upload/pages_extracted/pages/myteam.html": [
+          112
+        ],
+        "upload/pages_extracted/pages/mytournament.html": [
+          97
+        ],
+        "upload/pages_extracted/pages/notification.html": [
+          124
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          110
+        ],
+        "upload/pages_extracted/pages/selectbank.html": [
+          117
+        ],
+        "upload/pages_extracted/pages/tasks.html": [
+          78
+        ],
+        "upload/pages_extracted/pages/teamcreationdone.html": [
+          152
+        ],
+        "upload/pages_extracted/pages/terms.html": [
+          126
+        ],
+        "upload/pages_extracted/pages/tournament.html": [
+          84
+        ],
+        "upload/pages_extracted/pages/wallet.html": [
+          125
+        ],
+        "upload/pages_extracted/pages/withdraw.html": [
+          107
+        ]
+      }
+    },
+    "emoji_events": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          194
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          168,
+          319
+        ],
+        "upload/pages_extracted/pages/mystats.html": [
+          153
+        ],
+        "upload/pages_extracted/pages/mytournament.html": [
+          110
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          190,
+          221
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          141,
+          252
+        ]
+      }
+    },
+    "military_tech": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          220
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          242
+        ],
+        "upload/pages_extracted/pages/mystats.html": [
+          185
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          204
+        ]
+      }
+    },
+    "chevron_right": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          225,
+          248,
+          266
+        ],
+        "upload/pages_extracted/pages/hosttournamentcard.html": [
+          200
+        ],
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          228
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          133,
+          141,
+          148,
+          165,
+          173,
+          180,
+          187,
+          191,
+          195,
+          199
+        ],
+        "upload/pages_extracted/pages/tournamentcard.html": [
+          174
+        ]
+      }
+    },
+    "check_circle": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          243
+        ],
+        "upload/pages_extracted/pages/freinds.html": [
+          478,
+          496
+        ],
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          415,
+          425,
+          435,
+          445
+        ],
+        "upload/pages_extracted/pages/hosttournamentsuccess.html": [
+          126
+        ]
+      }
+    },
+    "lock": {
+      "files": {
+        "upload/pages_extracted/pages/achievements.html": [
+          261
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          258,
+          263
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          220,
+          225
+        ]
+      }
+    },
+    "account_balance": {
+      "files": {
+        "upload/pages_extracted/pages/bindaccount.html": [
+          132
+        ],
+        "upload/pages_extracted/pages/bindaccountsuccess.html": [
+          144
+        ],
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          140,
+          179
+        ],
+        "upload/pages_extracted/pages/deposit.html": [
+          136
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          129
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          198
+        ],
+        "upload/pages_extracted/pages/selectbank.html": [
+          125,
+          172,
+          187,
+          199,
+          211,
+          223
+        ],
+        "upload/pages_extracted/pages/withdraw.html": [
+          115
+        ]
+      }
+    },
+    "person": {
+      "files": {
+        "upload/pages_extracted/pages/bindaccount.html": [
+          148
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          164
+        ],
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          409
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          213
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          130,
+          229
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          175
+        ]
+      }
+    },
+    "credit_card": {
+      "files": {
+        "upload/pages_extracted/pages/bindaccount.html": [
+          158
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          156
+        ]
+      }
+    },
+    "info": {
+      "files": {
+        "upload/pages_extracted/pages/bindaccount.html": [
+          166
+        ],
+        "upload/pages_extracted/pages/teamcreationdone.html": [
+          252
+        ],
+        "upload/pages_extracted/pages/withdraw.html": [
+          129
+        ]
+      }
+    },
+    "check": {
+      "files": {
+        "upload/pages_extracted/pages/bindaccountsuccess.html": [
+          129
+        ],
+        "upload/pages_extracted/pages/selectbank.html": [
+          180
+        ]
+      }
+    },
+    "arrow_forward": {
+      "files": {
+        "upload/pages_extracted/pages/bindaccountsuccess.html": [
+          184
+        ]
+      }
+    },
+    "done_all": {
+      "files": {
+        "upload/pages_extracted/pages/chat.html": [
+          120,
+          139
+        ]
+      }
+    },
+    "done": {
+      "files": {
+        "upload/pages_extracted/pages/chat.html": [
+          150,
+          161,
+          208
+        ]
+      }
+    },
+    "sentiment_satisfied": {
+      "files": {
+        "upload/pages_extracted/pages/chat.html": [
+          183
+        ]
+      }
+    },
+    "send": {
+      "files": {
+        "upload/pages_extracted/pages/chat.html": [
+          187
+        ],
+        "upload/pages_extracted/pages/freinds.html": [
+          364
+        ]
+      }
+    },
+    "task_alt": {
+      "files": {
+        "upload/pages_extracted/pages/chat.html": [
+          231
+        ]
+      }
+    },
+    "payments": {
+      "files": {
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          156
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          140
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          178
+        ],
+        "upload/pages_extracted/pages/mystats.html": [
+          173
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          149
+        ],
+        "upload/pages_extracted/pages/wallet.html": [
+          172
+        ]
+      }
+    },
+    "wallet": {
+      "files": {
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          168
+        ]
+      }
+    },
+    "remove_circle_outline": {
+      "files": {
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          191
+        ],
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          172
+        ]
+      }
+    },
+    "payment_arrow_down": {
+      "files": {
+        "upload/pages_extracted/pages/confirmwithdraw.html": [
+          202
+        ]
+      }
+    },
+    "sync_alt": {
+      "files": {
+        "upload/pages_extracted/pages/deposit.html": [
+          141
+        ],
+        "upload/pages_extracted/pages/wallet.html": [
+          153,
+          185
+        ]
+      }
+    },
+    "backspace": {
+      "files": {
+        "upload/pages_extracted/pages/deposit.html": [
+          163
+        ],
+        "upload/pages_extracted/pages/withdraw.html": [
+          144
+        ]
+      }
+    },
+    "tag": {
+      "files": {
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          148
+        ]
+      }
+    },
+    "account_balance_wallet": {
+      "files": {
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          180
+        ],
+        "upload/pages_extracted/pages/profile.html": [
+          227
+        ]
+      }
+    },
+    "receipt_long": {
+      "files": {
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          189
+        ]
+      }
+    },
+    "upload": {
+      "files": {
+        "upload/pages_extracted/pages/depositconfirm.html": [
+          193
+        ]
+      }
+    },
+    "visibility_off": {
+      "files": {
+        "upload/pages_extracted/pages/editprofile.html": [
+          199,
+          206,
+          213
+        ],
+        "upload/pages_extracted/pages/signupstep2.html": [
+          145
+        ]
+      }
+    },
+    "key": {
+      "files": {
+        "upload/pages_extracted/pages/editprofile.html": [
+          217
+        ]
+      }
+    },
+    "person_add": {
+      "files": {
+        "upload/pages_extracted/pages/freinds.html": [
+          87
+        ]
+      }
+    },
+    "qr_code_2": {
+      "files": {
+        "upload/pages_extracted/pages/freinds.html": [
+          90
+        ]
+      }
+    },
+    "search": {
+      "files": {
+        "upload/pages_extracted/pages/freinds.html": [
+          102
+        ],
+        "upload/pages_extracted/pages/selectbank.html": [
+          161
+        ]
+      }
+    },
+    "close": {
+      "files": {
+        "upload/pages_extracted/pages/freinds.html": [
+          108
+        ],
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          218,
+          382,
+          403
+        ]
+      }
+    },
+    "unfold_more": {
+      "files": {
+        "upload/pages_extracted/pages/freinds.html": [
+          146
+        ]
+      }
+    },
+    "chat_bubble": {
+      "files": {
+        "upload/pages_extracted/pages/freinds.html": [
+          170,
+          195,
+          220,
+          245
+        ]
+      }
+    },
+    "support_agent": {
+      "files": {
+        "upload/pages_extracted/pages/home.html": [
+          268
+        ]
+      }
+    },
+    "trophy": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournament.html": [
+          113
+        ],
+        "upload/pages_extracted/pages/tournament.html": [
+          113
+        ]
+      }
+    },
+    "add": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournament.html": [
+          121
+        ],
+        "upload/pages_extracted/pages/myteam.html": [
+          128
+        ],
+        "upload/pages_extracted/pages/wallet.html": [
+          141
+        ]
+      }
+    },
+    "schedule": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcard.html": [
+          150
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          158
+        ],
+        "upload/pages_extracted/pages/tournamentcard.html": [
+          129
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          133
+        ]
+      }
+    },
+    "calendar_month": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          147
+        ]
+      }
+    },
+    "expand_more": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          157
+        ],
+        "upload/pages_extracted/pages/withdraw.html": [
+          117
+        ]
+      }
+    },
+    "description": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          175
+        ]
+      }
+    },
+    "calculate": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          187
+        ]
+      }
+    },
+    "chevron_left": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          225
+        ]
+      }
+    },
+    "group": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          419
+        ],
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          229
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          191
+        ]
+      }
+    },
+    "groups": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          429
+        ]
+      }
+    },
+    "sports_handball": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentcreation.html": [
+          439
+        ]
+      }
+    },
+    "my_location": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          187
+        ],
+        "upload/pages_extracted/pages/mystats.html": [
+          163
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          157
+        ]
+      }
+    },
+    "map": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          221
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          183
+        ]
+      }
+    },
+    "visibility": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          250
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          212
+        ]
+      }
+    },
+    "content_copy": {
+      "files": {
+        "upload/pages_extracted/pages/hosttournamentdetails.html": [
+          275
+        ],
+        "upload/pages_extracted/pages/refer&earn.html": [
+          132
+        ],
+        "upload/pages_extracted/pages/tournamentdetails.html": [
+          235
+        ]
+      }
+    },
+    "bolt": {
+      "files": {
+        "upload/pages_extracted/pages/leaderboard.html": [
+          138,
+          155,
+          167
+        ]
+      }
+    },
+    "sports_esports": {
+      "files": {
+        "upload/pages_extracted/pages/mystats.html": [
+          143
+        ]
+      }
+    },
+    "delete": {
+      "files": {
+        "upload/pages_extracted/pages/notification.html": [
+          114
+        ]
+      }
+    },
+    "mail": {
+      "files": {
+        "upload/pages_extracted/pages/notification.html": [
+          142
+        ]
+      }
+    },
+    "qr_code": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          121
+        ]
+      }
+    },
+    "group_add": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          138
+        ]
+      }
+    },
+    "diversity_3": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          145
+        ]
+      }
+    },
+    "dark_mode": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          153
+        ]
+      }
+    },
+    "help": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          162
+        ]
+      }
+    },
+    "bar_chart": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          186
+        ],
+        "upload/pages_extracted/pages/results.html": [
+          127
+        ]
+      }
+    },
+    "leaderboard": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          194
+        ]
+      }
+    },
+    "logout": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          205
+        ]
+      }
+    },
+    "checklist": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          223
+        ]
+      }
+    },
+    "home": {
+      "files": {
+        "upload/pages_extracted/pages/profile.html": [
+          225
+        ]
+      }
+    },
+    "share": {
+      "files": {
+        "upload/pages_extracted/pages/results.html": [
+          201
+        ]
+      }
+    },
+    "swap_horiz": {
+      "files": {
+        "upload/pages_extracted/pages/selectbank.html": [
+          130
+        ]
+      }
+    },
+    "arrow_drop_down": {
+      "files": {
+        "upload/pages_extracted/pages/signupstep1.html": [
+          146
+        ]
+      }
+    },
+    "radio_button_unchecked": {
+      "files": {
+        "upload/pages_extracted/pages/signupstep2.html": [
+          154,
+          158,
+          162
+        ]
+      }
+    },
+    "assignment": {
+      "files": {
+        "upload/pages_extracted/pages/tasks.html": [
+          90
+        ]
+      }
+    },
+    "crown": {
+      "files": {
+        "upload/pages_extracted/pages/teamcreation.html": [
+          109
+        ]
+      }
+    },
+    "verified": {
+      "files": {
+        "upload/pages_extracted/pages/teamcreationdone.html": [
+          217
+        ]
+      }
+    },
+    "arrow_upward": {
+      "files": {
+        "upload/pages_extracted/pages/wallet.html": [
+          147
+        ]
+      }
+    },
+    "tune": {
+      "files": {
+        "upload/pages_extracted/pages/wallet.html": [
+          164
+        ]
+      }
+    },
+    "outbox": {
+      "files": {
+        "upload/pages_extracted/pages/wallet.html": [
+          198
+        ]
+      }
+    }
+  },
+  "remote_images": [
+    {
+      "file": "src/components/screens/profile/ProfileScreen.tsx",
+      "line": 31,
+      "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCKTNMHanpHiq9nIBkjOO7j6eT0nw-mt_n8Oa10mTue0MtUh1Oo-3beqqPDjowrO7C4uKnLlZWfpVgufmRK2bdFLY0ufQphh6yFkY3wzafDup",
+      "role": "remote social icon"
+    },
+    {
+      "file": "src/components/screens/profile/ProfileScreen.tsx",
+      "line": 37,
+      "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuDdBs3tqQ7vgsA7yWTC28Bnpl-egrQ36ysNOG7F4PiwuZUn-iIf0bUXoG4AkmxgMaGEOzJULxXl2AKdNJIVFuMkiyC-etn49tw2VlYquXAkKA",
+      "role": "remote social icon"
+    },
+    {
+      "file": "src/components/screens/profile/ProfileScreen.tsx",
+      "line": 43,
+      "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuCWmIyr8jf9E5NM5OKVjjD5syNjXgeoQwCxngz4fGMw3MOcN-1iYknciR9xcDzAq1b1FFegkMWBSKYaw-knl-jF0xaEu1V8ATJ2oKnsjgSe_C",
+      "role": "remote social icon"
+    },
+    {
+      "file": "src/components/screens/profile/ProfileScreen.tsx",
+      "line": 49,
+      "url": "https://lh3.googleusercontent.com/aida-public/AB6AXuC4dNGDCFsPIMK8r_M1WLrtScm2IqNJGS1Y88TH4Mly1vvSUv7KwRoyNR8vR-gSrlvjVozI26ul6DuxydhNhoKDH9j4Pf2zBKrCuItqZLsh7T",
+      "role": "remote social icon"
+    }
+  ],
+  "fill_rule_note": "web switches a glyph to the FILLED cut via fontVariationSettings 'FILL' 1 (FILLED_ICON const in JoinTeamSheet/RoomSheet/BankSelectSheet, inline style in BottomNav/TournamentCard) \u2014 bottom-nav tabs always FILL 1 (REQ-076)."
+}

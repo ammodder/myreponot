@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/10787469?hl=en",
+    "name": "Provide information for Google Play's Data safety section",
+    "snippet": "This article provides an overview of the Data safety form requirements, guidance for completing the form, and information about any recent or upcoming changes.",
+    "host_name": "support.google.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/10144311?hl=en",
+    "name": "User Data - Play Console Help - Google Help",
+    "snippet": "You must complete and maintain an accurate Data safety section for each of your apps in the Play Console, detailing data collection, use, and sharing",
+    "host_name": "support.google.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/answer/11416267?hl=en&co=GENIE.Platform%3DAndroid",
+    "name": "Understand app privacy & security practices with Google Play's Data",
+    "snippet": "The Data safety section of an app listing lets developers describe how their apps collect, share, and handle different types of data.",
+    "host_name": "support.google.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/community-guide/246344978/about-the-data-safety-form-and-account-deletion?hl=en",
+    "name": "About the Data Safety Form and Account Deletion - Google Help",
+    "snippet": "Nov 30, 2023 · The account deletion requirements mean that all developers must update their Data Safety Form by December 7, 2023 to answer the account ...",
+    "host_name": "support.google.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/games-on-pc-developer/thread/312962450/tips-and-best-practices-for-complying-with-data-safety-section-requirements?hl=en",
+    "name": "Tips and best practices for complying with Data safety section",
+    "snippet": "Dec 12, 2024 · Refer to this Help Center article for an overview of the Data safety section, including what you need to disclose in the Data safety form, how ...",
+    "host_name": "support.google.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

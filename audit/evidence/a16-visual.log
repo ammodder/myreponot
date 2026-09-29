@@ -1,0 +1,4 @@
+visual verify: 154 pass, 0 FAIL, 3 skipped (no source) / 157
+SKIP ic_qr_code.xml - ENOENT: no such file or directory, open '/home/z/my-project/AreenaxNativeAndroid/tools/cac
+SKIP ic_sports_handball.xml - ENOENT: no such file or directory, open '/home/z/my-project/AreenaxNativeAndroid/tools/cac
+SKIP ic_unfold_more.xml - ENOENT: no such file or directory, open '/home/z/my-project/AreenaxNativeAndroid/tools/cac

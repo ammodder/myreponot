@@ -1,0 +1,87 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:mergeReleaseNativeLibs
+> Task :app:buildKotlinToolingMetadata
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so.
+
+> Task :app:extractReleaseNativeSymbolTables
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:generateReleaseResValues FROM-CACHE
+> Task :app:checkReleaseAarMetadata
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease FROM-CACHE
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:processReleaseManifestForPackage
+> Task :app:javaPreCompileRelease FROM-CACHE
+> Task :app:mergeReleaseArtProfile
+> Task :app:extractProguardFiles
+> Task :app:mergeReleaseStartupProfile
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:mergeReleaseResources
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:packageReleaseResources
+> Task :app:parseReleaseLocalResources FROM-CACHE
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:processReleaseResources
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac NO-SOURCE
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes
+> Task :app:mergeReleaseJavaResource
+> Task :app:expandReleaseArtProfileWildcards
+> Task :app:generateReleaseLintVitalReportModel
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=e4dcfa62-d9bc-473a-9f2e-5db45871bbfb, currentDir=/home/z/my-project/AreenaxNativeAndroid}
+Attempting to read last messages from the daemon log...
+Daemon pid: 2140
+  log file: /home/z/.gradle/daemon/8.11.1/daemon-2140.out.log
+----- Last 20 lines from daemon log file - daemon-2140.out.log -----
+2026-09-22T07:57:18.706+0000 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 157: Received non-IO message from client: Build{id=e4dcfa62-d9bc-473a-9f2e-5db45871bbfb, currentDir=/home/z/my-project/AreenaxNativeAndroid}
+2026-09-22T07:57:18.706+0000 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=e4dcfa62-d9bc-473a-9f2e-5db45871bbfb, currentDir=/home/z/my-project/AreenaxNativeAndroid}.
+2026-09-22T07:57:18.706+0000 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=e4dcfa62-d9bc-473a-9f2e-5db45871bbfb, currentDir=/home/z/my-project/AreenaxNativeAndroid} with connection: socket connection from /127.0.0.1:42303 to /127.0.0.1:51490.
+2026-09-22T07:57:18.706+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=e4dcfa62-d9bc-473a-9f2e-5db45871bbfb, currentDir=/home/z/my-project/AreenaxNativeAndroid}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:42303 to /127.0.0.1:51490] after 0.9981000000000001 minutes of idle
+2026-09-22T07:57:18.706+0000 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [d524e8b4-80d2-4006-a8b9-ad7037119540 port:42303, addresses:[localhost/127.0.0.1]]
+2026-09-22T07:57:18.706+0000 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [d524e8b4-80d2-4006-a8b9-ad7037119540 port:42303, addresses:[localhost/127.0.0.1]]
+2026-09-22T07:57:18.706+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2026-09-22T07:57:18.706+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2026-09-22T07:57:18.707+0000 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2026-09-22T07:57:18.707+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2026-09-22T07:57:18.707+0000 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2026-09-22T07:57:18.707+0000 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=e4dcfa62-d9bc-473a-9f2e-5db45871bbfb, currentDir=/home/z/my-project/AreenaxNativeAndroid}. Dispatching build started information...
+2026-09-22T07:57:18.707+0000 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 127: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@35140461
+2026-09-22T07:57:18.707+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [PATH, FC_REGION, BUN_INSTALL_BIN, JAVA_HOME, CLICOLOR_FORCE, TERM, FC_CONTAINER_ID, ANDROID_HOME, UV_CACHE_DIR, FC_FUNCTION_HANDLER, KATA_CONTAINER, FC_CUSTOM_LISTEN_PORT, BUN_RUNTIME_TRANSPILER_CACHE_PATH, DATABASE_URL, FC_FUNCTION_NAME, MAIL, CLAWHUB_WORKDIR, LOGNAME, NO_COLOR, PWD, CLAWHUB_DISABLE_TELEMETRY, _, UV, SHELL, SIGMA_APP_NAME, FC_INSTANCE_ID, UV_PYTHON, OLDPWD, BUN_INSTALL, CLICOLOR, USER, PYTHONDONTWRITEBYTECODE, VIRTUAL_ENV, PYTHONUNBUFFERED, UV_RUN_RECURSION_DEPTH, DEBIAN_FRONTEND, FC_FUNCTION_MEMORY_SIZE, FC_ACCOUNT_ID, STEP_START_TIME, LC_CTYPE, SHLVL, HOME]
+2026-09-22T07:57:18.708+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2026-09-22T07:57:18.708+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 2140). The daemon log file: /home/z/.gradle/daemon/8.11.1/daemon-2140.out.log
+2026-09-22T07:57:18.713+0000 [INFO] [org.gradle.launcher.daemon.server.exec.LogAndCheckHealth] Starting 4th build in daemon [uptime: 40 mins 2.949 secs, performance: 99%, GC rate: 0.00/s, heap usage: 0% of 1.5 GiB, non-heap usage: 24% of 512 MiB]
+2026-09-22T07:57:18.714+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2026-09-22T07:57:18.714+0000 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=8856061b-f829-4215-96ff-2fb21514c3f8,javaHome=/home/z/jdk21,javaVersion=21,javaVendor=Eclipse Adoptium,daemonRegistryDir=/home/z/.gradle/daemon,pid=2140,idleTimeout=10800000,priority=NORMAL,applyInstrumentationAgent=true,nativeServicesMode=ENABLED,daemonOpts=-XX:MaxMetaspaceSize=512m,-Xmx1536m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so.----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+> Task :app:minifyReleaseWithR8
+> Task :app:lintVitalAnalyzeRelease

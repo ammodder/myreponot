@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Android 16 features and changes list",
+    "snippet": "Mar 3, 2026 — We're also introducing JobScheduler #getPendingJobReasonsHistory() , which returns the a list of the most recent pending job reason changes . Read more",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "Mar 3, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://nfctools.net",
+    "name": "Android 16 / API 36 Distribution",
+    "snippet": "Core Functionality. ART internal changes and performance updates: JobScheduler quota optimizations and new abandoned job reason (STOP_REASON_TIMEOUT_ABANDONED) ... Read more",
+    "host_name": "nfctools.net",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://qiita.com",
+    "name": "Android OSアップデート対応はBehavior changesから始めよう",
+    "snippet": "Aug 12, 2026 — ... JobScheduler quota optimizations - Abandoned empty jobs stop reason - Ordered broadcast ... Intent redirection attacks - Companion apps no ... Read more",
+    "host_name": "qiita.com",
+    "rank": 2,
+    "date": "Aug 12, 2026",
+    "favicon": ""
+  }
+]

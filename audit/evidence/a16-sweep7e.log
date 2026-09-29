@@ -1,0 +1,4 @@
+D1 brace balance: 97 kt files, 0 unbalanced
+D2 resource refs: 0 missing
+D3 routes: 46 ScreenKeys, 0 not routed
+D4 screen fns with (env: NavEnv): 46 across 48 files

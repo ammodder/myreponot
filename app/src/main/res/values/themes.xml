@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose-only host theme. All real theming happens in core/theme (AreenaxTheme). -->
+    <style name="Theme.Areenax" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/areena_window_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- SplashScreen API (androidx.core:core-splashscreen): brand icon on the
+         light canvas, then hands over to Theme.Areenax. -->
+    <style name="Theme.Areenax.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/areena_window_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/areenax_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.Areenax</item>
+    </style>
+</resources>

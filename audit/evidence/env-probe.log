@@ -1,0 +1,13 @@
+# Phase 0 runtime probe — 2026-09-19T09:21:01Z
+## JVM
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode, sharing)
+## SDK/tools
+adb NOT FOUND
+sdkmanager NOT FOUND
+avdmanager NOT FOUND
+emulator NOT FOUND
+aapt2 NOT FOUND
+ANDROID_HOME=unset
+## Gradle wrapper

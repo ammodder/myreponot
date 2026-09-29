@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://developer.android.com/google/play/requirements/target-sdk",
+    "name": "Meet Google Play's target API level requirement",
+    "snippet": "Starting August 31 2026: New apps and app updates must target Android 16 (API level 36 ) or higher to be submitted to Google Play; except for Wear OS and ...",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to/dainyjose/google-play-requires-android-16-api-level-36-by-august-31-2026-react-native-migration-guide-1d51",
+    "name": "Google Play Requires Android 16 (API Level 36) by August",
+    "snippet": "Jul 28, 2026 — Google Play has announced that starting August 31, 2026 , all new apps and app updates must target Android 16 (API level 36). Read more",
+    "host_name": "dev.to",
+    "rank": 1,
+    "date": "Jul 28, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.appinventor.mit.edu/t/google-requiring-api-36-android-16-update-for-new-developer-apps/174766",
+    "name": "Google requiring API 36 / Android 16 update for new",
+    "snippet": "Jul 21, 2026 — To provide users with a safe and secure experience, Google Play requires all apps to meet target API level requirements before Aug 31, 2026.” ...",
+    "host_name": "community.appinventor.mit.edu",
+    "rank": 2,
+    "date": "Jul 21, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://median.co/blog/google-plays-target-api-level-requirement-for-android-apps",
+    "name": "Google Play target API requirements for Android apps (2026)",
+    "snippet": "Jul 3, 2025 — Starting Aug . 31 , 2026 , new apps and updates must target Android 16 ( API 36 ), while existing apps must target Android 15 ( API 35) to remain ...",
+    "host_name": "median.co",
+    "rank": 3,
+    "date": "Jul 3, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/78729452/app-must-target-android-14-api-level-34-or-higher-is-showing-even-after-update",
+    "name": "App must target Android 14 (API level 34) or higher is",
+    "snippet": "I updated the target API level (targetsdkversion) of the project from 33 to 34. The build process was successful. Then I got some problems with the upload ...",
+    "host_name": "stackoverflow.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stora.sh/blog/2026-04-14-android-api-36-august-deadline-what-to-do-now",
+    "name": "Your Android App Has Until August 31 to Target API 36. Start",
+    "snippet": "Apr 14, 2026 — Google Play's rolling API level policy means apps that miss the Android 16 (API 36) deadline become invisible to new users on newer devices. Read more",
+    "host_name": "stora.sh",
+    "rank": 5,
+    "date": "Apr 14, 2026",
+    "favicon": ""
+  }
+]

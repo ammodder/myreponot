@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+    "name": "App testing requirements for new personal developer",
+    "snippet": "Developers with personal accounts created after November 13, 2023, must run a closed test for their app with a minimum of 12 testers who have been opted in ...",
+    "host_name": "support.google.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.testerscommunity.com",
+    "name": "Google Play Production Access | 12 Testers for 14 Days, $15",
+    "snippet": "Run your closed test with at least 12 testers for at least 14 days . This policy applies only to personal Google Play Console accounts created after November 13, ...",
+    "host_name": "www.testerscommunity.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.goodbarber.com",
+    "name": "Google Play closed testing: 12 testers, 14 days, solo",
+    "snippet": "Sep 11, 2026 — Google has required every new personal developer account to run a closed test with at least 12 testers opted in continuously for 14 days",
+    "host_name": "www.goodbarber.com",
+    "rank": 2,
+    "date": "Sep 11, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://getapphive.com",
+    "name": "The Ultimate Guide to Google Play Closed Testing  - App Hive",
+    "snippet": "May 25, 2026 — Google requires you to run a closed test with at least 12 testers for 14 days consecutively. And no, just having 12 friends download the APK via ...",
+    "host_name": "getapphive.com",
+    "rank": 3,
+    "date": "May 25, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://primetestlab.com",
+    "name": "Google Play 20 to 12 Testers: 2026 Closed Testing Rule",
+    "snippet": "Aug 17, 2026 — Google Play requires a closed test with at least 12 testers opted in continuously for at least 14 days … only for personal developer accounts ...",
+    "host_name": "primetestlab.com",
+    "rank": 4,
+    "date": "Aug 17, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/thread/398243168/clarification-on-14-day-12-tester-requirement-for-organization-accounts?hl=en",
+    "name": "Clarification on 14-Day/12-Tester Requirement for",
+    "snippet": "Dec 28, 2025 — I am setting up a professional developer presence and am deciding between account types. I understand that for Personal accounts created after November ...",
+    "host_name": "support.google.com",
+    "rank": 5,
+    "date": "Dec 28, 2025",
+    "favicon": ""
+  }
+]

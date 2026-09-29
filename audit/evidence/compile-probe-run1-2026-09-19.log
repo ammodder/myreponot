@@ -1,0 +1,452 @@
+== COMPILE PROBE 2026-09-19 14:47:05 UTC — throwaway copy at /tmp/buildprobe (project tree untouched) ==
+bootstrap: JDK 17.0.20.1 (~jdks) + cmdline-tools + platforms;android-35 + build-tools;35.0.0 (~android-sdk)
+probe fix (copy only): colors.xml XML comment '--' removed
+RESULT: BUILD FAILED — 319 compile errors (first real compile of this app ever)
+
+--- error type distribution ---
+    286 Unresolved reference 'X'.
+      6 No parameter with name 'X' found.
+      5 Argument type mismatch: actual type is 'X', but 'X' was expected.
+      4 Cannot infer type for this parameter. Please specify it explicitly.
+      3 Not enough information to infer type argument for 'X'.
+      2 Type 'X' has no method 'X', so it cannot serve as a delegate.
+      2 Type 'X' has no method 'X', so it cannot serve as a delegate for var (read-write property).
+      2 None of the following candidates is applicable:
+      2 @Composable invocations can only happen from the context of a @Composable function
+      1 Unresolved reference 'X'.----- End of the daemon log -----
+      1 This API is experimental and is likely to change in the future.
+      1 Syntax error: Unclosed comment.
+      1 One type argument expected. Use class 'X' if you don't intend to pass type arguments.
+      1 Expression expected, but package name found.
+      1 Condition type mismatch: inferred type is 'X' but 'X' was expected.
+      1 Assignment type mismatch: actual type is 'X', but 'X' was expected.
+
+--- errors per file ---
+     44 ui/screens/profile/AdminPanelScreen.kt
+     25 ui/screens/profile/GamesAdminSection.kt
+     20 ui/screens/social/FriendsScreen.kt
+     18 ui/screens/wallet/WalletScreen.kt
+     14 ui/screens/wallet/TransferScreen.kt
+     12 ui/screens/profile/AdminTournamentsScreen.kt
+     12 ui/screens/main/TournamentDetailsScreen.kt
+     10 ui/screens/profile/ResultProofsAdminSection.kt
+      9 ui/screens/profile/LeaderboardScreen.kt
+      9 ui/screens/profile/BindAccountScreen.kt
+      9 core/ui/QrSheet.kt
+      7 ui/screens/profile/EditProfileScreen.kt
+      7 ui/screens/host/HostDetailsScreen.kt
+      7 ui/screens/host/HostCreationScreen.kt
+      7 ui/screens/auth/LoginScreen.kt
+      6 ui/screens/wallet/WithdrawScreen.kt
+      6 ui/screens/social/TeamCreationScreen.kt
+      6 ui/screens/profile/AchievementsScreen.kt
+      5 ui/screens/wallet/DepositConfirmScreen.kt
+      5 ui/screens/social/TasksScreen.kt
+      5 ui/screens/social/ChatScreen.kt
+      5 ui/screens/auth/SignupStep3Screen.kt
+      5 core/ui/AccountRequiredDialog.kt
+      4 ui/screens/social/ReferEarnScreen.kt
+      4 ui/screens/social/NotificationsScreen.kt
+      4 ui/screens/social/MyTeamScreen.kt
+      4 ui/screens/profile/MyStatsScreen.kt
+      4 ui/screens/main/TournamentsScreen.kt
+      4 core/ui/ResultProofSheet.kt
+      4 core/theme/Theme.kt
+      3 ui/screens/wallet/DepositScreen.kt
+      3 ui/screens/wallet/ConfirmWithdrawScreen.kt
+      3 ui/screens/main/HomeScreen.kt
+      2 ui/screens/profile/ProfileScreen.kt
+      2 ui/screens/main/ResultsScreen.kt
+      2 ui/screens/main/MyTournamentScreen.kt
+      2 ui/screens/host/HostTournamentScreen.kt
+      2 ui/screens/host/HostCardsScreen.kt
+      2 core/ui/RoomInfoSheet.kt
+      2 core/ui/EmptyState.kt
+      2 core/ui/BankSelectSheet.kt
+      2 core/network/ApiClient.kt
+      2 core/nav/NavEnv.kt
+      1 ui/screens/info/OfflineScreen.kt
+      1 ui/screens/auth/SignupScreen.kt
+      1 core/ui/WhatsAppFab.kt
+      1 core/ui/ToastHost.kt
+      1 core/ui/TeamJoinSheet.kt
+      1 core/ui/QRCodeImage.kt
+      1 core/ui/PlaceholderScreen.kt
+      1 core/ui/AppShell.kt
+      1 core/theme/Type.kt
+
+--- FULL RAW LOG ---
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues FROM-CACHE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:processDebugMainManifest
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:packageDebugResources
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:parseDebugLocalResources
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:processDebugResources
+> Task :app:checkDebugDuplicateClasses
+> Task :app:compileDebugKotlin
+> Task :app:mergeExtDexDebug
+
+> Task :app:compileDebugKotlin
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/nav/NavEnv.kt:32:16 Unresolved reference 'ToastController'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/nav/NavEnv.kt:82:15 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/network/ApiClient.kt:119:13 Unresolved reference 'onUnauthorized'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/network/ApiClient.kt:119:29 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/theme/Theme.kt:80:5 No parameter with name 'primaryFixed' found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/theme/Theme.kt:81:5 No parameter with name 'onPrimaryFixed' found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/theme/Theme.kt:120:5 No parameter with name 'primaryFixed' found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/theme/Theme.kt:121:5 No parameter with name 'onPrimaryFixed' found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/theme/Type.kt:32:62 This API is experimental and is likely to change in the future.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/AccountRequiredDialog.kt:54:14 Type 'androidx.compose.runtime.MutableState<kotlin.Boolean>' has no method 'getValue(GuestGateState, KMutableProperty1<*, *>)', so it cannot serve as a delegate.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/AccountRequiredDialog.kt:54:14 Type 'androidx.compose.runtime.MutableState<kotlin.Boolean>' has no method 'setValue(GuestGateState, KMutableProperty1<*, *>, ERROR CLASS: Unresolved name: getValue)', so it cannot serve as a delegate for var (read-write property).
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/AccountRequiredDialog.kt:56:17 Type 'androidx.compose.runtime.MutableState<kotlin.String?>' has no method 'getValue(GuestGateState, KMutableProperty1<*, *>)', so it cannot serve as a delegate.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/AccountRequiredDialog.kt:56:17 Type 'androidx.compose.runtime.MutableState<kotlin.String?>' has no method 'setValue(GuestGateState, KMutableProperty1<*, *>, ERROR CLASS: Unresolved name: getValue)', so it cannot serve as a delegate for var (read-write property).
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/AccountRequiredDialog.kt:143:55 Unresolved reference 'primaryFixed'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/AppShell.kt:210:13 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/BankSelectSheet.kt:144:47 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/BankSelectSheet.kt:145:45 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/EmptyState.kt:11:43 Unresolved reference 'minHeight'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/EmptyState.kt:48:14 Unresolved reference 'minHeight'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/PlaceholderScreen.kt:75:1 Syntax error: Unclosed comment.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QRCodeImage.kt:74:13 Unresolved reference 'Box'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:116:25 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:362:29 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:374:46 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:384:13 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:472:54 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:502:31 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:540:29 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:556:54 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:594:31 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:41:40 Unresolved reference 'UploadCaps'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:158:29 Unresolved reference 'Color'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:207:43 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:230:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/RoomInfoSheet.kt:125:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/RoomInfoSheet.kt:204:25 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/TeamJoinSheet.kt:265:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/ToastHost.kt:197:52 None of the following candidates is applicable:
+fun copy(brush: Brush?, alpha: Float = ..., fontSize: TextUnit = ..., fontWeight: FontWeight? = ..., fontStyle: FontStyle? = ..., fontSynthesis: FontSynthesis? = ..., fontFamily: FontFamily? = ..., fontFeatureSettings: String? = ..., letterSpacing: TextUnit = ..., baselineShift: BaselineShift? = ..., textGeometricTransform: TextGeometricTransform? = ..., localeList: LocaleList? = ..., background: Color = ..., textDecoration: TextDecoration? = ..., shadow: Shadow? = ..., drawStyle: DrawStyle? = ..., textAlign: TextAlign = ..., textDirection: TextDirection = ..., lineHeight: TextUnit = ..., textIndent: TextIndent? = ..., platformStyle: PlatformTextStyle? = ..., lineHeightStyle: LineHeightStyle? = ..., lineBreak: LineBreak = ..., hyphens: Hyphens = ..., textMotion: TextMotion? = ...): TextStyle
+fun copy(color: Color = ..., fontSize: TextUnit = ..., fontWeight: FontWeight? = ..., fontStyle: FontStyle? = ..., fontSynthesis: FontSynthesis? = ..., fontFamily: FontFamily? = ..., fontFeatureSettings: String? = ..., letterSpacing: TextUnit = ..., baselineShift: BaselineShift? = ..., textGeometricTransform: TextGeometricTransform? = ..., localeList: LocaleList? = ..., background: Color = ..., textDecoration: TextDecoration? = ..., shadow: Shadow? = ..., drawStyle: DrawStyle? = ..., textAlign: TextAlign = ..., textDirection: TextDirection = ..., lineHeight: TextUnit = ..., textIndent: TextIndent? = ..., platformStyle: PlatformTextStyle? = ..., lineHeightStyle: LineHeightStyle? = ..., lineBreak: LineBreak = ..., hyphens: Hyphens = ..., textMotion: TextMotion? = ...): TextStyle
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/core/ui/WhatsAppFab.kt:67:17 Unresolved reference 'areenaColors'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:387:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:389:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:406:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:408:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:459:16 Unresolved reference 'TextStyle'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:492:39 Unresolved reference 'copy'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/LoginScreen.kt:503:51 Unresolved reference 'copy'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/SignupScreen.kt:201:33 Condition type mismatch: inferred type is 'kotlin.String' but 'Boolean' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/SignupStep3Screen.kt:400:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/SignupStep3Screen.kt:421:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/SignupStep3Screen.kt:429:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/SignupStep3Screen.kt:443:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/auth/SignupStep3Screen.kt:447:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCardsScreen.kt:29:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCardsScreen.kt:79:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:195:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:230:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:242:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:247:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:588:63 Unresolved reference 'primaryFixed'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:630:67 Unresolved reference 'primaryFixed'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:968:75 Unresolved reference 'primaryFixed'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:62:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:140:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:152:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:168:17 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:603:83 Unresolved reference 'surfaceContainerLavender'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:647:83 Unresolved reference 'surfaceContainerLavender'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:877:30 Unresolved reference 'widthIn'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostTournamentScreen.kt:57:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostTournamentScreen.kt:147:29 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/info/OfflineScreen.kt:139:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/HomeScreen.kt:64:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/HomeScreen.kt:229:48 Argument type mismatch: actual type is 'androidx.compose.animation.EnterTransition', but 'androidx.compose.animation.ExitTransition' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/HomeScreen.kt:240:33 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/MyTournamentScreen.kt:50:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/MyTournamentScreen.kt:160:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/ResultsScreen.kt:55:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/ResultsScreen.kt:107:13 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:78:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:176:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:182:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:187:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:190:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:204:13 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:275:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:287:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:290:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:432:19 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:1047:35 Argument type mismatch: actual type is 'kotlin.Unit', but '@Composable() androidx.compose.runtime.internal.ComposableFunction0<kotlin.Unit>' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:1055:35 Argument type mismatch: actual type is 'kotlin.Unit', but '@Composable() androidx.compose.runtime.internal.ComposableFunction0<kotlin.Unit>' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentsScreen.kt:14:43 Unresolved reference 'minHeight'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentsScreen.kt:48:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentsScreen.kt:140:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentsScreen.kt:261:14 Unresolved reference 'minHeight'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt:59:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt:100:45 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt:105:52 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt:133:17 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt:190:63 @Composable invocations can only happen from the context of a @Composable function
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt:199:63 @Composable invocations can only happen from the context of a @Composable function
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:46:39 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:61:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:120:34 Unresolved reference 'collectAsState'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:121:22 Unresolved reference 'role'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:189:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:403:71 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:404:69 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:409:76 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:470:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:478:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:512:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:531:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:540:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:545:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:588:17 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:830:29 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:897:39 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:905:39 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:965:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:968:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:973:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:986:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1007:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1013:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1018:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1037:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1046:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1051:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1078:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1084:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1089:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1123:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1153:17 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1197:98 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1703:29 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1766:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1782:63 Argument type mismatch: actual type is 'com.areenax.nativeapp.core.network.AdminReconcileResponse', but 'com.areenax.nativeapp.data.AdminSecurityResponse' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1785:39 Assignment type mismatch: actual type is 'kotlin.collections.List<com.areenax.nativeapp.data.AdminSecurityItem>', but 'kotlin.collections.List<com.areenax.nativeapp.data.AdminReconcileRow>?' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1787:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1792:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1856:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:1938:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:2119:27 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt:2172:31 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:42:39 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:55:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:151:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:168:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:173:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:178:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:205:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:210:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:215:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:256:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:618:154 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminTournamentsScreen.kt:777:27 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:37:39 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:52:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:91:34 Unresolved reference 'collectAsState'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:132:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:396:48 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:418:39 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:430:57 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:435:64 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/BindAccountScreen.kt:512:31 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:182:47 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:188:65 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:193:72 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:255:51 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:262:51 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:270:51 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/EditProfileScreen.kt:327:47 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:39:39 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:97:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:105:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:127:51 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:128:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:136:17 Expression expected, but package name found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:136:24 One type argument expected. Use class 'Success' if you don't intend to pass type arguments.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:149:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:152:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:155:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:166:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:170:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:173:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:184:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:187:49 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:190:56 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:233:47 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:21 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:21 Not enough information to infer type argument for 'T'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:21 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:21 Not enough information to infer type argument for 'T'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:32 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:32 Not enough information to infer type argument for 'T'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:386:47 None of the following candidates is applicable:
+fun String(bytes: ByteArray): String
+fun String(chars: CharArray): String
+fun String(stringBuffer: StringBuffer): String
+fun String(stringBuilder: StringBuilder): String
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/GamesAdminSection.kt:703:27 Unresolved reference 'KeyboardOptions'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:50:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:96:53 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:101:60 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:153:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:254:101 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:345:99 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:372:77 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:432:72 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/LeaderboardScreen.kt:460:73 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/MyStatsScreen.kt:44:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/MyStatsScreen.kt:71:45 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/MyStatsScreen.kt:76:52 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/MyStatsScreen.kt:102:17 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:165:46 Unresolved reference 'charAt'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:379:19 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:45:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:93:39 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:104:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:114:35 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:135:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:143:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:180:17 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:336:29 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:375:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ResultProofsAdminSection.kt:420:14 Unresolved reference 'pressScale'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:55:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:140:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:142:43 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:197:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:247:38 Unresolved reference 'letter'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:60:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:193:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:199:43 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:229:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:231:43 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:363:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:385:49 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:392:49 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:398:49 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:436:29 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:580:61 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:633:57 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:793:33 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:807:33 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:870:29 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:896:29 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:982:37 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:1080:45 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:1131:37 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt:1165:25 Unresolved reference 'width'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/MyTeamScreen.kt:58:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/MyTeamScreen.kt:159:21 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/MyTeamScreen.kt:436:59 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/MyTeamScreen.kt:438:71 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/NotificationsScreen.kt:50:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/NotificationsScreen.kt:120:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/NotificationsScreen.kt:122:43 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/NotificationsScreen.kt:197:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ReferEarnScreen.kt:56:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ReferEarnScreen.kt:113:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ReferEarnScreen.kt:132:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ReferEarnScreen.kt:191:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TasksScreen.kt:48:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TasksScreen.kt:100:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TasksScreen.kt:112:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TasksScreen.kt:114:43 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TasksScreen.kt:186:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt:64:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt:123:31 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt:125:43 Unresolved reference 'message'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt:154:21 Unresolved reference 'Icon'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt:508:25 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt:510:25 Unresolved reference 'Icon'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/ConfirmWithdrawScreen.kt:126:53 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/ConfirmWithdrawScreen.kt:131:60 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/ConfirmWithdrawScreen.kt:266:24 Argument type mismatch: actual type is 'androidx.compose.ui.Alignment', but 'androidx.compose.ui.Alignment.Horizontal' was expected.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:156:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:164:46 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:169:42 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:201:57 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:206:64 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositScreen.kt:142:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositScreen.kt:148:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:124:53 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:129:54 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:134:73 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:163:57 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:168:64 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:529:65 Unresolved reference 'Color'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:558:29 No parameter with name 'pivot' found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:54:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:144:34 Unresolved reference 'collectAsState'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:146:60 Unresolved reference 'balance'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:165:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:173:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:297:59 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:309:59 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:321:59 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:445:37 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WithdrawScreen.kt:132:54 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WithdrawScreen.kt:137:46 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WithdrawScreen.kt:142:73 Unresolved reference 'show'.
+
+> Task :app:compileDebugKotlin FAILED
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=b22ecae2-bb19-4aec-bd74-508ae71bf1db, currentDir=/tmp/buildprobe}
+Attempting to read last messages from the daemon log...
+Daemon pid: 2067
+  log file: /home/z/.gradle/daemon/8.10.2/daemon-2067.out.log
+----- Last 20 lines from daemon log file - daemon-2067.out.log -----
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositScreen.kt:148:23 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:124:53 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:129:54 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:134:73 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:163:57 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:168:64 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:529:65 Unresolved reference 'Color'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt:558:29 No parameter with name 'pivot' found.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:54:38 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:144:34 Unresolved reference 'collectAsState'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:146:60 Unresolved reference 'balance'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:165:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:173:27 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:297:59 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:309:59 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:321:59 Unresolved reference 'isGuest'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt:445:37 Unresolved reference 'AreenaxSpinner'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WithdrawScreen.kt:132:54 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WithdrawScreen.kt:137:46 Unresolved reference 'show'.
+e: file:///tmp/buildprobe/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WithdrawScreen.kt:142:73 Unresolved reference 'show'.----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.

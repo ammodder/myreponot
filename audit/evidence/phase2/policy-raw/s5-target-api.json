@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Meet Google Play's target API level requirement",
+    "snippet": "Starting August 31 2026: New apps and app updates must target Android 16 ( API level 36 ) or higher to be submitted to Google Play ; except for Wear OS and ...",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://median.co",
+    "name": "Google Play target API requirements for Android apps (2026)",
+    "snippet": "Jul 3, 2025 — Starting Aug. 31, 2026, new apps and updates must target Android 16 ( API 36 ), while existing apps must target Android 15 ( API 35 ) to remain ...",
+    "host_name": "median.co",
+    "rank": 1,
+    "date": "Jul 3, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/thread/332635068/android-target-sdk-35-deadline?hl=en",
+    "name": "Android target sdk 35 deadline",
+    "snippet": "Mar 21, 2025 — Any Idea about Android target sdk 35 deadline?",
+    "host_name": "support.google.com",
+    "rank": 2,
+    "date": "Mar 21, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://dev.to",
+    "name": "Google Play Requires Android 16 (API Level 36) by August",
+    "snippet": "Jul 28, 2026 — Google Play has announced that starting August 31, 2026 , all new apps and app updates must target Android 16 (API level 36). Read more",
+    "host_name": "dev.to",
+    "rank": 3,
+    "date": "Jul 28, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://discussions.unity.com",
+    "name": "\"[Action required] Your apps are affected by Google Play's",
+    "snippet": "Jul 22, 2026 — To provide users with a safe and secure experience, Google Play requires all apps to meet target API level requirements before Aug 31, 2026.”. Read more",
+    "host_name": "discussions.unity.com",
+    "rank": 4,
+    "date": "Jul 22, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "Target Android 16 (API level 36) for Google Play compliance",
+    "snippet": "Aug 10, 2026 — Apps must target Android 16 ( API level 36 ) or higher to continue releasing updates after the August 31, 2026 deadline . Scope. Update the Android ... Read more",
+    "host_name": "github.com",
+    "rank": 5,
+    "date": "Aug 10, 2026",
+    "favicon": ""
+  }
+]

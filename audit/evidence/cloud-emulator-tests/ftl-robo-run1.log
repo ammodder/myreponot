@@ -1,0 +1,9 @@
+
+Have questions, feedback, or issues? Get support by visiting:
+  https://firebase.google.com/support/
+
+Uploading [/home/z/ftl-build/AreenaxNativeAndroid/app/build/outputs/apk/debug/app-debug.apk] to Firebase Test Lab...
+ERROR: (gcloud.firebase.test.android.run) Could not copy [/home/z/ftl-build/AreenaxNativeAndroid/app/build/outputs/apk/debug/app-debug.apk] to [gs://test-lab-rhypt391py6z0-ikf9qq9rt5qsq/areenax-robo-20260921-1/] ResponseError 403: The billing account for the owning project is disabled in state absent.
+=== FTL run 1 blocker evidence — 2026-09-21 23:16 PKT
+ERROR: 403 'The billing account for the owning project is disabled in state absent' on APK upload to gs://test-lab-rhypt391py6z0-ikf9qq9rt5qsq
+Bucket was auto-created by FTL; upload/write requires project billing linked (Spark free tier included).

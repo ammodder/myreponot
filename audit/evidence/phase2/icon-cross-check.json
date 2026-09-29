@@ -1,0 +1,103 @@
+{
+  "tool": "icon_audit.py cross-check",
+  "generated_at": "2026-09-20T19:08:27+00:00",
+  "mapping_rule": "web glyph 'x' -> res/drawable/ic_x.xml; FILL'1' usage -> ic_x_fill.xml; lucide import -> ic_lucide_<snake>.xml; inline <svg> -> ic_inline_<screen>_<slug>.xml; runtime resolver AreenaxIcon.kt iconResId(name, filled) with alias table + reserved fill set",
+  "resolver": {
+    "file": "app/src/main/java/com/areenax/nativeapp/core/ui/AreenaxIcon.kt",
+    "aliases": {
+      "trophy": "trophy",
+      "warning": "error",
+      "tournament": "tune",
+      "qr_code_scanner": "qr_code_2",
+      "quiz": "assignment",
+      "chevron-right": "chevron_right"
+    },
+    "reserved_fill": [
+      "account_balance",
+      "account_balance_wallet",
+      "bolt",
+      "check",
+      "check_circle",
+      "credit_card",
+      "crown",
+      "done",
+      "done_all",
+      "emoji_events",
+      "group",
+      "home",
+      "key",
+      "lock",
+      "person",
+      "person_add",
+      "verified",
+      "visibility",
+      "visibility_off"
+    ],
+    "fallback": "ic_help"
+  },
+  "missing_live": [],
+  "missing_fill_variant": [],
+  "mismatched_style": [
+    {
+      "glyph": "groups",
+      "web": "FILL'1'",
+      "native_renders": "outlined",
+      "reason": "ic_groups.xml exists but 'groups' is NOT in AreenaxIcon.kt reserved set and no static R.drawable.ic_groups ref -> iconResId(name, filled=true) returns the OUTLINED drawable",
+      "web_fill_at": [
+        "src/components/shared/JoinTeamSheet.tsx:325"
+      ]
+    }
+  ],
+  "missing_design_pages_only": [
+    {
+      "glyph": "unfold_more",
+      "target_res": "ic_unfold_more",
+      "design_pages": [
+        "upload/pages_extracted/pages/freinds.html"
+      ]
+    },
+    {
+      "glyph": "sports_handball",
+      "target_res": "ic_sports_handball",
+      "design_pages": [
+        "upload/pages_extracted/pages/hosttournamentcreation.html"
+      ]
+    },
+    {
+      "glyph": "qr_code",
+      "target_res": "ic_qr_code",
+      "design_pages": [
+        "upload/pages_extracted/pages/profile.html"
+      ]
+    }
+  ],
+  "extra_native_not_in_web": [
+    "ic_lucide_arrow_left",
+    "ic_lucide_arrow_right",
+    "ic_lucide_check",
+    "ic_lucide_chevron_down",
+    "ic_lucide_chevron_left",
+    "ic_lucide_chevron_right",
+    "ic_lucide_chevron_up",
+    "ic_lucide_circle",
+    "ic_lucide_grip_vertical",
+    "ic_lucide_minus",
+    "ic_lucide_more_horizontal",
+    "ic_lucide_panel_left",
+    "ic_lucide_search",
+    "ic_lucide_x"
+  ],
+  "extra_fill_never_used_by_web_or_code": [],
+  "counts": {
+    "web_glyphs": 115,
+    "native_drawables": 155,
+    "missing_live": 0,
+    "missing_fill_variant": 0,
+    "mismatched_style": 1,
+    "missing_design_pages_only": 3,
+    "extra_native_not_in_web": 14,
+    "extra_fill_never_used_by_web_or_code": 0
+  },
+  "design_scope_note": "missing_design_pages_only = glyphs found only in upload/pages_extracted/pages (design mockups), not in the live panel src \u2014 candidates are design-intent, lower priority than live-panel missing.",
+  "admin_scope_note": "src/components/admin/** is a separate web console, out of scope for the native user app per SPEC/ICONS.md \u2014 glyphs used only there (e.g. fact_check, settings, security, replay) are NOT counted missing."
+}

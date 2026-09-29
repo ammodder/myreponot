@@ -1,0 +1,2013 @@
+{
+  "tool": "icon_audit.py scan-native",
+  "generated_at": "2026-09-20T19:08:26+00:00",
+  "android_root": "/home/z/audit-wt/AreenaxNativeAndroid",
+  "read_only": true,
+  "counts": {
+    "res_dirs": [
+      "drawable"
+    ],
+    "mipmap_dirs": [],
+    "files_total": 155,
+    "xml": 154,
+    "png": 1,
+    "vector_drawables": 154,
+    "by_dir": {
+      "drawable": 155
+    },
+    "hard_ref_drawable": 53,
+    "hard_ref_mipmap": 0
+  },
+  "manifest_icon": [
+    "@drawable/areenax_logo"
+  ],
+  "resolver": {
+    "file": "app/src/main/java/com/areenax/nativeapp/core/ui/AreenaxIcon.kt",
+    "aliases": {
+      "trophy": "trophy",
+      "warning": "error",
+      "tournament": "tune",
+      "qr_code_scanner": "qr_code_2",
+      "quiz": "assignment",
+      "chevron-right": "chevron_right"
+    },
+    "reserved_fill": [
+      "account_balance",
+      "account_balance_wallet",
+      "bolt",
+      "check",
+      "check_circle",
+      "credit_card",
+      "crown",
+      "done",
+      "done_all",
+      "emoji_events",
+      "group",
+      "home",
+      "key",
+      "lock",
+      "person",
+      "person_add",
+      "verified",
+      "visibility",
+      "visibility_off"
+    ],
+    "fallback": "ic_help"
+  },
+  "files": [
+    {
+      "resource": "areenax_logo",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/areenax_logo.png",
+      "ext": "png",
+      "bytes": 41256,
+      "kind": "png"
+    },
+    {
+      "resource": "ic_account_balance",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_account_balance.xml",
+      "ext": "xml",
+      "bytes": 530,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_account_balance_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_account_balance_fill.xml",
+      "ext": "xml",
+      "bytes": 478,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_account_balance_wallet",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_account_balance_wallet.xml",
+      "ext": "xml",
+      "bytes": 813,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_account_balance_wallet_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_account_balance_wallet_fill.xml",
+      "ext": "xml",
+      "bytes": 765,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_account_circle",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_account_circle.xml",
+      "ext": "xml",
+      "bytes": 1065,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_add",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_add.xml",
+      "ext": "xml",
+      "bytes": 389,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_add_card",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_add_card.xml",
+      "ext": "xml",
+      "bytes": 571,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_add_circle",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_add_circle.xml",
+      "ext": "xml",
+      "bytes": 729,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_add_photo_alternate",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_add_photo_alternate.xml",
+      "ext": "xml",
+      "bytes": 606,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_admin_panel_settings",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_admin_panel_settings.xml",
+      "ext": "xml",
+      "bytes": 900,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_arrow_back",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_arrow_back.xml",
+      "ext": "xml",
+      "bytes": 398,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_arrow_downward",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_arrow_downward.xml",
+      "ext": "xml",
+      "bytes": 401,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_arrow_drop_down",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_arrow_drop_down.xml",
+      "ext": "xml",
+      "bytes": 354,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_arrow_forward",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_arrow_forward.xml",
+      "ext": "xml",
+      "bytes": 400,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_arrow_upward",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_arrow_upward.xml",
+      "ext": "xml",
+      "bytes": 402,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_assignment",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_assignment.xml",
+      "ext": "xml",
+      "bytes": 767,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_backspace",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_backspace.xml",
+      "ext": "xml",
+      "bytes": 655,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_balance",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_balance.xml",
+      "ext": "xml",
+      "bytes": 815,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_bar_chart",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_bar_chart.xml",
+      "ext": "xml",
+      "bytes": 410,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_bolt",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_bolt.xml",
+      "ext": "xml",
+      "bytes": 454,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_bolt_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_bolt_fill.xml",
+      "ext": "xml",
+      "bytes": 384,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_broken_image",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_broken_image.xml",
+      "ext": "xml",
+      "bytes": 631,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_calculate",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_calculate.xml",
+      "ext": "xml",
+      "bytes": 766,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_calendar_month",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_calendar_month.xml",
+      "ext": "xml",
+      "bytes": 1279,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_call",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_call.xml",
+      "ext": "xml",
+      "bytes": 745,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_campaign",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_campaign.xml",
+      "ext": "xml",
+      "bytes": 690,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_cancel",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_cancel.xml",
+      "ext": "xml",
+      "bytes": 782,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_card_giftcard",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_card_giftcard.xml",
+      "ext": "xml",
+      "bytes": 993,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_chat_bubble",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_chat_bubble.xml",
+      "ext": "xml",
+      "bytes": 496,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_check",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_check.xml",
+      "ext": "xml",
+      "bytes": 383,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_check_circle",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_check_circle.xml",
+      "ext": "xml",
+      "bytes": 726,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_check_circle_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_check_circle_fill.xml",
+      "ext": "xml",
+      "bytes": 611,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_check_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_check_fill.xml",
+      "ext": "xml",
+      "bytes": 383,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_checklist",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_checklist.xml",
+      "ext": "xml",
+      "bytes": 497,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_chevron_left",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_chevron_left.xml",
+      "ext": "xml",
+      "bytes": 383,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_chevron_right",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_chevron_right.xml",
+      "ext": "xml",
+      "bytes": 385,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_close",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_close.xml",
+      "ext": "xml",
+      "bytes": 441,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_cloud_upload",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_cloud_upload.xml",
+      "ext": "xml",
+      "bytes": 777,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_content_copy",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_content_copy.xml",
+      "ext": "xml",
+      "bytes": 579,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_credit_card",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_credit_card.xml",
+      "ext": "xml",
+      "bytes": 536,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_credit_card_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_credit_card_fill.xml",
+      "ext": "xml",
+      "bytes": 489,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_crown",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_crown.xml",
+      "ext": "xml",
+      "bytes": 857,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_crown_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_crown_fill.xml",
+      "ext": "xml",
+      "bytes": 778,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_dark_mode",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_dark_mode.xml",
+      "ext": "xml",
+      "bytes": 695,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_delete",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_delete.xml",
+      "ext": "xml",
+      "bytes": 557,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_description",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_description.xml",
+      "ext": "xml",
+      "bytes": 575,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_diversity_3",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_diversity_3.xml",
+      "ext": "xml",
+      "bytes": 1063,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_done",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_done.xml",
+      "ext": "xml",
+      "bytes": 383,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_done_all",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_done_all.xml",
+      "ext": "xml",
+      "bytes": 477,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_done_all_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_done_all_fill.xml",
+      "ext": "xml",
+      "bytes": 477,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_done_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_done_fill.xml",
+      "ext": "xml",
+      "bytes": 383,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_download",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_download.xml",
+      "ext": "xml",
+      "bytes": 505,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_edit",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_edit.xml",
+      "ext": "xml",
+      "bytes": 568,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_edit_note",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_edit_note.xml",
+      "ext": "xml",
+      "bytes": 659,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_emoji_events",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_emoji_events.xml",
+      "ext": "xml",
+      "bytes": 745,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_emoji_events_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_emoji_events_fill.xml",
+      "ext": "xml",
+      "bytes": 665,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_error",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_error.xml",
+      "ext": "xml",
+      "bytes": 810,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_expand_less",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_expand_less.xml",
+      "ext": "xml",
+      "bytes": 386,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_expand_more",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_expand_more.xml",
+      "ext": "xml",
+      "bytes": 383,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_forum",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_forum.xml",
+      "ext": "xml",
+      "bytes": 597,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_gavel",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_gavel.xml",
+      "ext": "xml",
+      "bytes": 485,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_grid_view",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_grid_view.xml",
+      "ext": "xml",
+      "bytes": 597,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_group",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_group.xml",
+      "ext": "xml",
+      "bytes": 1085,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_group_add",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_group_add.xml",
+      "ext": "xml",
+      "bytes": 1077,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_group_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_group_fill.xml",
+      "ext": "xml",
+      "bytes": 815,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_groups",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_groups.xml",
+      "ext": "xml",
+      "bytes": 1165,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_groups_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_groups_fill.xml",
+      "ext": "xml",
+      "bytes": 957,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_help",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_help.xml",
+      "ext": "xml",
+      "bytes": 1000,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_home",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_home.xml",
+      "ext": "xml",
+      "bytes": 462,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_home_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_home_fill.xml",
+      "ext": "xml",
+      "bytes": 385,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_hourglass_top",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_hourglass_top.xml",
+      "ext": "xml",
+      "bytes": 588,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_how_to_reg",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_how_to_reg.xml",
+      "ext": "xml",
+      "bytes": 807,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_image",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_image.xml",
+      "ext": "xml",
+      "bytes": 563,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_info",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_info.xml",
+      "ext": "xml",
+      "bytes": 808,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_inline_about_chevron_right",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_inline_about_chevron_right.xml",
+      "ext": "xml",
+      "bytes": 434,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_inline_leaderboard_crown",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_inline_leaderboard_crown.xml",
+      "ext": "xml",
+      "bytes": 374,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_inline_teamcreation_send",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_inline_teamcreation_send.xml",
+      "ext": "xml",
+      "bytes": 509,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_inline_teamcreation_shield_check",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_inline_teamcreation_shield_check.xml",
+      "ext": "xml",
+      "bytes": 400,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_inline_whatsappfab_whatsapp_logo",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_inline_whatsappfab_whatsapp_logo.xml",
+      "ext": "xml",
+      "bytes": 1639,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_key",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_key.xml",
+      "ext": "xml",
+      "bytes": 760,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_key_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_key_fill.xml",
+      "ext": "xml",
+      "bytes": 578,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_keyboard",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_keyboard.xml",
+      "ext": "xml",
+      "bytes": 805,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_keyboard_hide",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_keyboard_hide.xml",
+      "ext": "xml",
+      "bytes": 839,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_leaderboard",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_leaderboard.xml",
+      "ext": "xml",
+      "bytes": 459,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lock",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lock.xml",
+      "ext": "xml",
+      "bytes": 769,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lock_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lock_fill.xml",
+      "ext": "xml",
+      "bytes": 718,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lock_open",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lock_open.xml",
+      "ext": "xml",
+      "bytes": 751,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_logout",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_logout.xml",
+      "ext": "xml",
+      "bytes": 507,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_arrow_left",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_arrow_left.xml",
+      "ext": "xml",
+      "bytes": 648,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_arrow_right",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_arrow_right.xml",
+      "ext": "xml",
+      "bytes": 645,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_check",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_check.xml",
+      "ext": "xml",
+      "bytes": 424,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_chevron_down",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_chevron_down.xml",
+      "ext": "xml",
+      "bytes": 421,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_chevron_left",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_chevron_left.xml",
+      "ext": "xml",
+      "bytes": 425,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_chevron_right",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_chevron_right.xml",
+      "ext": "xml",
+      "bytes": 424,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_chevron_up",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_chevron_up.xml",
+      "ext": "xml",
+      "bytes": 425,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_circle",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_circle.xml",
+      "ext": "xml",
+      "bytes": 452,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_grip_vertical",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_grip_vertical.xml",
+      "ext": "xml",
+      "bytes": 1717,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_minus",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_minus.xml",
+      "ext": "xml",
+      "bytes": 415,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_more_horizontal",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_more_horizontal.xml",
+      "ext": "xml",
+      "bytes": 956,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_panel_left",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_panel_left.xml",
+      "ext": "xml",
+      "bytes": 724,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_search",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_search.xml",
+      "ext": "xml",
+      "bytes": 681,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_lucide_x",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_lucide_x.xml",
+      "ext": "xml",
+      "bytes": 642,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_mail",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_mail.xml",
+      "ext": "xml",
+      "bytes": 565,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_map",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_map.xml",
+      "ext": "xml",
+      "bytes": 651,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_military_tech",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_military_tech.xml",
+      "ext": "xml",
+      "bytes": 582,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_my_location",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_my_location.xml",
+      "ext": "xml",
+      "bytes": 846,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_no_photography",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_no_photography.xml",
+      "ext": "xml",
+      "bytes": 893,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_notifications",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_notifications.xml",
+      "ext": "xml",
+      "bytes": 634,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_outbox",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_outbox.xml",
+      "ext": "xml",
+      "bytes": 728,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_payment_arrow_down",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_payment_arrow_down.xml",
+      "ext": "xml",
+      "bytes": 795,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_payments",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_payments.xml",
+      "ext": "xml",
+      "bytes": 786,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_person",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_person.xml",
+      "ext": "xml",
+      "bytes": 825,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_person_add",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_person_add.xml",
+      "ext": "xml",
+      "bytes": 894,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_person_add_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_person_add_fill.xml",
+      "ext": "xml",
+      "bytes": 627,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_person_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_person_fill.xml",
+      "ext": "xml",
+      "bytes": 558,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_person_search",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_person_search.xml",
+      "ext": "xml",
+      "bytes": 1008,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_publish",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_publish.xml",
+      "ext": "xml",
+      "bytes": 509,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_qr_code_2",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_qr_code_2.xml",
+      "ext": "xml",
+      "bytes": 952,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_radio_button_unchecked",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_radio_button_unchecked.xml",
+      "ext": "xml",
+      "bytes": 659,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_receipt_long",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_receipt_long.xml",
+      "ext": "xml",
+      "bytes": 933,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_refresh",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_refresh.xml",
+      "ext": "xml",
+      "bytes": 566,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_remove_circle_outline",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_remove_circle_outline.xml",
+      "ext": "xml",
+      "bytes": 689,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_save",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_save.xml",
+      "ext": "xml",
+      "bytes": 638,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_schedule",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_schedule.xml",
+      "ext": "xml",
+      "bytes": 734,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_screenshot_monitor",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_screenshot_monitor.xml",
+      "ext": "xml",
+      "bytes": 608,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_search",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_search.xml",
+      "ext": "xml",
+      "bytes": 614,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_send",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_send.xml",
+      "ext": "xml",
+      "bytes": 429,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_sentiment_satisfied",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_sentiment_satisfied.xml",
+      "ext": "xml",
+      "bytes": 1031,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_share",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_share.xml",
+      "ext": "xml",
+      "bytes": 1120,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_shield",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_shield.xml",
+      "ext": "xml",
+      "bytes": 517,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_sports_esports",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_sports_esports.xml",
+      "ext": "xml",
+      "bytes": 1027,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_stadium",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_stadium.xml",
+      "ext": "xml",
+      "bytes": 942,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_star",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_star.xml",
+      "ext": "xml",
+      "bytes": 535,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_support_agent",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_support_agent.xml",
+      "ext": "xml",
+      "bytes": 1044,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_swap_horiz",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_swap_horiz.xml",
+      "ext": "xml",
+      "bytes": 478,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_sync_alt",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_sync_alt.xml",
+      "ext": "xml",
+      "bytes": 478,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_tag",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_tag.xml",
+      "ext": "xml",
+      "bytes": 558,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_task_alt",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_task_alt.xml",
+      "ext": "xml",
+      "bytes": 752,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_timer",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_timer.xml",
+      "ext": "xml",
+      "bytes": 745,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_timer_off",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_timer_off.xml",
+      "ext": "xml",
+      "bytes": 895,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_toggle_off",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_toggle_off.xml",
+      "ext": "xml",
+      "bytes": 653,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_toggle_on",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_toggle_on.xml",
+      "ext": "xml",
+      "bytes": 655,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_touch_app",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_touch_app.xml",
+      "ext": "xml",
+      "bytes": 873,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_trophy",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_trophy.xml",
+      "ext": "xml",
+      "bytes": 745,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_tune",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_tune.xml",
+      "ext": "xml",
+      "bytes": 553,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_upload",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_upload.xml",
+      "ext": "xml",
+      "bytes": 509,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_verified",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_verified.xml",
+      "ext": "xml",
+      "bytes": 766,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_verified_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_verified_fill.xml",
+      "ext": "xml",
+      "bytes": 573,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_visibility",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_visibility.xml",
+      "ext": "xml",
+      "bytes": 823,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_visibility_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_visibility_fill.xml",
+      "ext": "xml",
+      "bytes": 683,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_visibility_off",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_visibility_off.xml",
+      "ext": "xml",
+      "bytes": 980,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_visibility_off_fill",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_visibility_off_fill.xml",
+      "ext": "xml",
+      "bytes": 816,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_wallet",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_wallet.xml",
+      "ext": "xml",
+      "bytes": 676,
+      "kind": "vector"
+    },
+    {
+      "resource": "ic_wifi_off",
+      "dir": "drawable",
+      "file": "app/src/main/res/drawable/ic_wifi_off.xml",
+      "ext": "xml",
+      "bytes": 820,
+      "kind": "vector"
+    }
+  ],
+  "referenced_but_missing": [],
+  "unreferenced_files": [
+    "ic_account_balance",
+    "ic_account_balance_fill",
+    "ic_account_balance_wallet_fill",
+    "ic_add_card",
+    "ic_admin_panel_settings",
+    "ic_arrow_downward",
+    "ic_arrow_drop_down",
+    "ic_arrow_forward",
+    "ic_arrow_upward",
+    "ic_assignment",
+    "ic_balance",
+    "ic_bar_chart",
+    "ic_bolt",
+    "ic_bolt_fill",
+    "ic_broken_image",
+    "ic_call",
+    "ic_campaign",
+    "ic_cancel",
+    "ic_card_giftcard",
+    "ic_chat_bubble",
+    "ic_checklist",
+    "ic_chevron_left",
+    "ic_cloud_upload",
+    "ic_credit_card",
+    "ic_credit_card_fill",
+    "ic_crown",
+    "ic_crown_fill",
+    "ic_dark_mode",
+    "ic_delete",
+    "ic_diversity_3",
+    "ic_done",
+    "ic_done_all",
+    "ic_done_all_fill",
+    "ic_done_fill",
+    "ic_download",
+    "ic_edit",
+    "ic_edit_note",
+    "ic_expand_less",
+    "ic_forum",
+    "ic_grid_view",
+    "ic_group_add",
+    "ic_group_fill",
+    "ic_groups",
+    "ic_groups_fill",
+    "ic_home",
+    "ic_home_fill",
+    "ic_how_to_reg",
+    "ic_image",
+    "ic_info",
+    "ic_key_fill",
+    "ic_keyboard",
+    "ic_keyboard_hide",
+    "ic_leaderboard",
+    "ic_lock_fill",
+    "ic_lock_open",
+    "ic_logout",
+    "ic_lucide_arrow_left",
+    "ic_lucide_arrow_right",
+    "ic_lucide_check",
+    "ic_lucide_chevron_down",
+    "ic_lucide_chevron_left",
+    "ic_lucide_chevron_right",
+    "ic_lucide_chevron_up",
+    "ic_lucide_circle",
+    "ic_lucide_grip_vertical",
+    "ic_lucide_minus",
+    "ic_lucide_more_horizontal",
+    "ic_lucide_panel_left",
+    "ic_lucide_search",
+    "ic_lucide_x",
+    "ic_mail",
+    "ic_no_photography",
+    "ic_outbox",
+    "ic_payment_arrow_down",
+    "ic_person_add",
+    "ic_person_add_fill",
+    "ic_person_fill",
+    "ic_person_search",
+    "ic_publish",
+    "ic_radio_button_unchecked",
+    "ic_receipt_long",
+    "ic_remove_circle_outline",
+    "ic_save",
+    "ic_screenshot_monitor",
+    "ic_sentiment_satisfied",
+    "ic_stadium",
+    "ic_star",
+    "ic_swap_horiz",
+    "ic_sync_alt",
+    "ic_tag",
+    "ic_task_alt",
+    "ic_timer",
+    "ic_toggle_off",
+    "ic_toggle_on",
+    "ic_touch_app",
+    "ic_tune",
+    "ic_verified",
+    "ic_verified_fill",
+    "ic_visibility_fill",
+    "ic_visibility_off_fill",
+    "ic_wallet",
+    "ic_wifi_off"
+  ],
+  "unreferenced_classification": {
+    "dynamically_reachable": [
+      {
+        "name": "ic_account_balance",
+        "glyph_known": true,
+        "via": "iconResId('account_balance')"
+      },
+      {
+        "name": "ic_account_balance_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('account_balance', filled=true)"
+      },
+      {
+        "name": "ic_account_balance_wallet_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('account_balance_wallet', filled=true)"
+      },
+      {
+        "name": "ic_add_card",
+        "glyph_known": true,
+        "via": "iconResId('add_card')"
+      },
+      {
+        "name": "ic_admin_panel_settings",
+        "glyph_known": true,
+        "via": "iconResId('admin_panel_settings')"
+      },
+      {
+        "name": "ic_arrow_downward",
+        "glyph_known": true,
+        "via": "iconResId('arrow_downward')"
+      },
+      {
+        "name": "ic_arrow_drop_down",
+        "glyph_known": true,
+        "via": "iconResId('arrow_drop_down')"
+      },
+      {
+        "name": "ic_arrow_forward",
+        "glyph_known": true,
+        "via": "iconResId('arrow_forward')"
+      },
+      {
+        "name": "ic_arrow_upward",
+        "glyph_known": true,
+        "via": "iconResId('arrow_upward')"
+      },
+      {
+        "name": "ic_assignment",
+        "glyph_known": true,
+        "via": "iconResId('quiz')"
+      },
+      {
+        "name": "ic_balance",
+        "glyph_known": true,
+        "via": "iconResId('balance')"
+      },
+      {
+        "name": "ic_bar_chart",
+        "glyph_known": true,
+        "via": "iconResId('bar_chart')"
+      },
+      {
+        "name": "ic_bolt",
+        "glyph_known": true,
+        "via": "iconResId('bolt')"
+      },
+      {
+        "name": "ic_bolt_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('bolt', filled=true)"
+      },
+      {
+        "name": "ic_broken_image",
+        "glyph_known": true,
+        "via": "iconResId('broken_image')"
+      },
+      {
+        "name": "ic_call",
+        "glyph_known": true,
+        "via": "iconResId('call')"
+      },
+      {
+        "name": "ic_campaign",
+        "glyph_known": true,
+        "via": "iconResId('campaign')"
+      },
+      {
+        "name": "ic_cancel",
+        "glyph_known": true,
+        "via": "iconResId('cancel')"
+      },
+      {
+        "name": "ic_card_giftcard",
+        "glyph_known": true,
+        "via": "iconResId('card_giftcard')"
+      },
+      {
+        "name": "ic_chat_bubble",
+        "glyph_known": true,
+        "via": "iconResId('chat_bubble')"
+      },
+      {
+        "name": "ic_checklist",
+        "glyph_known": true,
+        "via": "iconResId('checklist')"
+      },
+      {
+        "name": "ic_chevron_left",
+        "glyph_known": true,
+        "via": "iconResId('chevron_left')"
+      },
+      {
+        "name": "ic_cloud_upload",
+        "glyph_known": true,
+        "via": "iconResId('cloud_upload')"
+      },
+      {
+        "name": "ic_credit_card",
+        "glyph_known": true,
+        "via": "iconResId('credit_card')"
+      },
+      {
+        "name": "ic_credit_card_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('credit_card', filled=true)"
+      },
+      {
+        "name": "ic_crown",
+        "glyph_known": true,
+        "via": "iconResId('crown')"
+      },
+      {
+        "name": "ic_crown_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('crown', filled=true)"
+      },
+      {
+        "name": "ic_dark_mode",
+        "glyph_known": true,
+        "via": "iconResId('dark_mode')"
+      },
+      {
+        "name": "ic_delete",
+        "glyph_known": true,
+        "via": "iconResId('delete')"
+      },
+      {
+        "name": "ic_diversity_3",
+        "glyph_known": true,
+        "via": "iconResId('diversity_3')"
+      },
+      {
+        "name": "ic_done",
+        "glyph_known": true,
+        "via": "iconResId('done')"
+      },
+      {
+        "name": "ic_done_all",
+        "glyph_known": true,
+        "via": "iconResId('done_all')"
+      },
+      {
+        "name": "ic_done_all_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('done_all', filled=true)"
+      },
+      {
+        "name": "ic_done_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('done', filled=true)"
+      },
+      {
+        "name": "ic_download",
+        "glyph_known": true,
+        "via": "iconResId('download')"
+      },
+      {
+        "name": "ic_edit",
+        "glyph_known": true,
+        "via": "iconResId('edit')"
+      },
+      {
+        "name": "ic_edit_note",
+        "glyph_known": true,
+        "via": "iconResId('edit_note')"
+      },
+      {
+        "name": "ic_expand_less",
+        "glyph_known": true,
+        "via": "iconResId('expand_less')"
+      },
+      {
+        "name": "ic_forum",
+        "glyph_known": true,
+        "via": "iconResId('forum')"
+      },
+      {
+        "name": "ic_grid_view",
+        "glyph_known": true,
+        "via": "iconResId('grid_view')"
+      },
+      {
+        "name": "ic_group_add",
+        "glyph_known": true,
+        "via": "iconResId('group_add')"
+      },
+      {
+        "name": "ic_group_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('group', filled=true)"
+      },
+      {
+        "name": "ic_groups",
+        "glyph_known": true,
+        "via": "iconResId('groups')"
+      },
+      {
+        "name": "ic_home",
+        "glyph_known": true,
+        "via": "iconResId('home')"
+      },
+      {
+        "name": "ic_home_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('home', filled=true)"
+      },
+      {
+        "name": "ic_how_to_reg",
+        "glyph_known": true,
+        "via": "iconResId('how_to_reg')"
+      },
+      {
+        "name": "ic_image",
+        "glyph_known": true,
+        "via": "iconResId('image')"
+      },
+      {
+        "name": "ic_info",
+        "glyph_known": true,
+        "via": "iconResId('info')"
+      },
+      {
+        "name": "ic_key_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('key', filled=true)"
+      },
+      {
+        "name": "ic_keyboard",
+        "glyph_known": true,
+        "via": "iconResId('keyboard')"
+      },
+      {
+        "name": "ic_keyboard_hide",
+        "glyph_known": true,
+        "via": "iconResId('keyboard_hide')"
+      },
+      {
+        "name": "ic_leaderboard",
+        "glyph_known": true,
+        "via": "iconResId('leaderboard')"
+      },
+      {
+        "name": "ic_lock_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('lock', filled=true)"
+      },
+      {
+        "name": "ic_lock_open",
+        "glyph_known": true,
+        "via": "iconResId('lock_open')"
+      },
+      {
+        "name": "ic_logout",
+        "glyph_known": true,
+        "via": "iconResId('logout')"
+      },
+      {
+        "name": "ic_mail",
+        "glyph_known": true,
+        "via": "iconResId('mail')"
+      },
+      {
+        "name": "ic_no_photography",
+        "glyph_known": true,
+        "via": "iconResId('no_photography')"
+      },
+      {
+        "name": "ic_outbox",
+        "glyph_known": true,
+        "via": "iconResId('outbox')"
+      },
+      {
+        "name": "ic_payment_arrow_down",
+        "glyph_known": true,
+        "via": "iconResId('payment_arrow_down')"
+      },
+      {
+        "name": "ic_person_add",
+        "glyph_known": true,
+        "via": "iconResId('person_add')"
+      },
+      {
+        "name": "ic_person_add_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('person_add', filled=true)"
+      },
+      {
+        "name": "ic_person_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('person', filled=true)"
+      },
+      {
+        "name": "ic_person_search",
+        "glyph_known": true,
+        "via": "iconResId('person_search')"
+      },
+      {
+        "name": "ic_publish",
+        "glyph_known": true,
+        "via": "iconResId('publish')"
+      },
+      {
+        "name": "ic_radio_button_unchecked",
+        "glyph_known": true,
+        "via": "iconResId('radio_button_unchecked')"
+      },
+      {
+        "name": "ic_receipt_long",
+        "glyph_known": true,
+        "via": "iconResId('receipt_long')"
+      },
+      {
+        "name": "ic_remove_circle_outline",
+        "glyph_known": true,
+        "via": "iconResId('remove_circle_outline')"
+      },
+      {
+        "name": "ic_save",
+        "glyph_known": true,
+        "via": "iconResId('save')"
+      },
+      {
+        "name": "ic_screenshot_monitor",
+        "glyph_known": true,
+        "via": "iconResId('screenshot_monitor')"
+      },
+      {
+        "name": "ic_sentiment_satisfied",
+        "glyph_known": true,
+        "via": "iconResId('sentiment_satisfied')"
+      },
+      {
+        "name": "ic_stadium",
+        "glyph_known": true,
+        "via": "iconResId('stadium')"
+      },
+      {
+        "name": "ic_star",
+        "glyph_known": true,
+        "via": "iconResId('star')"
+      },
+      {
+        "name": "ic_swap_horiz",
+        "glyph_known": true,
+        "via": "iconResId('swap_horiz')"
+      },
+      {
+        "name": "ic_sync_alt",
+        "glyph_known": true,
+        "via": "iconResId('sync_alt')"
+      },
+      {
+        "name": "ic_tag",
+        "glyph_known": true,
+        "via": "iconResId('tag')"
+      },
+      {
+        "name": "ic_task_alt",
+        "glyph_known": true,
+        "via": "iconResId('task_alt')"
+      },
+      {
+        "name": "ic_timer",
+        "glyph_known": true,
+        "via": "iconResId('timer')"
+      },
+      {
+        "name": "ic_toggle_off",
+        "glyph_known": true,
+        "via": "iconResId('toggle_off')"
+      },
+      {
+        "name": "ic_toggle_on",
+        "glyph_known": true,
+        "via": "iconResId('toggle_on')"
+      },
+      {
+        "name": "ic_touch_app",
+        "glyph_known": true,
+        "via": "iconResId('touch_app')"
+      },
+      {
+        "name": "ic_tune",
+        "glyph_known": false,
+        "via": "iconResId('tournament')"
+      },
+      {
+        "name": "ic_verified",
+        "glyph_known": true,
+        "via": "iconResId('verified')"
+      },
+      {
+        "name": "ic_verified_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('verified', filled=true)"
+      },
+      {
+        "name": "ic_visibility_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('visibility', filled=true)"
+      },
+      {
+        "name": "ic_visibility_off_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": true,
+        "via": "iconResId('visibility_off', filled=true)"
+      },
+      {
+        "name": "ic_wallet",
+        "glyph_known": true,
+        "via": "iconResId('wallet')"
+      },
+      {
+        "name": "ic_wifi_off",
+        "glyph_known": true,
+        "via": "iconResId('wifi_off')"
+      }
+    ],
+    "never_resolvable": [
+      {
+        "name": "ic_groups_fill",
+        "glyph_known": true,
+        "in_reserved_fill_set": false,
+        "why": "fill variant exists but glyph not in AreenaxIcon.kt reserved set and not hard-referenced -> resolver never returns it"
+      },
+      {
+        "name": "ic_lucide_arrow_left",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_arrow_right",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_check",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_chevron_down",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_chevron_left",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_chevron_right",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_chevron_up",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_circle",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_grip_vertical",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_minus",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_more_horizontal",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_panel_left",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_search",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      },
+      {
+        "name": "ic_lucide_x",
+        "glyph_known": false,
+        "via": null,
+        "why": "glyph name not in Material Symbols codepoints set -> resolver can never receive it (except via server data)"
+      }
+    ]
+  },
+  "inline_drawn_icons_kotlin": [
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt",
+      "line": 862,
+      "snippet": "drawPath("
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AchievementsScreen.kt",
+      "line": 187,
+      "snippet": "Canvas(modifier = Modifier.size(64.dp)) {"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/social/TeamCreationScreen.kt",
+      "line": 517,
+      "snippet": "rotationZ = -45f"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/TransferScreen.kt",
+      "line": 537,
+      "snippet": "drawPath("
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/ConfirmWithdrawScreen.kt",
+      "line": 230,
+      "snippet": ".rotate(270f), // transform rotate(270deg)"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/AboutScreen.kt",
+      "line": 240,
+      "snippet": ".rotate(-25f),"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/AboutScreen.kt",
+      "line": 261,
+      "snippet": "Canvas(Modifier.size(10.dp)) {"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/AboutScreen.kt",
+      "line": 268,
+      "snippet": "drawPath(path, color = Color.White)"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/OfflineScreen.kt",
+      "line": 172,
+      "snippet": "Canvas(Modifier.size(240.dp)) {"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/OfflineScreen.kt",
+      "line": 183,
+      "snippet": "drawPath(left, color = cable, style = stroke)"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/OfflineScreen.kt",
+      "line": 193,
+      "snippet": "drawPath(right, color = cable, style = stroke)"
+    },
+    {
+      "file": "app/src/main/java/com/areenax/nativeapp/ui/screens/info/OfflineScreen.kt",
+      "line": 203,
+      "snippet": "drawPath(bottom, color = cable, style = stroke)"
+    }
+  ]
+}

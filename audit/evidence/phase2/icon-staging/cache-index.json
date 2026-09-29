@@ -1,0 +1,20 @@
+{
+  "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/unfold_more/materialsymbolsoutlined/unfold_more_24px.svg": {
+    "md5": "a0dc04d01b8dbb20d4daaa5f79d1d329",
+    "sha256": "cb853164357cbfadc5e6cdc47a884a01bda937621c7a061d1c43b145c66bf91e",
+    "file": "svg/unfold_more_24px.svg",
+    "fetched_at": "2026-09-20T19:03:30+00:00"
+  },
+  "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/sports_handball/materialsymbolsoutlined/sports_handball_24px.svg": {
+    "md5": "aec394fc812c2c0fecff0a7fcba67c0c",
+    "sha256": "835a3d08a2e52071840bce8dae9763d4ad91b69a264d62b30ddc5831e5d78167",
+    "file": "svg/sports_handball_24px.svg",
+    "fetched_at": "2026-09-20T19:03:31+00:00"
+  },
+  "https://raw.githubusercontent.com/google/material-design-icons/master/symbols/web/qr_code/materialsymbolsoutlined/qr_code_24px.svg": {
+    "md5": "5a05ab8d0f16461075f3b070809e6a7c",
+    "sha256": "1befe595a6f699e1646e386a69e0df0d7c93ef791cbc914746e671a15285fb19",
+    "file": "svg/qr_code_24px.svg",
+    "fetched_at": "2026-09-20T19:03:38+00:00"
+  }
+}

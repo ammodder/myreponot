@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://developer.android.com/google/play/requirements/target-sdk",
+    "name": "Meet Google Play's target API level requirement - Android Developers",
+    "snippet": "If you need more time to update your app, you'll be able to request an extension to November 1, 2026. You'll be able to access your app's extension forms in ...",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/16561298?hl=en",
+    "name": "Google Play's Target API Level Policy - Play Console Help",
+    "snippet": "For new apps and app updates, you must target an API level within one year of the latest major Android release; otherwise, Google Play will prevent your new app ...",
+    "host_name": "support.google.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://median.co/blog/google-plays-target-api-level-requirement-for-android-apps",
+    "name": "Google Play Target API level requirements for Android apps in 2026",
+    "snippet": "Jul 3, 2025 · If you need more time to update your app, you can request an extension from August 31 to November 1, 2026. Also, note that you'll be able to ...",
+    "host_name": "median.co",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://stackoverflow.com/questions/78729452/app-must-target-android-14-api-level-34-or-higher-is-showing-even-after-update",
+    "name": "App must target Android 14 (API level 34) or higher is showing even",
+    "snippet": "Jul 10, 2024 · Google has changed its policy (to only 1-year-old Target API). open your android/app/build.gradle. change: targetSdkVersion 31.",
+    "host_name": "stackoverflow.com",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=oe445kwG7h8",
+    "name": "Google Play Target API Level Requirements 2026 (Android 16 / API",
+    "snippet": "Jul 23, 2026 · ... API 36, Google Play Console 2026 policy, update Android app API level, Play Store app discoverability, request Google Play extension",
+    "host_name": "www.youtube.com",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://forums.solar2d.com/t/how-to-request-an-extension-for-android-api-level-34/356671",
+    "name": "How to Request an Extension for Android API Level 34",
+    "snippet": "Jul 21, 2024 · How to Request an Extension for Android API Level 34 · Go to your Google Play Console and go to All Apps. · Click on the Inbox in the left rail.",
+    "host_name": "forums.solar2d.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]

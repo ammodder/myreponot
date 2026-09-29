@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/13628312?hl=en",
+    "name": "Required information to create a Play Console developer",
+    "snippet": "Personal developer accounts are required to provide and verify a developer email address, whereas organizations must provide and verify a developer email ...",
+    "host_name": "support.google.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.android.com",
+    "name": "Android developer verification",
+    "snippet": "Google Play automatically registers 99% of apps . Use Play Console to manually register remaining apps or those distributed outside Google Play. Guide Console ...",
+    "host_name": "developer.android.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/14177239?hl=en",
+    "name": "Verifying your Play Console developer account",
+    "snippet": "Required information for verifying an organization developer account · Legal name (shown on Google Play ) · Legal address (shown on Google Play) · A private email ...",
+    "host_name": "support.google.com",
+    "rank": 2,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://android-developers.googleblog.com",
+    "name": "Android developer verification: Rolling out to all",
+    "snippet": "Mar 30, 2026 — If you've completed Play Console's developer verification requirements , your identity is already verified and we'll automatically register ...",
+    "host_name": "android-developers.googleblog.com",
+    "rank": 3,
+    "date": "Mar 30, 2026",
+    "favicon": ""
+  }
+]

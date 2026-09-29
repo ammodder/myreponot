@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Areenax</string>
+
+    <!--
+      STEP 1 FOR DEPLOYMENT (see README.md):
+      Replace this placeholder with the LIVE AREENAX domain (same origin the web
+      panel is deployed on). Every API call is prefixed "<base>/api" and QR
+      deep links are built from the same origin, exactly like the web client.
+    -->
+    <string name="app_base_url" translatable="false">https://gopgop-sepia.vercel.app</string>
+
+    <!-- A10-03: zxing-embedded shows this string when CAMERA is denied (its
+         default text wrongly claims a camera framework bug). Overriding the
+         library resource here gives the accurate message + the manual fallback. -->
+    <string name="zxing_msg_camera_framework_bug" translatable="false">Camera permission is needed to scan a QR code. You can still enter the Player UID instead.</string>
+</resources>

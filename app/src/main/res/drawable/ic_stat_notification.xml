@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Status-bar notification icon (A5).
+
+  Android renders small icons as a MONOCHROME ALPHA MASK — the system tints it
+  with the notification accent color and ignores every RGB channel. Passing the
+  full-colour areenax_logo.png here made the icon collapse into a solid white
+  blob on Android 5+, so notifications arrived with no recognisable branding.
+
+  This is a single-colour, alpha-only vector derived from the AREENAX "A"
+  tournament mark: a shield carrying an A + trophy spark. It stays legible at
+  24dp against both light and dark status bars.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+
+    <!-- Shield body -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M12,1.6 L20.4,4.9 V11.2 C20.4,16.6 17.1,21.1 12,22.6 C6.9,21.1 3.6,16.6 3.6,11.2 V4.9 Z" />
+
+    <!-- Knocked-out "A" (uses the shield's own colour as negative space) -->
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M12,5.9 L16.4,16.4 H14.5 L13.6,14.1 H10.4 L9.5,16.4 H7.6 Z M11.1,12.5 H12.9 L12,10.1 Z" />
+
+    <!-- Trophy spark -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M12,17.1 L12.6,18.3 L13.9,18.5 L12.9,19.4 L13.2,20.7 L12,20.1 L10.8,20.7 L11.1,19.4 L10.1,18.5 L11.4,18.3 Z" />
+</vector>

@@ -1,0 +1,4 @@
+A6-01/A7-01 release-dex proof (app-release-unsigned.apk, TASK-007 run3 build)
+target: classes.dex; method: byte search of <name>\x00 for all 157 res/drawable ic_* names
+checked=157 missing=0
+result: PASS - every icon key resolves via the compile-time map; reflection path gone

@@ -1,0 +1,16 @@
+=== date (Asia/Karachi): 2026-09-21 20:32 PKT
+=== /dev/kvm check:
+/dev/kvm DOES NOT EXIST
+=== emulator -accel-check:
+accel:
+3
+KVM requires a CPU that supports vmx or svm
+accel
+accel-check-exit=3
+=== direct AVD boot attempt (dev33_default_x86_64_Pixel_5):
+INFO         | Android emulator version 37.1.11.0 (build_id 15917651) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+ERROR        | Unknown AVD name [dev33_default_x86_64_Pixel_5], use -list-avds to see valid list.
+ERROR        | HOME is defined but there is no file dev33_default_x86_64_Pixel_5.ini in $HOME/.android/avd
+ERROR        | (Note: Directories are searched in the order $ANDROID_AVD_HOME, $ANDROID_SDK_HOME/avd and $HOME/.android/avd)
+boot-attempt-exit=1

@@ -1,0 +1,21 @@
+== TOOLCHAIN BOOTSTRAP Sat Sep 19 15:27:26 UTC 2026 ==
+-- licenses (--yes) --
+
+10.8 Open Source Software. In the event Open Source software is included with Evaluation Software, such Open Source software is licensed pursuant to the applicable Open Source software license agreement identified in the Open Source software comments in the applicable source code file(s) and/or file header as indicated in the Evaluation Software. Additional detail may be available (where applicable) in the accompanying on-line documentation. With respect to the Open Source software, nothing in this Agreement limits any rights under, or grants rights that supersede, the terms of any applicable Open Source software license agreement.
+---------------------------------------
+Accept? (y/N): All SDK package licenses accepted
+
+-- package install --
+
+-- result --
+build-tools
+cmdline-tools
+licenses
+platform-tools
+platforms
+/home/z/android-sdk/build-tools:
+34.0.0
+35.0.0
+
+/home/z/android-sdk/platforms:
+android-35

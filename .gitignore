@@ -1,0 +1,16 @@
+# Built artifacts
+build/
+.gradle/
+local.properties
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.DS_Store
+
+# Secrets / local machine state — never commit
+keystore.properties
+*.jks
+*.keystore

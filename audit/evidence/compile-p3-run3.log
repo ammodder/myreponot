@@ -1,0 +1,58 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :app:mergeDebugResources
+> Task :app:packageDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugResources
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/network/ApiClient.kt:99:39 Unresolved reference 'TokenProvider'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/network/ApiClient.kt:100:36 Unresolved reference 'token'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/network/ApiClient.kt:106:60 Argument type mismatch: actual type is 'kotlin.Any', but 'kotlin.String' was expected.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/session/SessionManager.kt:48:9 'token' hides member of supertype 'TokenProvider' and needs an 'override' modifier.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SocialMarks.kt:68:37 Unresolved reference 'width'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SocialMarks.kt:69:37 Unresolved reference 'width'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SocialMarks.kt:69:49 Unresolved reference 'height'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SocialMarks.kt:70:37 Unresolved reference 'width'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SocialMarks.kt:70:56 Unresolved reference 'height'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SocialMarks.kt:89:26 Unresolved reference 'padding'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/main/MyTournamentScreen.kt:264:34 None of the following candidates is applicable:
+fun Modifier.padding(paddingValues: PaddingValues): Modifier
+fun Modifier.padding(all: Dp): Modifier
+fun Modifier.padding(horizontal: Dp = ..., vertical: Dp = ...): Modifier
+fun Modifier.padding(start: Dp = ..., top: Dp = ..., end: Dp = ..., bottom: Dp = ...): Modifier
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:360:37 Unresolved reference 'SocialMark'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:453:29 'when' expression must be exhaustive. Add the 'is Error', 'is NetworkError', 'is Success<*>' branches or an 'else' branch.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:454:36 Unresolved reference 'ApiResult'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:461:36 Unresolved reference 'ApiResult'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:463:80 Unresolved reference 'message'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:465:36 Unresolved reference 'ApiResult'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/profile/ProfileScreen.kt:467:80 Unresolved reference 'message'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 39s
+14 actionable tasks: 7 executed, 7 up-to-date

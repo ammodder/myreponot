@@ -1,0 +1,259 @@
+{
+  "created": [
+    {
+      "importName": "XIcon",
+      "module": "x.js",
+      "drawable": "ic_lucide_x",
+      "files": [
+        "src/components/ui/sheet.tsx",
+        "src/components/ui/dialog.tsx"
+      ],
+      "lines": [
+        5,
+        5
+      ],
+      "source": "node_modules lucide module x.js",
+      "paths": 2
+    },
+    {
+      "importName": "CheckIcon",
+      "module": "check.js",
+      "drawable": "ic_lucide_check",
+      "files": [
+        "src/components/ui/checkbox.tsx",
+        "src/components/ui/context-menu.tsx",
+        "src/components/ui/menubar.tsx",
+        "src/components/ui/select.tsx",
+        "src/components/ui/dropdown-menu.tsx"
+      ],
+      "lines": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "node_modules lucide module check.js",
+      "paths": 1
+    },
+    {
+      "importName": "ChevronLeftIcon",
+      "module": "chevron-left.js",
+      "drawable": "ic_lucide_chevron_left",
+      "files": [
+        "src/components/ui/pagination.tsx",
+        "src/components/ui/calendar.tsx"
+      ],
+      "lines": [
+        2,
+        4
+      ],
+      "source": "node_modules lucide module chevron-left.js",
+      "paths": 1
+    },
+    {
+      "importName": "ChevronRightIcon",
+      "module": "chevron-right.js",
+      "drawable": "ic_lucide_chevron_right",
+      "files": [
+        "src/components/ui/pagination.tsx",
+        "src/components/ui/calendar.tsx",
+        "src/components/ui/context-menu.tsx",
+        "src/components/ui/menubar.tsx",
+        "src/components/ui/dropdown-menu.tsx"
+      ],
+      "lines": [
+        2,
+        4,
+        5,
+        5,
+        5
+      ],
+      "source": "node_modules lucide module chevron-right.js",
+      "paths": 1
+    },
+    {
+      "importName": "MoreHorizontalIcon",
+      "module": "more-horizontal.js",
+      "drawable": "ic_lucide_more_horizontal",
+      "files": [
+        "src/components/ui/pagination.tsx"
+      ],
+      "lines": [
+        2
+      ],
+      "source": "node_modules lucide module ellipsis.js (alias of more-horizontal.js)",
+      "paths": 3
+    },
+    {
+      "importName": "ArrowLeft",
+      "module": "arrow-left.js",
+      "drawable": "ic_lucide_arrow_left",
+      "files": [
+        "src/components/ui/carousel.tsx"
+      ],
+      "lines": [
+        7
+      ],
+      "source": "node_modules lucide module arrow-left.js",
+      "paths": 2
+    },
+    {
+      "importName": "ArrowRight",
+      "module": "arrow-right.js",
+      "drawable": "ic_lucide_arrow_right",
+      "files": [
+        "src/components/ui/carousel.tsx"
+      ],
+      "lines": [
+        7
+      ],
+      "source": "node_modules lucide module arrow-right.js",
+      "paths": 2
+    },
+    {
+      "importName": "ChevronDownIcon",
+      "module": "chevron-down.js",
+      "drawable": "ic_lucide_chevron_down",
+      "files": [
+        "src/components/ui/navigation-menu.tsx",
+        "src/components/ui/calendar.tsx",
+        "src/components/ui/select.tsx",
+        "src/components/ui/accordion.tsx"
+      ],
+      "lines": [
+        4,
+        4,
+        5,
+        5
+      ],
+      "source": "node_modules lucide module chevron-down.js",
+      "paths": 1
+    },
+    {
+      "importName": "GripVerticalIcon",
+      "module": "grip-vertical.js",
+      "drawable": "ic_lucide_grip_vertical",
+      "files": [
+        "src/components/ui/resizable.tsx"
+      ],
+      "lines": [
+        4
+      ],
+      "source": "node_modules lucide module grip-vertical.js",
+      "paths": 6
+    },
+    {
+      "importName": "CircleIcon",
+      "module": "circle.js",
+      "drawable": "ic_lucide_circle",
+      "files": [
+        "src/components/ui/radio-group.tsx",
+        "src/components/ui/context-menu.tsx",
+        "src/components/ui/menubar.tsx",
+        "src/components/ui/dropdown-menu.tsx"
+      ],
+      "lines": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "source": "node_modules lucide module circle.js",
+      "paths": 1
+    },
+    {
+      "importName": "ChevronUpIcon",
+      "module": "chevron-up.js",
+      "drawable": "ic_lucide_chevron_up",
+      "files": [
+        "src/components/ui/select.tsx"
+      ],
+      "lines": [
+        5
+      ],
+      "source": "node_modules lucide module chevron-up.js",
+      "paths": 1
+    },
+    {
+      "importName": "PanelLeftIcon",
+      "module": "panel-left.js",
+      "drawable": "ic_lucide_panel_left",
+      "files": [
+        "src/components/ui/sidebar.tsx"
+      ],
+      "lines": [
+        6
+      ],
+      "source": "node_modules lucide module panel-left.js",
+      "paths": 2
+    },
+    {
+      "importName": "SearchIcon",
+      "module": "search.js",
+      "drawable": "ic_lucide_search",
+      "files": [
+        "src/components/ui/command.tsx"
+      ],
+      "lines": [
+        5
+      ],
+      "source": "node_modules lucide module search.js",
+      "paths": 2
+    },
+    {
+      "importName": "MinusIcon",
+      "module": "minus.js",
+      "drawable": "ic_lucide_minus",
+      "files": [
+        "src/components/ui/input-otp.tsx"
+      ],
+      "lines": [
+        5
+      ],
+      "source": "node_modules lucide module minus.js",
+      "paths": 1
+    },
+    {
+      "importName": "ChevronRight",
+      "module": "chevron-right.js",
+      "drawable": "ic_lucide_chevron_right",
+      "files": [
+        "src/components/ui/breadcrumb.tsx"
+      ],
+      "lines": [
+        3
+      ],
+      "source": "node_modules lucide module chevron-right.js",
+      "paths": 1
+    },
+    {
+      "importName": "MoreHorizontal",
+      "module": "more-horizontal.js",
+      "drawable": "ic_lucide_more_horizontal",
+      "files": [
+        "src/components/ui/breadcrumb.tsx"
+      ],
+      "lines": [
+        3
+      ],
+      "source": "node_modules lucide module ellipsis.js (alias of more-horizontal.js)",
+      "paths": 3
+    },
+    {
+      "importName": "X",
+      "module": "x.js",
+      "drawable": "ic_lucide_x",
+      "files": [
+        "src/components/ui/toast.tsx"
+      ],
+      "lines": [
+        6
+      ],
+      "source": "node_modules lucide module x.js",
+      "paths": 2
+    }
+  ],
+  "failed": [],
+  "source": "node_modules/lucide-react@0.525.0/dist/esm/icons"
+}

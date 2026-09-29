@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Configure your build | Android Studio",
+    "snippet": "... Android Gradle plugin introduces most of the DSL elements you need . To learn ... */ compileSdk = 36 /** * The defaultConfig block encapsulates default ... Read more",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.incode.com",
+    "name": "Migration Guide version 5+",
+    "snippet": "compileSdk 36 . 4. Update Android Gradle Plugin ( AGP ). Bumping compileSdk to 36 requires Android Gradle Plugin ( AGP ) 8.9.1 or higher. Update your project-level ... Read more",
+    "host_name": "developer.incode.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "Cannot run Project.afterEvaluate(Action) when the",
+    "snippet": "Jan 13, 2026 — ... compileSdk 36 compileOptions { sourceCompatibility JavaVersion. ... Android Gradle Plugin : 8.9.1 ; Kotlin: 2.1.0; OS: Windows 11. android ... Read more",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "Jan 13, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://pub.dev",
+    "name": "biometric_signature changelog | Flutter package",
+    "snippet": "Android: the plugin failed to configure under Android Gradle Plugin 9. AGP 9 ships \"built-in Kotlin\" — it supplies the Kotlin toolchain itself — and rejects ... Read more",
+    "host_name": "pub.dev",
+    "rank": 3,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.scanbot.io",
+    "name": "Changelog for the Capacitor Barcode Scanner SDK",
+    "snippet": "Android: The SDK Project has been switched to compileSdk = 36 . Android ... The application project must use Android Gradle Plugin version >= 8.4.0 or ... Read more",
+    "host_name": "docs.scanbot.io",
+    "rank": 4,
+    "date": "",
+    "favicon": ""
+  }
+]

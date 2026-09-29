@@ -1,0 +1,55 @@
+R8 LIVE-DB VERIFICATION — delta-sync (?after cursor) end-to-end
+Date: 2026-09-22 (post sandbox reset, Supabase creds restored by owner)
+Probe: /home/z/r8probe.mjs (disposable accounts, one-time TEST-NET-3 XFF IPs)
+Cleanup: /home/z/cleanup-r8probe.mjs (DB-layer, idempotent, left 0 accounts)
+Environment notes discovered this run:
+- Sandbox injects legacy DATABASE_URL=file: at PROCESS-ENV level, which overrides
+  .env for every child (dotenv never overrides existing vars). Workaround: explicit
+  export from .env for any DB-touching process; dev server restarted via
+  /home/z/restart-dev.sh with correct env injected.
+- Prisma schema engine cannot run against the transaction pooler (6543,
+  pgbouncer=true — no advisory locks; hangs). Schema ops (db push) MUST use the
+  session pooler (5432). Runtime queries work fine on 6543.
+- Register rate limit (3/h/IP) fired as designed on run 2 (429) — probe then
+  simulated two clients behind distinct documented TEST-NET-3 addresses.
+- Probe bugs fixed during bring-up (NOT app bugs): gameUid NaN collision (409),
+  wrong auth header Authorization/Bearer instead of x-token (401 = server
+  correctly rejected), B-sends-to-self path (404 = server correctly refused
+  self-conversation).
+
+RUN TIMELINE
+- run1: register A 200 / B 409 (probe gameUid bug) — confirms real-DB register works
+- run2: register A 200 / B 429 "Too many sign-up attempts" — CONFIRMS rate limiter live
+- run3: A/B 200, friend 200, accept 200, sends 200 — friend request 401 (probe auth-header bug)
+- FINAL RUN (all probe bugs fixed) — transcript:
+
+dev server reachable ✓
+register A: 200  register B: 200
+A=cmuchvc7x0022na32wlnppvu0 B=cmuchvifw002bna32n9gvqkoa uidB=675704 balances A=50 B=50
+friend-request A→B: 200 {"request":{"id":"cmuchvnyn002kna32ckn30udf","status":"PENDING"}}
+accept: 200
+send1: 200  send2: 200
+full fetch: 200 count=4 keys=friend,messages last=2026-09-22T09:52:00.886Z
+B send: 200
+delta fetch: 200 count=3 (expect: boundary re-delivery + new only, NOT the full 4)
+delta ids new-only-check: newIds=2 redelivered=1
+invalid cursor: 400 (expect 400)
+future cursor: 200 count=0 (expect 0), friend key present=true
+stranger probe: 404 (expect 404)
+cleanup: balA=? delA=400 delB=400 {"error":"Withdraw your balance before deleting your account."} ...
+R8 PROBE: ALL CHECKS PASSED ✓
+
+ASSERTION MAP (R8 delta-sync contract)
+- Full fetch (no after): 200, byte-compatible legacy shape (friend+messages)   VERIFIED
+- Delta fetch (?after=<last createdAt>): gte boundary re-delivery (1 row) +
+  new-only rows (2 rows: bot reply + peer message), client dedupes by id        VERIFIED
+- Delta count (3) strictly < full count (4)                                     VERIFIED
+- Invalid cursor (not-a-date) → 400 BEFORE any DB write                         VERIFIED
+- Future cursor → 0 rows, response shape intact (friend key present)            VERIFIED
+- Stranger/nonexistent friend id → 404 (A5-04 re-run)                           VERIFIED
+- Self-conversation POST → 404 (server refuses, observed during bring-up)       VERIFIED
+- Rate limiting live (429 on 4th register/attempt burst)                        VERIFIED
+- Disposable cleanup: DELETE /api/me correctly refuses balance>0 (design);
+  DB-layer cleanup removed 8 probe accounts + related rows, leftover 0          VERIFIED
+
+R8 STATUS: VERIFIED (live Supabase PostgreSQL, real auth, real friend/message flow)

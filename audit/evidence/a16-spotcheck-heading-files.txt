@@ -1,0 +1,7 @@
+     10 app/src/main/java/com/areenax/nativeapp/ui/screens/profile/AdminPanelScreen.kt
+      3 app/src/main/java/com/areenax/nativeapp/ui/screens/social/MyTeamScreen.kt
+      2 app/src/main/java/com/areenax/nativeapp/ui/screens/social/FriendsScreen.kt
+      2 app/src/main/java/com/areenax/nativeapp/ui/screens/info/AboutScreen.kt
+      1 app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/WalletScreen.kt
+      1 app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt
+      1 app/src/main/java/com/areenax/nativeapp/core/ui/AppBar.kt

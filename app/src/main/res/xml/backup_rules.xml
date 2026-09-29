@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A6-02 (MASVS-STORAGE-1): the session DataStore file holds the bearer token
+  and the full user profile — it must never leave the device via cloud backup
+  or adb backup on legacy (API ≤ 30) transports.
+-->
+<full-backup-content>
+    <exclude domain="file" path="datastore/areena-app.preferences_pb" />
+    <exclude domain="file" path="crash/" />
+</full-backup-content>

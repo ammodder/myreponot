@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Behavior changes: Apps targeting Android 16 or higher",
+    "snippet": "For apps targeting Android 16 (API level 36 ), R.attr# windowOptOutEdgeToEdgeEnforcement is deprecated and disabled, and your app can't opt-out of going edge -to- ... Read more",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "[Bug]: Enable edge to edge support before upgrading",
+    "snippet": "Aug 28, 2025 — For apps targeting Android 16 (API level 36 ), R.attr# windowOptOutEdgeToEdgeEnforcement is deprecated and disabled, and your app can't opt-out ...",
+    "host_name": "github.com",
+    "rank": 1,
+    "date": "Aug 28, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://expo.dev",
+    "name": "Edge-to-Edge display, now streamlined for Android",
+    "snippet": "Nov 26, 2024 — All apps targeting Android 16 and running on Android 16 no longer support the opt-out of edge -to- edge property. This means that all SDK 54 apps ... Read more",
+    "host_name": "expo.dev",
+    "rank": 2,
+    "date": "Nov 26, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.b4x.com",
+    "name": "Android 16 edge-to-edge layout issue (action bar shifted",
+    "snippet": "Oct 14, 2025 — One or more APIs or parameters you are using for edge -to- edge or windowed display have been deprecated in Android 15. is now deprecated . 36 +  ...",
+    "host_name": "www.b4x.com",
+    "rank": 3,
+    "date": "Oct 14, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://docs.flutter.dev",
+    "name": "Set default of `SystemUiMode` to edge-to-edge",
+    "snippet": "Jul 31, 2026 — Edge-to-edge mode is Android's default display behavior. By default, Android enforces edge-to-edge mode for all apps that target Android 15 or ...",
+    "host_name": "docs.flutter.dev",
+    "rank": 4,
+    "date": "Jul 31, 2026",
+    "favicon": ""
+  }
+]

@@ -1,0 +1,37 @@
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+> Configure project :app
+e: file:///home/z/my-project/AreenaxNativeAndroid/app/build.gradle.kts:19:31: Unresolved reference: util
+e: file:///home/z/my-project/AreenaxNativeAndroid/app/build.gradle.kts:21:52: Unresolved reference: load
+e: file:///home/z/my-project/AreenaxNativeAndroid/app/build.gradle.kts:48:25: Smart cast to 'File!' is impossible, because 'storeFile' is a mutable property that could have been changed by this time
+e: file:///home/z/my-project/AreenaxNativeAndroid/app/build.gradle.kts:49:70: Smart cast to 'File!' is impossible, because 'storeFile' is a mutable property that could have been changed by this time
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/home/z/my-project/AreenaxNativeAndroid/app/build.gradle.kts' line: 19
+
+* What went wrong:
+Script compilation errors:
+
+  Line 19: val keystoreProperties = java.util.Properties().apply {
+                                         ^ Unresolved reference: util
+
+  Line 21:         keystorePropertiesFile.inputStream().use { load(it) }
+                                                              ^ Unresolved reference: load
+
+  Line 48:                 require(storeFile.exists()) {
+                                   ^ Smart cast to 'File!' is impossible, because 'storeFile' is a mutable property that could have been changed by this time
+
+  Line 49:                     "keystore.properties storeFile does not exist: ${storeFile.absolutePath}"
+                                                                                ^ Smart cast to 'File!' is impossible, because 'storeFile' is a mutable property that could have been changed by this time
+
+4 errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 7s

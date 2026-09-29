@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960">
+  <group
+      android:translateY="960">
+  <path
+      android:pathData="m 600 -120l -240 -84l -186 72q -20 8 -37 -4.5T 120 -170v -560q 0 -13 7.5 -23t 20.5 -15l 212 -72l 240 84l 186 -72q 20 -8 37 4.5t 17 33.5v 560q 0 13 -7.5 23T 812 -192l -212 72Zm -40 -98v -468l -160 -56v 468l 160 56Zm 80 0l 120 -40v -474l -120 46v 468Zm -440 -10l 120 -46v -468l -120 40v 474Zm 440 -458v 468v -468Zm -320 -56v 468v -468Z"
+      android:fillColor="#FF000000"/>
+  </group>
+</vector>

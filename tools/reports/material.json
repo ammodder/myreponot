@@ -1,0 +1,1744 @@
+{
+  "created": [
+    {
+      "glyph": "emoji_events",
+      "drawable": "ic_emoji_events",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/MyTournamentScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "emoji_events",
+      "drawable": "ic_emoji_events_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/MyTournamentScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "error",
+      "drawable": "ic_error",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/MyTournamentScreen.tsx",
+        "src/components/screens/main/TournamentsScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "bar_chart",
+      "drawable": "ic_bar_chart",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/ResultsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "share",
+      "drawable": "ic_share",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/ResultsScreen.tsx",
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "trophy",
+      "drawable": "ic_trophy",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/ResultsScreen.tsx",
+        "src/components/screens/main/TournamentsScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx",
+        "src/components/shared/EmptyState.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "stadium",
+      "drawable": "ic_stadium",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "schedule",
+      "drawable": "ic_schedule",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostCardsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "payments",
+      "drawable": "ic_payments",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "my_location",
+      "drawable": "ic_my_location",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "lock_open",
+      "drawable": "ic_lock_open",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "lock",
+      "drawable": "ic_lock",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/AchievementsScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "lock",
+      "drawable": "ic_lock_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/AchievementsScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "content_copy",
+      "drawable": "ic_content_copy",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/ReferEarnScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "military_tech",
+      "drawable": "ic_military_tech",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "timer_off",
+      "drawable": "ic_timer_off",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "leaderboard",
+      "drawable": "ic_leaderboard",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/LeaderboardScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "check_circle",
+      "drawable": "ic_check_circle",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/screens/social/TasksScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/host/HostSuccessScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/ResultProofSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/social/TasksScreen.tsx",
+        "src/components/screens/host/HostSuccessScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "check_circle",
+      "drawable": "ic_check_circle_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/screens/social/TasksScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/host/HostSuccessScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/ResultProofSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/social/TasksScreen.tsx",
+        "src/components/screens/host/HostSuccessScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "hourglass_top",
+      "drawable": "ic_hourglass_top",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/shared/TournamentCard.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "upload",
+      "drawable": "ic_upload",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TournamentCard.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "groups",
+      "drawable": "ic_groups",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/TeamCreationDoneScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "groups",
+      "drawable": "ic_groups_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/TeamCreationDoneScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "person",
+      "drawable": "ic_person",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "person",
+      "drawable": "ic_person_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "map",
+      "drawable": "ic_map",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "group",
+      "drawable": "ic_group",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "group",
+      "drawable": "ic_group_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "visibility",
+      "drawable": "ic_visibility",
+      "fill": false,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "visibility",
+      "drawable": "ic_visibility_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/main/TournamentDetailsScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "refresh",
+      "drawable": "ic_refresh",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/shared/RoomInfoSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "broken_image",
+      "drawable": "ic_broken_image",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "chevron_right",
+      "drawable": "ic_chevron_right",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/host/HostCardsScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/DateTimePickerModal.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "close",
+      "drawable": "ic_close",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ResultProofsAdminSection.tsx",
+        "src/components/screens/profile/GamesAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/AchievementsScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/DateTimePickerModal.tsx",
+        "src/components/shared/ResultProofSheet.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/SlotPickerSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "expand_less",
+      "drawable": "ic_expand_less",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/GamesAdminSection.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "edit",
+      "drawable": "ic_edit",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/GamesAdminSection.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "delete",
+      "drawable": "ic_delete",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/GamesAdminSection.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "sports_esports",
+      "drawable": "ic_sports_esports",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/MyStatsScreen.tsx",
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "info",
+      "drawable": "ic_info",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/social/TeamCreationDoneScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "expand_more",
+      "drawable": "ic_expand_more",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx",
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "save",
+      "drawable": "ic_save",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "campaign",
+      "drawable": "ic_campaign",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "publish",
+      "drawable": "ic_publish",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminTournamentsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "bolt",
+      "drawable": "ic_bolt",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/LeaderboardScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/LeaderboardScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "bolt",
+      "drawable": "ic_bolt_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/profile/LeaderboardScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/LeaderboardScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "arrow_downward",
+      "drawable": "ic_arrow_downward",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "arrow_upward",
+      "drawable": "ic_arrow_upward",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "receipt_long",
+      "drawable": "ic_receipt_long",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "check",
+      "drawable": "ic_check",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/social/ReferEarnScreen.tsx",
+        "src/components/screens/auth/SignupStep3Screen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/SuccessAnim.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/BankSelectSheet.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/SlotPickerSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/shared/SuccessAnim.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "check",
+      "drawable": "ic_check_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/social/ReferEarnScreen.tsx",
+        "src/components/screens/auth/SignupStep3Screen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/SuccessAnim.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/BankSelectSheet.tsx",
+        "src/components/shared/StatusChip.tsx",
+        "src/components/shared/SlotPickerSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/shared/SuccessAnim.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "toggle_on",
+      "drawable": "ic_toggle_on",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "toggle_off",
+      "drawable": "ic_toggle_off",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "key",
+      "drawable": "ic_key",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "key",
+      "drawable": "ic_key_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/host/HostDetailsScreen.tsx",
+        "src/components/shared/TournamentCard.tsx",
+        "src/components/shared/RoomInfoSheet.tsx",
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "image",
+      "drawable": "ic_image",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "balance",
+      "drawable": "ic_balance",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/AdminPanelScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "qr_code_2",
+      "drawable": "ic_qr_code_2",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/screens/auth/SignupScreen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "logout",
+      "drawable": "ic_logout",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "group_add",
+      "drawable": "ic_group_add",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "diversity_3",
+      "drawable": "ic_diversity_3",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/shared/TeamJoinSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "checklist",
+      "drawable": "ic_checklist",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "dark_mode",
+      "drawable": "ic_dark_mode",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "help",
+      "drawable": "ic_help",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "gavel",
+      "drawable": "ic_gavel",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/info/AboutScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "shield",
+      "drawable": "ic_shield",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/info/AboutScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "admin_panel_settings",
+      "drawable": "ic_admin_panel_settings",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "account_balance",
+      "drawable": "ic_account_balance",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/wallet/DepositScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "account_balance",
+      "drawable": "ic_account_balance_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/profile/ProfileScreen.tsx",
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx",
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/screens/wallet/DepositScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "credit_card",
+      "drawable": "ic_credit_card",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "credit_card",
+      "drawable": "ic_credit_card_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/profile/BindAccountScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BankSelectSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "arrow_forward",
+      "drawable": "ic_arrow_forward",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/BindAccountSuccessScreen.tsx",
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "visibility_off",
+      "drawable": "ic_visibility_off",
+      "fill": false,
+      "files": [
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "visibility_off",
+      "drawable": "ic_visibility_off_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/profile/EditProfileScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "tag",
+      "drawable": "ic_tag",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/TransferSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "account_balance_wallet",
+      "drawable": "ic_account_balance_wallet",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/InsufficientBalanceDialog.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "account_balance_wallet",
+      "drawable": "ic_account_balance_wallet_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/wallet/DepositSuccessScreen.tsx",
+        "src/components/screens/wallet/WithdrawSuccessScreen.tsx",
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/InsufficientBalanceDialog.tsx",
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "tune",
+      "drawable": "ic_tune",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "sync_alt",
+      "drawable": "ic_sync_alt",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/wallet/DepositScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "outbox",
+      "drawable": "ic_outbox",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "card_giftcard",
+      "drawable": "ic_card_giftcard",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "task_alt",
+      "drawable": "ic_task_alt",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "add",
+      "drawable": "ic_add",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WalletScreen.tsx",
+        "src/components/screens/social/MyTeamScreen.tsx",
+        "src/components/screens/host/HostTournamentScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "person_search",
+      "drawable": "ic_person_search",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/TransferScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "swap_horiz",
+      "drawable": "ic_swap_horiz",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/SelectBankScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "search",
+      "drawable": "ic_search",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/SelectBankScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/BankSelectSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "remove_circle_outline",
+      "drawable": "ic_remove_circle_outline",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/DepositConfirmScreen.tsx",
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "wallet",
+      "drawable": "ic_wallet",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "payment_arrow_down",
+      "drawable": "ic_payment_arrow_down",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/ConfirmWithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "add_card",
+      "drawable": "ic_add_card",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WithdrawScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "touch_app",
+      "drawable": "ic_touch_app",
+      "fill": false,
+      "files": [
+        "src/components/screens/wallet/WithdrawScreen.tsx",
+        "src/components/shared/AmountKeyboard.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "crown",
+      "drawable": "ic_crown",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/TeamCreationScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/TeamCreationScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "crown",
+      "drawable": "ic_crown_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/social/TeamCreationScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/TeamCreationScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "radio_button_unchecked",
+      "drawable": "ic_radio_button_unchecked",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/screens/auth/SignupStep2Screen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "notifications",
+      "drawable": "ic_notifications",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/NotificationsScreen.tsx",
+        "src/components/shared/AppBar.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "wifi_off",
+      "drawable": "ic_wifi_off",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "forum",
+      "drawable": "ic_forum",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "done_all",
+      "drawable": "ic_done_all",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "done_all",
+      "drawable": "ic_done_all_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "done",
+      "drawable": "ic_done",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "done",
+      "drawable": "ic_done_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "sentiment_satisfied",
+      "drawable": "ic_sentiment_satisfied",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "send",
+      "drawable": "ic_send",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/ChatScreen.tsx",
+        "src/components/screens/social/FriendsScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "assignment",
+      "drawable": "ic_assignment",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/TasksScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "chat_bubble",
+      "drawable": "ic_chat_bubble",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "person_add",
+      "drawable": "ic_person_add",
+      "fill": false,
+      "files": [
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "person_add",
+      "drawable": "ic_person_add_fill",
+      "fill": true,
+      "files": [
+        "src/components/screens/social/FriendsScreen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "arrow_back",
+      "drawable": "ic_arrow_back",
+      "fill": false,
+      "files": [
+        "src/components/screens/auth/SignupStep2Screen.tsx",
+        "src/components/screens/auth/SignupStep1Screen.tsx",
+        "src/components/screens/auth/SignupStep3Screen.tsx",
+        "src/components/shared/JoinTeamSheet.tsx",
+        "src/components/shared/AppBar.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "download",
+      "drawable": "ic_download",
+      "fill": false,
+      "files": [
+        "src/components/screens/auth/SignupScreen.tsx",
+        "src/components/screens/auth/LoginScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "arrow_drop_down",
+      "drawable": "ic_arrow_drop_down",
+      "fill": false,
+      "files": [
+        "src/components/screens/auth/SignupStep1Screen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "mail",
+      "drawable": "ic_mail",
+      "fill": false,
+      "files": [
+        "src/components/screens/auth/AuthChrome.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "call",
+      "drawable": "ic_call",
+      "fill": false,
+      "files": [
+        "src/components/screens/auth/AuthChrome.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "calendar_month",
+      "drawable": "ic_calendar_month",
+      "fill": false,
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "description",
+      "drawable": "ic_description",
+      "fill": false,
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "add_photo_alternate",
+      "drawable": "ic_add_photo_alternate",
+      "fill": false,
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx",
+        "src/components/shared/ResultProofSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "calculate",
+      "drawable": "ic_calculate",
+      "fill": false,
+      "files": [
+        "src/components/screens/host/HostCreationScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "add_circle",
+      "drawable": "ic_add_circle",
+      "fill": false,
+      "files": [
+        "src/components/screens/host/HostTournamentScreen.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "edit_note",
+      "drawable": "ic_edit_note",
+      "fill": false,
+      "files": [
+        "src/components/shared/TeamJoinSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "star",
+      "drawable": "ic_star",
+      "fill": false,
+      "files": [
+        "src/components/shared/TeamJoinSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "how_to_reg",
+      "drawable": "ic_how_to_reg",
+      "fill": false,
+      "files": [
+        "src/components/shared/TeamJoinSheet.tsx",
+        "src/components/shared/SlotPickerSheet.tsx",
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "chevron_left",
+      "drawable": "ic_chevron_left",
+      "fill": false,
+      "files": [
+        "src/components/shared/DateTimePickerModal.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "cancel",
+      "drawable": "ic_cancel",
+      "fill": false,
+      "files": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "verified",
+      "drawable": "ic_verified",
+      "fill": false,
+      "files": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "verified",
+      "drawable": "ic_verified_fill",
+      "fill": true,
+      "files": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/JoinTeamSheet.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "screenshot_monitor",
+      "drawable": "ic_screenshot_monitor",
+      "fill": false,
+      "files": [
+        "src/components/shared/ResultProofSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "cloud_upload",
+      "drawable": "ic_cloud_upload",
+      "fill": false,
+      "files": [
+        "src/components/shared/ResultProofSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "grid_view",
+      "drawable": "ic_grid_view",
+      "fill": false,
+      "files": [
+        "src/components/shared/SlotPickerSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "support_agent",
+      "drawable": "ic_support_agent",
+      "fill": false,
+      "files": [
+        "src/components/shared/SupportFab.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "account_circle",
+      "drawable": "ic_account_circle",
+      "fill": false,
+      "files": [
+        "src/components/shared/AccountRequiredDialog.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "timer",
+      "drawable": "ic_timer",
+      "fill": false,
+      "files": [
+        "src/components/shared/RoomSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "home",
+      "drawable": "ic_home",
+      "fill": false,
+      "files": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "home",
+      "drawable": "ic_home_fill",
+      "fill": true,
+      "files": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "fillFiles": [
+        "src/components/shared/BottomNav.tsx"
+      ],
+      "paths": 1
+    },
+    {
+      "glyph": "no_photography",
+      "drawable": "ic_no_photography",
+      "fill": false,
+      "files": [
+        "src/components/shared/QrSheet.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "keyboard_hide",
+      "drawable": "ic_keyboard_hide",
+      "fill": false,
+      "files": [
+        "src/components/shared/AmountKeyboard.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "keyboard",
+      "drawable": "ic_keyboard",
+      "fill": false,
+      "files": [
+        "src/components/shared/AmountKeyboard.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    },
+    {
+      "glyph": "backspace",
+      "drawable": "ic_backspace",
+      "fill": false,
+      "files": [
+        "src/components/shared/AmountPad.tsx"
+      ],
+      "fillFiles": [],
+      "paths": 1
+    }
+  ],
+  "failed": [],
+  "skipped": []
+}

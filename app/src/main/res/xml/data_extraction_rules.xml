@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  A6-02 (MASVS-STORAGE-1): API 31+ data extraction rules. Both cloud backup
+  and device-to-device transfer are denied for the session DataStore (token +
+  user PII incl. balance) and for locally captured crash logs.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="file" path="datastore/areena-app.preferences_pb" />
+        <exclude domain="file" path="crash/" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="file" path="datastore/areena-app.preferences_pb" />
+        <exclude domain="file" path="crash/" />
+    </device-transfer>
+</data-extraction-rules>

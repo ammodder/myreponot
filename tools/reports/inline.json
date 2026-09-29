@@ -1,0 +1,59 @@
+{
+  "created": [
+    {
+      "key": "src/components/screens/profile/LeaderboardScreen.tsx#16",
+      "drawable": "ic_inline_leaderboard_crown",
+      "desc": "Crown (filled) — leaderboard 1st place decoration (CrownSvg component)",
+      "source": "src/components/screens/profile/LeaderboardScreen.tsx:16",
+      "colors": "currentColor, none",
+      "paths": 1
+    },
+    {
+      "key": "src/components/screens/social/TeamCreationScreen.tsx#66",
+      "drawable": "ic_inline_teamcreation_shield_check",
+      "desc": "Shield with checkmark (filled, Heroicons shield-check) — Team Name label",
+      "source": "src/components/screens/social/TeamCreationScreen.tsx:66",
+      "colors": "currentColor",
+      "paths": 1
+    },
+    {
+      "key": "src/components/screens/social/TeamCreationScreen.tsx#163",
+      "drawable": "ic_inline_teamcreation_send",
+      "desc": "Paper-plane / send icon (stroke, Heroicons paper-airplane) — web renders it rotated -45deg via CSS; drawable is UNROTATED, Compose must apply graphicsLayer { rotationZ = -45f }",
+      "source": "src/components/screens/social/TeamCreationScreen.tsx:163",
+      "colors": "none, currentColor",
+      "paths": 1
+    },
+    {
+      "key": "src/components/screens/info/AboutScreen.tsx#152",
+      "drawable": "ic_inline_about_chevron_right",
+      "desc": "Chevron-right list arrow (Heroicons style, stroke) — Privacy Policy row",
+      "source": "src/components/screens/info/AboutScreen.tsx:152",
+      "colors": "none, currentColor",
+      "paths": 1
+    },
+    {
+      "key": "src/components/screens/info/AboutScreen.tsx#169",
+      "drawable": "ic_inline_about_chevron_right",
+      "duplicateOf": "src/components/screens/info/AboutScreen.tsx#152",
+      "desc": "Chevron-right list arrow (stroke) — Terms & Conditions row (same art as #152, single drawable reused)",
+      "source": "src/components/screens/info/AboutScreen.tsx:169",
+      "colors": "same as ic_inline_about_chevron_right"
+    },
+    {
+      "key": "src/components/shared/WhatsAppFab.tsx#25",
+      "drawable": "ic_inline_whatsappfab_whatsapp_logo",
+      "desc": "WhatsApp logo (filled, literal WHITE — FAB paints the green circle behind it)",
+      "source": "src/components/shared/WhatsAppFab.tsx:25",
+      "colors": "white",
+      "paths": 1
+    }
+  ],
+  "failed": [],
+  "skipped": [
+    {
+      "key": "src/components/screens/profile/AchievementsScreen.tsx#274",
+      "reason": "Dynamic circular progress ring: two <circle> strokes where the second uses runtime strokeDashoffset={100 - percent}. NOT a static icon — reimplement in Compose with a Canvas/CircularProgressIndicator (track #SurfaceContainerHigh, progress arc primary, strokeWidth 4dp, r=16 in a 36x36 box, start at -90°)."
+    }
+  ]
+}

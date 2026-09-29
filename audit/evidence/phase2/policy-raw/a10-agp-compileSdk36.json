@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Android Gradle plugin 9.4.0 (September 2026)",
+    "snippet": "Android Gradle plugin 9.4 supports is API level 37. SDK Build Tools 36.0.0 36.0.0 … the new Variant API is mandatory for all projects.",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://issuetracker.google.com/issues/344016691",
+    "name": "AGP should claim that it supports API 35 that is about to ship",
+    "snippet": "May 31, 2024 — WARNING: We recommend using a newer Android Gradle plugin to use compileSdk = 35 This Android Gradle plugin (8.6.0-alpha03) was tested up to ... Read more",
+    "host_name": "issuetracker.google.com",
+    "rank": 1,
+    "date": "May 31, 2024",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "Support compiling with Android SDK 36 (default in Flutter",
+    "snippet": "Sep 11, 2025 — I just recently tried to update the gradle plugin to 8.13.0 in my flutter app and unfortunately it now fails for objectbox, since it uses ... Read more",
+    "host_name": "github.com",
+    "rank": 2,
+    "date": "Sep 11, 2025",
+    "favicon": ""
+  }
+]

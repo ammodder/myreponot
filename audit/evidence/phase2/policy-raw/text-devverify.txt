@@ -1,0 +1,120 @@
+Required information to create a Play Console developer account
+When creating your Play Console developer profile, you must provide certain information which helps us to verify your identity. This article provides an overview of the information you must provide, which differs between personal accounts and organization accounts .
+Creating a developer account for personal use
+When creating a personal account, you must provide the following information:
+Developer name; can be different from your legal name
+Legal name
+Legal address
+Contact email address, for Google to contact you
+Contact phone number, for Google to contact you
+Developer email address, shown as part of your developer profile on Google Play
+Your developer name will appear on Google Play and can be changed any time.
+Your legal name and address will be taken from the Google Payments profile that you linked to your developer account during account creation. You will need to verify these identity details before publishing on Google Play. Learn more about verifying your developer identity information .
+Google will display your legal name, your country (as per your legal address), and developer email address on Google Play. If you decide to monetize on Google Play then Google will display your full address.
+In certain regions, developers are required to provide additional information which may be displayed on Google Play, like their phone number or full address. Visit this Help Center article to learn more.
+Your contact email address, contact phone number, and developer email address must be verified using a one-time password and remain operational for the duration of your developer account. Go to the best practices section below to learn more.
+Creating a developer account for an organization
+When creating an organization account, you must provide the following information:
+Developer name; can be different from your legal name
+As per your linked Google Payments profile:
+D-U-N-S number (if your developer account is for a government organization or agency, view the section below )
+Organization name
+Organization address
+Organization phone number
+Organization website
+Contact name
+Contact email address, for Google to contact you
+Contact phone number, for Google to contact you
+Developer email address, shown as part of your developer profile on Google Play
+Developer phone number, shown as part of your developer profile on Google Play
+Your developer name will appear on Google Play and can be changed any time.
+Your organization name and address is taken from the Google Payments profile that you linked to your developer account during account creation. You will need to verify these identity details before publishing on Google Play. Learn more about verifying your developer identity information .
+To help improve transparency and user safety on Google Play, Google will display your legal name, legal address, developer email address, and developer phone number on Google Play.
+Your contact email address, contact phone number, developer email address and developer phone number must be verified using a one-time password and remain operational for the duration of your developer account. Go to the best practices section below to learn more.
+What is a D-U-N-S number and how can I get one?
+Assigned to organizations by Dun & Bradstreet, a D-U-N-S number is a unique nine-digit identifier that is widely used to verify businesses. Organizations can use Dun & Bradstreet to see if they already have a D-U-N-S number, or request one for free. Many organizations already have a D-U-N-S number as part of doing business. You should check whether your organization has one before applying for a new one. You can do this by searching the official Dun & Bradstreet website . You can learn more about D-U-N-S numbers by expanding the sections below.
+Large organizations may have multiple D-U-N-S numbers for the different entities that make up the organization, so you must make sure that the one that you use to create your developer account contains the organization details that you’d like to be associated with your developer account.
+If you do not have a D-U-N-S number then you can apply for one from Dun & Bradstreet . This process can take up to 30 days so you should plan ahead. You will not be able to create a developer account for an organization without one.
+What if I can't get a D-U-N-S number?
+If you’re in one of the regions that Dun & Bradstreet does not support, then you can apply to our support team for an alternative way to verify your organization.
+Only organizations that are unable to obtain a D-U-N-S number will be given the option to onboard using an alternative method. Requests containing incomplete answers will not be considered. We will not accommodate any exemptions or provide extensions for any organization accounts that fail to provide a D-U-N-S number; you should prepare for this requirement before creating your developer account.
+Tip: If you need to onboard without a D-U-N-S number, contact support before you create your Google Play developer account.
+Government organizations and agencies
+We have enabled developer accounts for known government organizations or agencies to complete their verification without providing a D-U-N-S number.
+If your developer account is for a government organization or agency and you are prompted to provide a D-U-N-S number when trying to create a payment profile as part of the verification process, you can contact our support team via Help section in your Play Console account, or the online form if you don’t have access to Play Console. They can enable your account to complete verification without providing a D-U-N-S number.
+Important: You should only do this if you cannot provide a D-U-N-S number.
+Linked Google payments profile
+Your Play Console developer account is linked to a Google payments profile at the point of account creation , which represents your developer real world identity. This payment profile, holding your legal name and address, must be kept up to date to keep your developer account in good standing.
+If you decide to monetize on Google Play, you will need to create a merchant account. To receive payments, you must configure a payments profile, which can either be the same one you used to create your developer account or a different one if you prefer.
+Learn more about developer verification .
+Adding and verifying your payment method
+Developers that monetize on Google Play using Google Play's billing system must verify their payment method in order to receive payments and keep their developer account compliant with Google Play policies.
+Note: Developers that are enrolled in the multi-entity early access program will see a page named Google Play billing (instead of Payments profile) on the Settings page. Developers that have configured multiple payment accounts as part of their multi-entity set-up will be required to verify all active payment methods, not just the default payment method.
+Adding a payment method
+Before you start, note that only the account owner can manage merchant payment accounts.
+To add a payment method:
+Open Play Console and go to the Settings page.
+Under "Monetization," select Payments profile .
+Go to the "How you get paid" section.
+Note: Most developers have a single merchant payment method for their developer account. Developers that have configured multi-entity support must first select the payment account they wish to manage before the "How you get paid" section is viewable.
+Click Add payment method .
+You might be asked to re-authenticate/re-verify your credentials.
+Complete the required information, including the name on your bank account, sort code, and account number.
+Click Save .
+When you add your payment method, you may be informed that you need to verify it. Depending on your location, you may have to complete a deposit challenge or upload official documents to verify your payment method.
+In this instance, the account owner receives an email confirming that a new payment method has been added. If verification are required, the account owner receives an email about verifying their form of payment.
+Verify a payment method
+Open Play Console and go to the Settings page.
+Under "Monetization," select Payments profile .
+Go to the "How you get paid" section. If you are required to complete any locations, this section will have a message saying "Verifications pending."
+Note: Most developers have a single merchant payment method for their developer account. Developers that have configured multi-entity support must first select the payment account they wish to manage before the "How you get paid" section is viewable.
+Click Verify to start the verification process. Depending on your location, you will have to complete a deposit challenge or upload official bank documents to verify your payment method.
+Deposit challenge: We send a small deposit to your bank account, after which you are required to confirm the exact amount by verifying the deposit in Play Console.
+Upload official bank documents: If we are unable to issue a deposit challenge, you are required to upload official bank documents to verify your bank account.
+Verification can take up to 5 days, so we recommend starting the process early to avoid delays.
+Tip: You can visit Google payments center help to learn more about verifying payment information.
+Updating your payments profile to use the name and address on your Dun & Bradstreet profile
+If your developer account represents an organization, you must ensure that the legal name and address in your Google payments profile match those in your Dun & Bradstreet profile. This is crucial for maintaining the health and availability of your developer account and apps on Google Play.
+You can view your Google Play developer identity's payments profile information in Play Console:
+Go to the Developer account page.
+Click About you and scroll to the Developer profile section.
+You can fully manage your payments profile in Google Payments Center by clicking View payments profile next to this information in Play Console.
+Important: Developers earning money on Google Play may have multiple payments profiles. The specific payments profile relevant to these verification (and the name and address that must match your Dun & Bradstreet profile) is best confirmed in Play Console using the above steps.
+If Google detects any mismatches, you'll receive an email and see a banner in Play Console saying "Your organization name or address is no longer verified." You must fix this by the deadline provided to avoid your developer account being restricted, which would remove all of your apps from Google Play.
+Usually, the Play Console account owner can access Google Payments Center directly from the Play Console notification and approve any necessary updates:
+Click "View details" on the banner in Play Console.
+In the "How to fix" section, click Review details , which takes you to the relevant page in Google Payments Center.
+Note: Only the account owner can do this.
+This takes you to the relevant page in Google Payments Center. Scroll to the field marked "Action required" in red.
+Click Review updates and verify the information. If correct, click Confirm to update your payments profile.
+Click Got it to return to Google Payments Center, where the field should now be marked as verified.
+Shortly after, refresh Play Console, and the verification banner should no longer be displayed. This confirms your legal name and address are successfully verified.
+Related issues that require alternative solutions
+There are other scenarios in which you have a problem with your Dun & Bradstreet profile or D-U-N-S number:
+My organization has been marked as out of business by Dun & Bradstreet: If your Dun & Bradstreet profile is flagged as out of business, contact them directly. You should be able to reinstate it by logging into your account.
+My organization's D-U-N-S number has changed: Sometimes, Dun & Bradstreet assigns a new D-U-N-S number to a D-U-N-S profile. In this case, you'll need to contact Play Support to get assistance.
+Contact information requirements for developer accounts
+All new Play Console developer accounts must have verified contact details. Google Play collects and verifies two sets of information from new developers:
+Contact phone number and email address that Google uses to contact you about your developer account. These are NOT shown to users on Google Play
+Developer information, dependent on account type, that Google displays on Google Play as part of your developer profile. You can provide a different phone number and email address for app support queries for each of your apps on the Store settings page in Play Console.
+The developer information collected and shown on Google Play depends on the type of developer account being created. Personal developer accounts are required to provide and verify a developer email address, whereas organizations must provide and verify a developer email address and phone number. All details are verified using a one-time password during the developer account registration flow. These verification steps ensure that the information we hold is accurate and up to date.
+In addition to the details and developer information that Google Play collects, we also ask for your organization's phone number. This should be the phone number that a user might be expected to find when looking up your organization on the web or a public registry, like Dun & Bradstreet, and therefore might be different to the information that provide for your public developer profile. Your organization phone number may be used to verify your organization, and isn't shown on Google Play. You can provide a different phone number and email address for app support queries for each of your apps on the Store settings page in Play Console.
+Contact information best practices
+Learn best practices for managing your contact information (which is not shown to users on Google Play) and your developer information (which is shown to users in Google Play) by expanding the sections below.
+Contact information best practices (not shown on Google Play)
+You must keep your contact details up to date as this is how Google will communicate key information about your developer account. Similarly, ensure that your developer contact details are correct so that users can contact you.
+We may occasionally check if your account is active by emailing or calling the account owner using the details you provided, so it is important that these details are accurate.
+Consider using a contact email address that is different from the one that you used when creating your developer account, especially if your developer account has multiple users or is created for an organization or business. It may be worth setting up shared notifications for this so the right people on your team can easily access these important messages.
+The contact email address for an organization or business account should not be generic or a personal email address. Make sure to use an email address associated with your organization.
+Developer information best practices (shown on Google Play)
+If you have an organization account, you must provide a developer email address and developer phone number to be shown as part of your developer profile on Google Play. Make sure to use an official email address associated with your organization. Google may remove your apps from Google Play if your developer email address or phone number are not accessible.
+The developer email address for an organization should not be a generic or personal email address.
+Related content
+Keeping your developer account information up to date
+Choose a developer account type
+View our Play Console Requirements policy
+Learn more on the Android Developers Blog
+Was this helpful?
+How can we improve it?
+Yes No
+Submit

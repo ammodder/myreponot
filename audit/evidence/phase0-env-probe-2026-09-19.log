@@ -1,0 +1,23 @@
+== PHASE 0 ENVIRONMENT PROBE — 2026-09-19 14:34:44 UTC ==
+-- git --
+main
+f5d1fac ede89165-a19c-4765-92cb-8dcb7ce801cb
+-- os/jdk --
+Linux c-6aae983c-14810412-d32501806dcf 5.10.134-013.15.kangaroo.al8.x86_64 #1 SMP Thu Jul 30 12:54:59 UTC 2026 x86_64 GNU/Linux
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+-- android sdk --
+ANDROID_HOME='' ANDROID_SDK_ROOT=''
+ls: cannot access '/opt/android-sdk': No such file or directory
+ls: cannot access '/usr/lib/android-sdk': No such file or directory
+ls: cannot access '/home/z/Android/Sdk': No such file or directory
+-- gradle dist cache --
+ls: cannot access '/home/z/.gradle/wrapper/dists': No such file or directory
+-- app stats --
+kt_files=93
+kt_lines=35256
+screens=48
+route_keys=46
+drawables=155
+-- zip check --
+ls: cannot access '/home/z/my-project/public/downloads/': No such file or directory

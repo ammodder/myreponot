@@ -1,0 +1,109 @@
+Real-Money Gambling, Games, and Contests
+Disclaimer: Policy summaries and Key Considerations are overviews only; always refer to the full policy for compliance. The full policy takes precedence in case of conflict.
+Policy Summary
+While Google Play generally prohibits apps from facilitating real-money gambling and gaming, an exception is made for those that are licensed and approved by Google. All approved apps must be free to download, must not use In-app Billing, and must prevent access for minors and unauthorized locations. Please review the full policy to ensure compliance.
+Full Policy
+We allow real-money gambling apps, ads related to real-money gambling, loyalty programs with gamified outcomes, and daily fantasy sports apps that meet certain requirements.
+Gambling Apps
+Subject to restrictions and compliance with all Google Play policies, we allow apps that enable or facilitate online gambling in select countries, as long as the Developer completes the application process for gambling apps being distributed on Google Play, is an approved governmental operator and/or is registered as a licensed operator with the appropriate governmental gambling authority in the specified country, and provides a valid operating license in the specified country for the type of online gambling product they want to offer.
+We only allow valid licensed or authorized gambling apps that have the following types of online gambling products:
+Online Casino games
+Sports Betting
+Horse Racing (where regulated and licensed separately from Sports Betting)
+Lotteries
+Daily Fantasy Sports
+Eligible apps must meet the following requirements:
+Developer must successfully complete the application process in order to distribute the app on Google Play;
+App must comply with all applicable laws and industry standards for each country in which it is distributed;
+Developer must have a valid gambling license for each country or state/territory in which the app is distributed;
+Developer must not offer a type of gambling product that exceeds the scope of its gambling license;
+App must prevent under-age users from using the app;
+App must prevent access and use from countries, states/territories, or the geographic areas not covered by the developer-provided gambling license;
+App must NOT be purchasable as a paid app on Google Play, nor use Google Play In-app Billing;
+App must be free to download and install from the Google Play store;
+App must be rated AO (Adult Only) or IARC equivalent ; and
+App and its app listing must clearly display information about responsible gambling.
+Other Real-Money Games, Contests, and Tournament Apps
+For all other apps which do not meet the eligibility requirements for gambling apps noted above and are not included in the “Other Real-Money Game Pilots” noted below, we don't allow content or services that enable or facilitate users’ ability to wager, stake, or participate using real money (including in-app items purchased with money) to obtain a prize of real world monetary value. This includes but is not limited to, online casinos, sports betting, lotteries, and games that accept money and offer prizes of cash or other real world value (except programs permitted under the Gamified Loyalty Programs requirements described below).
+Examples of violations
+Games that accept money in exchange for an opportunity to win a physical or monetary prize
+Apps that have navigational elements or features (for example, menu items, tabs, buttons, webviews , etc.) that provide a “call to action” to wager, stake, or participate in real-money games, contests or tournaments using real money, such as apps that invite users to “BET!” or “REGISTER!” or “COMPETE!” in a tournament for a chance to win a cash prize.
+Apps that accept or manage wagers, in-app currencies, winnings, or deposits in order to gamble for, or obtain a physical or monetary prize.
+Other Real-Money Game Pilots
+We may occasionally conduct limited time pilots for certain types of real money gaming in select regions. For details, refer to this Help Center page. The Online Crane Games pilot in Japan ended on July 11, 2023. Effective July 12, 2023, Online Crane Game apps may be listed on Google Play globally subject to applicable law and certain requirements .
+Gamified Loyalty Programs
+Where permitted by law and not subject to additional gambling or gaming licensing requirements, we allow loyalty programs that reward users with real world prizes or monetary equivalent, subject to the following Play Store eligibility requirements:
+For all apps ( games and non-games):
+Loyalty program benefits, perks, or rewards must be clearly supplementary and subordinate to any qualifying monetary transaction within the app (where the qualifying monetary transaction must be a genuine separate transaction to provide goods or services independent of the loyalty program) and may not be subject to purchase nor tied to any mode of exchange otherwise in violation of the Real-Money Gambling, Games, and Contests policy restrictions.
+For example, no portion of the qualifying monetary transaction may represent a fee or wager to participate in the loyalty program, and the qualifying monetary transaction must not result in the purchase of goods or services above its usual price.
+For Game apps:
+Loyalty points or rewards with benefits, perks or rewards associated with a qualifying monetary transaction may only be awarded and redeemed on a fixed ratio basis, where the ratio is documented conspicuously in the app and also within the publicly available official rules for the program, and the earning of benefits or redemptive value may not be wagered, awarded or exponentiated by game performance or chance-based outcomes.
+For non-Game apps:
+Loyalty points or rewards may be tied to a contest or chance based outcomes if they fulfill the requirements noted below. Loyalty programs with benefits, perks or rewards associated with a qualifying monetary transaction must:
+Publish official rules for the program within the app.
+For programs involving variable, chance-based, or randomized reward systems: disclose within the official terms for the program 1) the odds for any reward programs which use fixed odds to determine rewards and 2) the selection method (for example, variables used to determine the reward) for all other such programs.
+Specify a fixed number of winners, fixed entry deadline, and prize award date, per promotion, within the official terms of a program offering drawings, sweepstakes, or other similar style promotions.
+Document any fixed ratio for loyalty point or loyalty reward accrual and redemption conspicuously in the app and also within the official terms of the program.
+Type of app with Loyalty program
+Loyalty gamification and variable rewards
+Loyalty rewards based upon a fixed ratio/schedule
+Terms and Conditions of loyalty program required
+T&Cs must disclose odds or selection method of any chance based loyalty program
+Game
+Not Allowed
+Allowed
+Required
+N/A (Game apps not allowed to have chance based elements in loyalty programs)
+Non-Game
+Allowed
+Allowed
+Required
+Required
+Ads for Gambling or Real-Money Games, Contests, and Tournaments within Play-distributed Apps
+We allow apps that have ads which promote gambling, real-money games, contests, and tournaments if they meet the following requirements:
+App and ad (including advertisers) must comply with all applicable laws and industry standards for any location where the ad is displayed;
+Ad must meet all applicable local ad licensing requirements for all gambling-related products and services being promoted;
+App must not display a gambling ad to individuals known to be under the age of 18;
+App must not be enrolled in the Designed for Families program;
+App must not target individuals under the age of 18;
+If advertising a Gambling App (as defined above), the ad must clearly display information about responsible gambling on its landing page, the advertised app listing itself or within the app;
+App must not provide simulated gambling content (for example, social casino apps; apps with virtual slot machines);
+App must not provide gambling or real money game, lottery, or tournament support or companion functionality (for example, functionality that assists with wagering, payouts, sports score/odds/performance tracking, or management of participation funds);
+App content must not promote or direct users to gambling or real money games, lotteries, or tournament services
+Only apps that meet all of these requirements in the section listed above may include ads for gambling or real money games, lotteries, or tournaments. Accepted Gambling Apps (as defined above), or accepted Daily Fantasy Sports Apps (as defined below) which meet requirements 1-6 above, may include ads for gambling or real money games, lotteries, or tournaments.
+Examples of violations
+An app that’s designed for under-age users and shows an ad promoting gambling services
+A simulated casino game that promotes or directs users to real money casinos
+A dedicated sports odds tracker app containing integrated gambling ads linking to a sports betting site
+Apps that have gambling ads that violate our Deceptive Ads policy, such as ads that appear to users as buttons, icons, or other interactive in-app elements
+Daily Fantasy Sports (DFS) Apps
+We only allow daily fantasy sports (DFS) apps, as defined by applicable local law, if they meet the following requirements:
+App is either 1) only distributed in the United States or 2) eligible under the Gambling Apps requirements and application process noted above for non US based countries;
+Developer must successfully complete the DFS application process and be accepted in order to distribute the app on Play;
+App must comply with all applicable laws and industry standards for the countries in which it is distributed;
+App must prevent under-age users from wagering or conducting monetary transactions within the app;
+App must NOT be purchasable as a paid app on Google Play, nor use Google Play In-app Billing;
+App must be free to download and install from the Store;
+App must be rated AO (Adult Only) or IARC equivalent ;
+App and its app listing must clearly display information about responsible gambling;
+App must comply with all applicable laws and industry standards for any US state or US territory in which it is distributed;
+Developer must have a valid license for each US state or US territory in which a license is required for daily fantasy sports apps;
+App must prevent use from US States or US territories in which the developer does not hold a license required for daily fantasy sports apps; and
+App must prevent use from US States or US territories where daily fantasy sports apps are not legal.
+Key Considerations
+Do
+Don't
+Check the markets and game types that Google allows for real-money gambling and gaming.
+Don't let minors access the app or incorrectly age-rate your app.
+Ensure you have a valid license for each game type and each country where you want your app distributed.
+Don't allow users in unapproved locations to use the app or access unapproved game types.
+Submit an application with all the relevant and required documentation.
+Don't distribute an app that facilitates real-money gambling or gaming without submitting an application and being approved.
+Ensure your app is rated correctly, provides age verification and is restricted to users where the app is authorized by Google Play for distribution.
+Don't charge users to download a real-money gambling or gaming app from Google Play.
+Provide information about responsible real-money gambling and gaming on your app's store listing.
+Don't use Google Play's In-app Billing for payments within your app.
+Was this helpful?
+How can we improve it?
+Yes No
+Submit

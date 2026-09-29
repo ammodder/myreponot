@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/14151465?hl=en",
+    "name": "App testing requirements for new personal developer",
+    "snippet": "Developers with personal accounts created after November 13, 2023, must run a closed test for their app with a minimum of 12 testers who have been opted in ... Read more",
+    "host_name": "support.google.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.testerscommunity.com",
+    "name": "Google Play 12 Testers Policy Explained (2026) | History &",
+    "snippet": "If you created a personal Google Play developer account after November 2023, you cannot publish your app until you run a closed test with 12 testers for 14 days ... Read more",
+    "host_name": "www.testerscommunity.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://getapphive.com",
+    "name": "The Ultimate Guide to Google Play Closed Testing  - App Hive",
+    "snippet": "May 25, 2026 — Google requires you to run a closed test with at least 12 testers for 14 days consecutively. And no, just having 12 friends download the APK via ... Read more",
+    "host_name": "getapphive.com",
+    "rank": 2,
+    "date": "May 25, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://community.appinventor.mit.edu",
+    "name": "Google's 20 testers requirement (now only 12/14",
+    "snippet": "Dec 4, 2023 — According to the new policy of play console we need 20 testers who must be opted in for 14 days to publish our app or game on play store. Read more",
+    "host_name": "community.appinventor.mit.edu",
+    "rank": 3,
+    "date": "Dec 4, 2023",
+    "favicon": ""
+  },
+  {
+    "url": "https://primetestlab.com",
+    "name": "Google Play 20 to 12 Testers: 2026 Closed Testing Rule",
+    "snippet": "Aug 17, 2026 — Google Play requires a closed test with at least 12 testers opted in continuously for at least 14 days before you can apply for production ... Read more",
+    "host_name": "primetestlab.com",
+    "rank": 4,
+    "date": "Aug 17, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.adalo.com",
+    "name": "New Google Play Policy - 20 testers for 14 days",
+    "snippet": "Mar 15, 2024 — Hi there, Just wanted to make sure all of you are aware of this new change with Google Play developer accounts .",
+    "host_name": "forum.adalo.com",
+    "rank": 5,
+    "date": "Mar 15, 2024",
+    "favicon": ""
+  }
+]

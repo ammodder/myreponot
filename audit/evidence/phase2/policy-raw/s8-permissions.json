@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/16926792?hl=en",
+    "name": "Policy announcement: April 15, 2026 - Play Console Help",
+    "snippet": "We're introducing the location button as the recommended minimum scope for precise location in line with our user data and sensitive permissions requirements. Read more",
+    "host_name": "support.google.com",
+    "rank": 0,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/answer/16558241?hl=en",
+    "name": "Permissions and APIs that Access Sensitive Information",
+    "snippet": "Google Play mandates that requesting permissions and APIs that access sensitive user data must be necessary for the app's core functionalities",
+    "host_name": "support.google.com",
+    "rank": 1,
+    "date": "",
+    "favicon": ""
+  },
+  {
+    "url": "https://developer.android.com",
+    "name": "Determine sensitive data access needs",
+    "snippet": "Feb 26, 2026 — App permissions help support user privacy by protecting access to the following: Restricted data, such as system state and users' contact ... Read more",
+    "host_name": "developer.android.com",
+    "rank": 2,
+    "date": "Feb 26, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://www.helpnetsecurity.com",
+    "name": "Google Play is changing how Android apps access your",
+    "snippet": "Apr 16, 2026 — Play Console will flag potential contact or location permission policy issues so they can be fixed before the app is submitted for review.",
+    "host_name": "www.helpnetsecurity.com",
+    "rank": 3,
+    "date": "Apr 16, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://github.com",
+    "name": "Google Play App Access and Permissions Declaration form",
+    "snippet": "Nov 1, 2020 — Sensitive Permissions Declaration form sections on Google Play Console as per the requirements here: https://support.google.com/googleplay/ ...",
+    "host_name": "github.com",
+    "rank": 4,
+    "date": "Nov 1, 2020",
+    "favicon": ""
+  }
+]

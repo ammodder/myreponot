@@ -1,0 +1,79 @@
+Downloading https://services.gradle.org/distributions/gradle-8.11.1-bin.zip
+.............10%.............20%.............30%.............40%.............50%.............60%.............70%.............80%.............90%.............100%
+
+Welcome to Gradle 8.11.1!
+
+Here are the highlights of this release:
+ - Parallel load and store for Configuration Cache
+ - Java compilation errors at the end of the build output
+ - Consolidated report for warnings and deprecations
+
+For more details see https://docs.gradle.org/8.11.1/release-notes.html
+
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.11.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+
+> Configure project :app
+w: file:///home/z/audit-wt/AreenaxNativeAndroid/app/build.gradle.kts:40:9: 'resourceConfigurations: MutableSet<String>' is deprecated. Support for resource configurations will be removed. For language resource configurations in applications, use androidResources.localeFilters.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:generateDebugResValues
+> Task :app:checkDebugAarMetadata
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:packageDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/nav/AppNavHost.kt:72:29 No value passed for parameter 'collector'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/nav/AppNavHost.kt:74:18 Throwable type mismatch: actual type is 'androidx.activity.BackEventCompat'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/LiveCountdown.kt:47:57 Argument type mismatch: actual type is 'kotlin.Long', but 'kotlin.String?' was expected.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/QrSheet.kt:399:30 Unresolved reference 'setMissingCameraPermissionDialogMessage'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:77:38 No value passed for parameter 'onPicked'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:79:28 Unresolved reference 'dataUrl'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/ResultProofSheet.kt:80:32 Unresolved reference 'fileName'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/core/ui/SupportFab.kt:47:55 Null cannot be a value of a non-null type 'androidx.compose.foundation.Indication'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:136:38 No value passed for parameter 'onPicked'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:138:31 Unresolved reference 'dataUrl'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostCreationScreen.kt:139:32 Unresolved reference 'fileName'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/host/HostDetailsScreen.kt:286:53 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Long' was expected.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:144:24 Unresolved reference 'repeatOnLifecycle'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:146:17 Suspension functions can only be called within coroutine body.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:180:43 No value passed for parameter 'onPicked'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:182:31 Unresolved reference 'dataUrl'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/main/TournamentDetailsScreen.kt:572:41 Argument type mismatch: actual type is 'kotlin.String', but 'kotlin.Long' was expected.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:117:28 Unresolved reference 'repeatOnLifecycle'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:119:17 Suspension functions can only be called within coroutine body.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/social/ChatScreen.kt:120:17 Suspension functions can only be called within coroutine body.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:150:58 No value passed for parameter 'onPicked'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:152:8 Too many arguments for 'fun rememberImagePicker(capBytes: Int, onPicked: (PickedImage?) -> Unit, onError: (String) -> Unit = ...): ImagePickerHandle'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:152:10 Cannot infer type for this parameter. Please specify it explicitly.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:154:35 Unresolved reference 'dataUrl'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:155:34 Unresolved reference 'fileName'.
+e: file:///home/z/audit-wt/AreenaxNativeAndroid/app/src/main/java/com/areenax/nativeapp/ui/screens/wallet/DepositConfirmScreen.kt:156:69 Unresolved reference 'fileName'.
+
+> Task :app:compileDebugKotlin FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2m 36s
+14 actionable tasks: 14 executed

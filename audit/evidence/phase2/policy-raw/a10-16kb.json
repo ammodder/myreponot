@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Support 16 KB page sizes | Compatibility",
+    "snippet": "5 days ago — all apps targeting Android 15 (API level 35) and higher must support 16 KB memory page sizes on 64-bit devices on Google Play .",
+    "host_name": "developer.android.com",
+    "rank": 0,
+    "date": "Sep 15, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://support.google.com/googleplay/android-developer/thread/370692176/does-the-new-16kb-page-size-compatibility-requirement-apply-to-internal-private-apps?hl=en",
+    "name": "Does the new 16kb page size compatibility requirement",
+    "snippet": "Sep 4, 2025 — We've received a warning in our Play Console that our app will not be allowed to be published after May 2026 since it does not support 16kb page sizes. ...",
+    "host_name": "support.google.com",
+    "rank": 1,
+    "date": "Sep 4, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://platform.uno",
+    "name": "What Android 16 KB Page Size Requirement Means for .",
+    "snippet": "Sep 17, 2025 — Starting November 1, 2025 , all new apps and updates published to Google Play and targeting Android 15 + must support 16 KB memory pages on 64-bit ... Read more",
+    "host_name": "platform.uno",
+    "rank": 2,
+    "date": "Sep 17, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://forum.techsoft3d.com",
+    "name": "Android 15+ 16 KB Page Size Compatibility Issue",
+    "snippet": "Feb 2, 2026 — starting November 1, 2025, all new apps and updates submitted to Google Play targeting Android 15 + must support 16 KB page sizes.",
+    "host_name": "forum.techsoft3d.com",
+    "rank": 3,
+    "date": "Feb 2, 2026",
+    "favicon": ""
+  },
+  {
+    "url": "https://android-developers.googleblog.com",
+    "name": "Prepare your apps for Google Play's 16 KB page size",
+    "snippet": "May 8, 2025 — Google Play is requiring new apps and updates targeting Android 15 + to support 16KB page sizes for performance enhancement starting November ...",
+    "host_name": "android-developers.googleblog.com",
+    "rank": 4,
+    "date": "May 8, 2025",
+    "favicon": ""
+  },
+  {
+    "url": "https://issuetracker.google.com/issues/424476473",
+    "name": "Clarify about Android 15+ Support for 16 KB page sizes",
+    "snippet": "Starting November 1st, 2025 , all new apps and updates to existing apps submitted to Google Play and targeting Android 15 + devices must support 16 KB page sizes . Read more",
+    "host_name": "issuetracker.google.com",
+    "rank": 5,
+    "date": "",
+    "favicon": ""
+  }
+]
